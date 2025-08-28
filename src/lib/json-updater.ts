@@ -101,7 +101,7 @@ function ensureDirSync(dirPath: string) {
 
 export async function writeCityFile(city: CityDocForFile) {
   const language = city.language || 'en'
-  const fileDir = path.join(process.cwd(), 'src', 'temp', 'data', 'cities', language)
+  const fileDir = path.join(process.cwd(), 'src', 'tmp', 'data', 'cities', language)
   const filePath = path.join(fileDir, `${city.slug}.json`)
   ensureDirSync(fileDir)
   // Only persist the exact public JSON shape (include language field below state)
@@ -156,7 +156,7 @@ export async function writeCityFile(city: CityDocForFile) {
 
 export async function deleteCityFileBySlugLanguage(slug: string, language?: string) {
   const lang = language || 'en'
-  const filePath = path.join(process.cwd(), 'src', 'temp', 'data', 'cities', lang, `${slug}.json`)
+  const filePath = path.join(process.cwd(), 'src', 'tmp', 'data', 'cities', lang, `${slug}.json`)
   try {
     if (fs.existsSync(filePath)) {
       fs.unlinkSync(filePath)
@@ -241,7 +241,7 @@ export async function updateBlogsJsonFile() {
     
     // Write language-specific JSON files only
     for (const [language, blogs] of Object.entries(blogsByLanguage)) {
-      const languageDir = path.join(process.cwd(), 'src', 'temp', 'data', 'blogs', language)
+      const languageDir = path.join(process.cwd(), 'src', 'tmp', 'data', 'blogs', language)
       ensureDirSync(languageDir)
       
       const jsonPath = path.join(languageDir, 'blogs.json')
@@ -315,7 +315,7 @@ export async function updateBlogsJsonFileByLanguage(language: string) {
     }))
     
     // Write language-specific JSON file
-    const languageDir = path.join(process.cwd(), 'src', 'temp', 'data', 'blogs', language)
+    const languageDir = path.join(process.cwd(), 'src', 'tmp', 'data', 'blogs', language)
     ensureDirSync(languageDir)
     
     const jsonPath = path.join(languageDir, 'blogs.json')
@@ -340,7 +340,7 @@ export async function updateUsersJsonFile() {
     if (!users || users.length === 0) {
       console.log('⚠️ No users found in MongoDB')
       // Write empty array to JSON file
-      const jsonPath = path.join(process.cwd(), 'src', 'temp', 'data', 'users.json')
+      const jsonPath = path.join(process.cwd(), 'src', 'tmp', 'data', 'users.json')
       fs.writeFileSync(jsonPath, JSON.stringify([], null, 2))
       console.log('✅ users.json updated with empty array')
       return
@@ -372,7 +372,7 @@ export async function updateUsersJsonFile() {
     console.log('📝 Final transformed users for JSON:', JSON.stringify(transformedUsers, null, 2))
 
     // Write to users.json file
-    const jsonPath = path.join(process.cwd(), 'src', 'temp', 'data', 'users.json')
+    const jsonPath = path.join(process.cwd(), 'src', 'tmp', 'data', 'users.json')
     fs.writeFileSync(jsonPath, JSON.stringify(transformedUsers, null, 2))
     
     console.log('✅ users.json updated successfully')
@@ -445,7 +445,7 @@ export async function updateIndividualCityFilesForLanguage(language: string) {
     const cities = await db.collection('cities').find({ language: language }).toArray()
     console.log(`📊 Found ${cities.length} cities for language: ${language}`)
     
-    const languageDir = path.join(process.cwd(), 'src', 'temp', 'data', 'cities', language)
+    const languageDir = path.join(process.cwd(), 'src', 'tmp', 'data', 'cities', language)
     ensureDirSync(languageDir)
     
     // Process each city in this language
@@ -521,7 +521,7 @@ export async function updateHomeDataForLanguage(locale: string) {
       return
     }
     
-    const localeDir = path.join(process.cwd(), 'src', 'temp', 'data', 'home', locale)
+    const localeDir = path.join(process.cwd(), 'src', 'tmp', 'data', 'home', locale)
     ensureDirSync(localeDir)
     
     const jsonPath = path.join(localeDir, 'home.json')
@@ -570,7 +570,7 @@ export async function updateIndividualCityFiles() {
     for (const [language, citiesInLang] of Object.entries(citiesByLanguage)) {
       console.log(`🌍 Processing language: ${language} with ${citiesInLang.length} cities`)
       
-      const languageDir = path.join(process.cwd(), 'src', 'temp', 'data', 'cities', language)
+      const languageDir = path.join(process.cwd(), 'src', 'tmp', 'data', 'cities', language)
       ensureDirSync(languageDir)
       
       // Process each city in this language
@@ -656,7 +656,7 @@ export async function updateHomeDataForAllLanguages() {
     for (const [locale, homeData] of Object.entries(homeDataByLocale)) {
       console.log(`🏠 Processing home data for locale: ${locale}`)
       
-      const localeDir = path.join(process.cwd(), 'src', 'temp', 'data', 'home', locale)
+      const localeDir = path.join(process.cwd(), 'src', 'tmp', 'data', 'home', locale)
       ensureDirSync(localeDir)
       
       const jsonPath = path.join(localeDir, 'home.json')

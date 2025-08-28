@@ -10,7 +10,7 @@ export async function GET(
     const { locale, slug } = params
     
     // Construct the file path to the city JSON file
-    const filePath = path.join(process.cwd(), 'src', 'temp', 'data', 'cities', locale, `${slug}.json`)
+    const filePath = path.join(process.cwd(), 'src', 'tmp', 'data', 'cities', locale, `${slug}.json`)
     
     // Check if the file exists
     if (!fs.existsSync(filePath)) {

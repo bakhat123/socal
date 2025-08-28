@@ -2,8 +2,8 @@ import { NextRequest, NextResponse } from 'next/server'
 import fs from 'fs'
 import path from 'path'
 
-function readBlogs(locale: string) {
-      const filePath = path.join(process.cwd(), 'src', 'temp', 'data', 'blogs', locale, 'blogs.json')
+  function readBlogs(locale: string) {
+    const filePath = path.join(process.cwd(), 'src', 'tmp', 'data', 'blogs', locale, 'blogs.json')
   if (!fs.existsSync(filePath)) return []
   try {
     const raw = fs.readFileSync(filePath, 'utf8')
