@@ -1,0 +1,395 @@
+/* Home Cities Section - Enhanced City Cards */
+.cities-section-enhanced {
+  position: relative;
+  padding: 120px 40px;
+  background: linear-gradient(135deg, var(--cream) 0%, rgba(248, 246, 240, 0.8) 100%);
+  overflow: hidden;
+}
+
+.cities-section-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.floating-elements {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.floating-element {
+  position: absolute;
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.1), rgba(212, 175, 55, 0.05));
+  border-radius: 50%;
+  animation: float 20s ease-in-out infinite;
+}
+
+.floating-1 {
+  width: 200px;
+  height: 200px;
+  top: 10%;
+  left: 10%;
+  animation-delay: 0s;
+}
+
+.floating-2 {
+  width: 150px;
+  height: 150px;
+  top: 60%;
+  right: 15%;
+  animation-delay: -7s;
+}
+
+.floating-3 {
+  width: 100px;
+  height: 100px;
+  bottom: 20%;
+  left: 20%;
+  animation-delay: -14s;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  25% { transform: translateY(-20px) rotate(90deg); }
+  50% { transform: translateY(-10px) rotate(180deg); }
+  75% { transform: translateY(-30px) rotate(270deg); }
+}
+
+.cities-container-enhanced {
+  max-width: 1400px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+.section-header-enhanced {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.section-eyebrow {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--gold);
+  background: rgba(212, 175, 55, 0.1);
+  padding: 8px 20px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.section-title-enhanced {
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  font-weight: 500;
+  color: var(--charcoal);
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.section-subtitle-enhanced {
+  font-size: 18px;
+  color: rgba(26, 26, 26, 0.7);
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.cities-grid-enhanced {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 30px;
+  margin-bottom: 80px;
+}
+
+.city-card-enhanced {
+  background: var(--white);
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+  transition: all 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  text-decoration: none;
+  color: inherit;
+  opacity: 0;
+  animation: slideInUp 0.8s ease forwards;
+  border: 1px solid rgba(212, 175, 55, 0.1);
+}
+
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.city-card-enhanced:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 25px 60px rgba(212, 175, 55, 0.2);
+  border-color: rgba(212, 175, 55, 0.3);
+}
+
+.city-card-inner {
+  position: relative;
+  height: 100%;
+}
+
+.city-image-enhanced {
+  height: 280px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.city-gradient-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(26, 26, 26, 0.1) 0%,
+    rgba(26, 26, 26, 0.3) 50%,
+    rgba(26, 26, 26, 0.6) 100%
+  );
+  transition: all 0.4s ease;
+}
+
+.city-card-enhanced:hover .city-gradient-overlay {
+  background: linear-gradient(
+    135deg,
+    rgba(212, 175, 55, 0.1) 0%,
+    rgba(26, 26, 26, 0.2) 50%,
+    rgba(26, 26, 26, 0.5) 100%
+  );
+}
+
+.city-badges {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 3;
+}
+
+.city-state-badge {
+  background: rgba(255, 255, 255, 0.9);
+  color: var(--charcoal);
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  backdrop-filter: blur(10px);
+}
+
+.city-price-badge {
+  background: rgba(212, 175, 55, 0.9);
+  color: var(--charcoal);
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  backdrop-filter: blur(10px);
+}
+
+.city-stats-overlay {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  z-index: 3;
+}
+
+.city-population {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 8px 16px;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+}
+
+.stat-icon {
+  font-size: 14px;
+}
+
+.stat-text {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--charcoal);
+}
+
+.city-content-enhanced {
+  padding: 30px;
+}
+
+.city-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.city-name-enhanced {
+  font-family: 'Playfair Display', serif;
+  font-size: 28px;
+  font-weight: 500;
+  color: var(--charcoal);
+  margin: 0;
+}
+
+.city-neighborhoods-count {
+  font-size: 12px;
+  color: var(--gold);
+  background: rgba(212, 175, 55, 0.1);
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-weight: 500;
+}
+
+.city-description-enhanced {
+  font-size: 15px;
+  line-height: 1.7;
+  color: rgba(26, 26, 26, 0.7);
+  margin-bottom: 20px;
+}
+
+.city-tags-row {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 25px;
+  flex-wrap: wrap;
+}
+
+.city-tag-modern {
+  background: rgba(212, 175, 55, 0.1);
+  color: var(--gold);
+  padding: 6px 14px;
+  border-radius: 16px;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.city-card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.city-highlights-preview {
+  display: flex;
+  gap: 8px;
+}
+
+.highlight-mini {
+  font-size: 18px;
+  opacity: 0.7;
+  transition: all 0.3s ease;
+}
+
+.city-card-enhanced:hover .highlight-mini {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.explore-arrow {
+  color: var(--gold);
+  transition: all 0.3s ease;
+}
+
+.city-card-enhanced:hover .explore-arrow {
+  transform: translateX(5px);
+}
+
+.cities-section-footer {
+  text-align: center;
+}
+
+.cities-stats {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  padding: 40px;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(212, 175, 55, 0.1);
+}
+
+.global-stat {
+  text-align: center;
+}
+
+.global-stat-number {
+  display: block;
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  font-weight: 600;
+  color: var(--gold);
+  margin-bottom: 8px;
+}
+
+.global-stat-label {
+  font-size: 14px;
+  color: rgba(26, 26, 26, 0.7);
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .cities-section-enhanced {
+    padding: 80px 20px;
+  }
+  
+  .section-title-enhanced {
+    font-size: 36px;
+  }
+  
+  .cities-grid-enhanced {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .city-hero-title {
+    font-size: 48px;
+  }
+}
+
+@media (max-width: 480px) {
+  .cities-section-enhanced {
+    padding: 60px 20px;
+  }
+  
+  .city-hero-enhanced {
+    height: 80vh;
+    min-height: 600px;
+  }
+  
+  .city-hero-content {
+    padding: 0 20px;
+  }
+  
+  .city-hero-title {
+    font-size: 36px;
+  }
+}

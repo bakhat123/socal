@@ -1,0 +1,266 @@
+{
+  "navigation": {
+    "cities": "Cities",
+    "blogs": "Blogs",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "Global Luxury Real Estate",
+    "title": "Exclusive Properties for Discerning Clients",
+    "subtitle": "With over 20 years of experience, we connect international buyers with the finest properties in the world's most desirable locations.",
+    "viewProperties": "View Properties",
+    "contactUs": "Contact Us",
+    "scrollDown": "Scroll Down"
+  },
+  "stats": {
+    "yearsExperience": "Years Experience",
+    "billionInSales": "Billions in Sales",
+    "countriesServed": "Countries Served",
+    "clientSatisfaction": "Client Satisfaction"
+  },
+  "cities": {
+    "title": "Explore California Cities",
+    "subtitle": "Discover the most desirable locations across the Golden State, each offering unique lifestyle opportunities and investment potential.",
+    "population": "Population",
+    "avgHomePrice": "Avg Home Price",
+    "neighborhoods": "neighborhoods",
+    "pageHeader": {
+      "eyebrow": "All Cities",
+      "title": "Discover California's Finest Cities",
+      "subtitle": "Explore our curated selection of premium destinations across the Golden State"
+    },
+    "search": {
+      "title": "Find Your Perfect City",
+      "subtitle": "Search by city name, state, or features"
+    },
+    "noResults": {
+      "title": "No cities found",
+      "text": "Try adjusting your search terms or browse all cities below",
+      "button": "Clear Search"
+    },
+    "hero": {
+      "title": "Welcome to {cityName}",
+      "subtitle": "Discover the unique charm and opportunities of this vibrant California city",
+      "exploreProperties": "Explore Properties",
+      "contactAgent": "Contact Agent"
+    },
+    "highlights": {
+      "title": "City Highlights",
+      "subtitle": "What makes {cityName} special"
+    },
+    "faqs": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Everything you need to know about {cityName}"
+    },
+    "clients": {
+      "title": "Our Clients in {cityName}",
+      "subtitle": "The diverse community of professionals and families we serve"
+    },
+    "cityPage": {
+      "residents": "residents",
+      "avgPrice": "avg price",
+      "premiumDestination": "Premium Destination",
+      "discoverMagicOf": "Discover the Magic of",
+      "exploreProperties": "Explore Properties",
+      "contactAgent": "Contact Agent",
+      "population": "Population",
+      "avgHomePrice": "Avg Home Price",
+      "neighborhoods": "Neighborhoods",
+      "highlights": "Highlights",
+      "about": "About",
+      "whatMakesSpecial": "What Makes {cityName} Special",
+      "noHighlightsAvailable": "No highlights available for {cityName}",
+      "nearbyCities": "Nearby Cities",
+      "exploreSurroundingAreas": "Explore Surrounding Areas",
+      "discoverDiverseNeighborhoods": "Discover the diverse neighborhoods and cities around {cityName}",
+      "county": "County",
+      "faq": "FAQ",
+      "everythingYouNeedToKnow": "Everything You Need to Know",
+      "allQuestions": "All Questions",
+      "exploreAllCities": "Explore All Cities",
+      "readyToFindDreamProperty": "Ready to Find Your Dream Property?",
+      "contactExpertTeam": "Contact our expert team today for a personalized consultation and start your journey to finding the perfect home or investment property.",
+      "scheduleConsultation": "Schedule Consultation",
+      "readyToBuyOrSell": "Ready to buy or sell in {cityName}? Contact Reza Barghlameno today for expert guidance and express service when you need it most.",
+      "rezaBarghlameno": "Reza Barghlameno",
+      "primeLocalHomes": "Prime Local Homes",
+      "name": "Name",
+      "enterYourName": "Enter your name",
+      "phone": "Phone",
+      "enterYourPhone": "Enter your phone",
+      "email": "Email",
+      "enterYourEmail": "Enter your email",
+      "message": "Message",
+      "enterYourMessage": "Enter your message",
+      "sendMessage": "Send Message",
+      "sending": "Sending...",
+      "backToHome": "Back to Home",
+      "title": "Title"
+    },
+    "countyPage": {
+      "cities": "Cities",
+      "avgPrice": "Avg Price",
+      "premiumDestination": "Premium Destination",
+      "discoverMagicOf": "Discover the Magic of",
+      "exploreProperties": "Explore Properties",
+      "contactAgent": "Contact Agent",
+      "about": "About",
+      "welcomeTo": "Welcome to",
+      "yourRealEstateJourney": "Your Real Estate Journey Starts Here",
+      "expressService": "Express Service",
+      "whenTimeIsEssence": "When Time is of the Essence",
+      "whatMakesSpecial": "What Makes {countyName} Special",
+      "marketAnalysis": "Market Analysis",
+      "currentRealEstateTrends": "Current {countyName} Real Estate Trends",
+      "countyGuide": "County Guide",
+      "discoverBestAreas": "Discover {countyName}'s Best Areas",
+      "citiesInCounty": "Cities in {countyName}",
+      "exploreCitiesInCounty": "Explore Cities in {countyName}",
+      "discoverDiverseCities": "Discover the diverse cities and communities within {countyName}",
+      "searchCities": "Search cities...",
+      "citiesFound": "cities found",
+      "noCitiesFound": "No cities found in {countyName}",
+      "citiesInfoUpdating": "Cities information is currently being updated. Please check back soon.",
+      "citiesInfoEnglishOnly": "Cities information is currently available in English. We are working on translations.",
+      "viewInEnglish": "View in English",
+      "previous": "Previous",
+      "next": "Next",
+      "backToHome": "Back to Home",
+      "highlights": "Highlights",
+      "faqs": "FAQs",
+      "population": "Population",
+      "readyToFindDreamProperty": "Ready to Find Your Dream Property?",
+      "contactExpertTeam": "Contact our expert team today for a personalized consultation and start your journey to finding the perfect home or investment property.",
+      "scheduleConsultation": "Schedule Consultation",
+      "readyToBuyOrSell": "Ready to buy or sell in {countyName}? Contact Reza Barghlameno today for expert guidance and express service when you need it most.",
+      "rezaBarghlameno": "Reza Barghlameno",
+      "primeLocalHomes": "Prime Local Homes",
+      "name": "Name",
+      "enterYourName": "Enter your name",
+      "phone": "Phone",
+      "enterYourPhone": "Enter your phone",
+      "email": "Email",
+      "enterYourEmail": "Enter your email",
+      "message": "Message",
+      "enterYourMessage": "Enter your message",
+      "sendMessage": "Send Message",
+      "sending": "Sending...",
+      "title": "Title"
+    },
+    "countyCards": {
+      "destinations": "Where our services are available",
+      "loadingCounties": "Loading counties...",
+      "noCountiesAvailable": "No counties available at the moment.",
+      "seeAllCities": "See All Cities",
+      "cities": "cities",
+      "orangeCounty": {
+        "name": "Orange County",
+        "description": "A coastal region known for its stunning beaches, upscale neighborhoods, and family-friendly communities, with world-class dining and shopping.",
+        "tags": {
+          "coastalLiving": "Coastal Living",
+          "familyFriendly": "Family-friendly"
+        }
+      },
+      "losAngelesCounty": {
+        "name": "Los Angeles County",
+        "description": "A diverse cultural hub offering everything from entertainment and arts to bustling business districts and scenic coastal escapes.",
+        "tags": {
+          "culturalDiversity": "Cultural Diversity",
+          "entertainment": "Entertainment"
+        }
+      },
+      "sanDiegoCounty": {
+        "name": "San Diego County",
+        "description": "A laid-back paradise with beautiful beaches, a thriving tech and biotech scene, and year-round perfect weather.",
+        "tags": {
+          "beaches": "Beaches",
+          "outdoorLiving": "Outdoor Living"
+        }
+      }
+    }
+  },
+  "blog": {
+    "title": "Latest Insights",
+    "subtitle": "Discover our expert perspectives on luxury real estate markets around the world.",
+    "date": "June 15, 2023",
+    "articleTitle": "The Future of Luxury: Emerging Markets to Watch in 2024",
+    "excerpt": "With shifting global wealth patterns, we analyze the rising stars in luxury real estate that smart investors should have on their radar for the coming year.",
+    "readArticle": "Read Article",
+    "exploreMore": "Explore More Insights",
+    "meta": {
+      "title": "Luxury Real Estate Insights & News | SoCal Prime Homes",
+      "description": "Stay informed with expert analysis, market trends, and exclusive insights from the world of luxury real estate investments."
+    },
+    "featured": "Featured",
+    "by": "By",
+    "sectionHeader": {
+      "title": "Latest Market Insights",
+      "subtitle": "Stay informed with our expert analysis and trending topics in luxury real estate markets around the world."
+    },
+    "pagination": {
+      "previous": "Previous",
+      "next": "Next"
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive real estate solutions designed specifically for your unique needs.",
+    "propertyAcquisition": {
+      "title": "Property Acquisition",
+      "description": "Our global network and market expertise ensure you find the perfect property that meets all your requirements."
+    },
+    "investmentAdvisory": {
+      "title": "Investment Advisory",
+      "description": "Strategic guidance to maximize returns on your real estate investments with our data-driven approach."
+    },
+    "relocationServices": {
+      "title": "Relocation Services",
+      "description": "Comprehensive support for international clients relocating to new countries, including legal and logistical assistance."
+    }
+  },
+  "cta": {
+    "title": "Ready to Find Your Dream Property?",
+    "text": "Contact our expert team today for a personalized consultation and start your journey to finding the perfect home or investment property.",
+    "button": "Schedule Consultation",
+    "rezaBarghlameno": "Reza Barghlameno",
+    "primeLocalHomes": "Prime Local Homes",
+    "readyToBuyOrSell": "Ready to buy or sell in Southern California? Contact Reza Barghlameno today for expert guidance and express service when you need it most.",
+    "salutationLabel": "Title",
+    "name": "Name",
+    "enterYourName": "Enter your name",
+    "phone": "Phone",
+    "enterYourPhone": "Enter your phone",
+    "email": "Email",
+    "enterYourEmail": "Enter your email",
+    "message": "Message",
+    "enterYourMessage": "Enter your message",
+    "sendMessage": "Send Message",
+    "sending": "Sending...",
+    "back": "Back"
+  },
+  "footer": {
+    "about": "With over two decades of experience, SoCal Prime Homes is a leading global real estate consulting company specializing in luxury real estate and customized relocation services.",
+    "quickLinks": "Quick Links",
+    "locations": "Locations",
+    "contact": "Contact",
+    "services": "Services",
+    "insights": "Insights",
+    "northAmerica": "North America",
+    "europe": "Europe",
+    "asia": "Asia",
+    "middleEast": "Middle East",
+    "phone": "+1 (800) 555-1234",
+    "email": "info@prestigeestates.com",
+    "address": "123 Luxury Avenue<br />Beverly Hills, CA 90210",
+    "copyright": "© 2025, made with love in California",
+    "citiesDescription": "Cities - Explore our featured cities and discover premium real estate opportunities in prime locations",
+    "blogsDescription": "Blogs - Stay updated with the latest real estate insights, market trends, and investment tips",
+    "contactDescription": "Contact - Get in touch with our expert team for personalized real estate consultation and support",
+    "partnersTitle": "Our Partners",
+    "partnersDescription": "Trusted by leading real estate professionals and organizations worldwide. Your premium partners for luxury coastal real estates in California.",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service"
+  }
+}
+

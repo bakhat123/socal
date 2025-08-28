@@ -1,0 +1,265 @@
+{
+  "navigation": {
+    "cities": "城市",
+    "blogs": "博客",
+    "services": "服务",
+    "contact": "联系我们"
+  },
+  "hero": {
+    "badge": "全球豪华房地产",
+    "title": "为挑剔客户提供的独家房产",
+    "subtitle": "拥有超过20年的经验，我们将国际买家与世界最理想地点的最佳房产连接起来。",
+    "viewProperties": "查看房产",
+    "contactUs": "联系我们",
+    "scrollDown": "向下滚动"
+  },
+  "stats": {
+    "yearsExperience": "年经验",
+    "billionInSales": "销售额数十亿",
+    "countriesServed": "服务国家",
+    "clientSatisfaction": "客户满意度"
+  },
+  "cities": {
+    "title": "探索加利福尼亚城市",
+    "subtitle": "发现金州最理想的地点，每个都提供独特的生活方式机会和投资潜力。",
+    "population": "人口",
+    "avgHomePrice": "平均房价",
+    "neighborhoods": "社区",
+    "pageHeader": {
+      "eyebrow": "所有城市",
+      "title": "发现加利福尼亚最佳城市",
+      "subtitle": "探索我们在金州精心策划的优质目的地选择"
+    },
+    "search": {
+      "title": "找到您的完美城市",
+      "subtitle": "按城市名称、州或特色搜索"
+    },
+    "noResults": {
+      "title": "未找到城市",
+      "text": "尝试调整您的搜索词或浏览下面的所有城市",
+      "button": "清除搜索"
+    },
+    "hero": {
+      "title": "欢迎来到{cityName}",
+      "subtitle": "发现这个充满活力的加利福尼亚城市的独特魅力和机会",
+      "exploreProperties": "探索房产",
+      "contactAgent": "联系代理"
+    },
+    "highlights": {
+      "title": "城市亮点",
+      "subtitle": "什么让{cityName}特别"
+    },
+    "faqs": {
+      "title": "常见问题",
+      "subtitle": "关于{cityName}您需要知道的一切"
+    },
+    "clients": {
+      "title": "我们在{cityName}的客户",
+      "subtitle": "我们服务的专业人士和家庭的多元化社区"
+    },
+    "cityPage": {
+      "residents": "居民",
+      "avgPrice": "平均价格",
+      "premiumDestination": "优质目的地",
+      "discoverMagicOf": "发现的神奇",
+      "exploreProperties": "探索房产",
+      "contactAgent": "联系代理",
+      "population": "人口",
+      "avgHomePrice": "平均房价",
+      "neighborhoods": "社区",
+      "highlights": "亮点",
+      "about": "关于",
+      "whatMakesSpecial": "什么让{cityName}特别",
+      "noHighlightsAvailable": "没有可用的亮点{cityName}",
+      "nearbyCities": "附近城市",
+      "exploreSurroundingAreas": "探索周边地区",
+      "discoverDiverseNeighborhoods": "发现{cityName}周围多样化的社区和城市",
+      "county": "县",
+      "faq": "常见问题",
+      "everythingYouNeedToKnow": "您需要了解的一切",
+      "allQuestions": "所有问题",
+      "exploreAllCities": "探索所有城市",
+      "readyToFindDreamProperty": "准备找到您的梦想房产？",
+      "contactExpertTeam": "今天就联系我们的专家团队进行个性化咨询，开始您寻找完美家园或投资房产的旅程。",
+      "scheduleConsultation": "安排咨询",
+      "readyToBuyOrSell": "准备在{cityName}买卖房产？今天就联系Reza Barghlameno，获得专业指导，在您最需要的时候提供快速服务。",
+      "rezaBarghlameno": "Reza Barghlameno",
+      "primeLocalHomes": "Prime Local Homes",
+      "name": "姓名",
+      "enterYourName": "输入您的姓名",
+      "phone": "电话",
+      "enterYourPhone": "输入您的电话",
+      "email": "邮箱",
+      "enterYourEmail": "输入您的邮箱",
+      "message": "留言",
+      "enterYourMessage": "输入您的留言",
+      "sendMessage": "发送留言",
+      "sending": "发送中...",
+      "backToHome": "返回首页",
+      "title": "称谓"
+    },
+    "countyPage": {
+      "cities": "城市",
+      "avgPrice": "平均价格",
+      "premiumDestination": "优质目的地",
+      "discoverMagicOf": "发现的神奇",
+      "exploreProperties": "探索房产",
+      "contactAgent": "联系代理",
+      "about": "关于",
+      "welcomeTo": "欢迎来到",
+      "yourRealEstateJourney": "您的房地产之旅从这里开始",
+      "expressService": "快速服务",
+      "whenTimeIsEssence": "当时间至关重要时",
+      "whatMakesSpecial": "什么让{countyName}特别",
+      "marketAnalysis": "市场分析",
+      "currentRealEstateTrends": "当前{countyName}房地产趋势",
+      "countyGuide": "县指南",
+      "discoverBestAreas": "发现{countyName}的最佳地区",
+      "citiesInCounty": "{countyName}的城市",
+      "exploreCitiesInCounty": "探索{countyName}的城市",
+      "discoverDiverseCities": "发现{countyName}内多样化的城市和社区",
+      "searchCities": "搜索城市...",
+      "citiesFound": "个城市",
+      "noCitiesFound": "在{countyName}中未找到城市",
+      "citiesInfoUpdating": "城市信息正在更新中。请稍后再查看。",
+      "citiesInfoEnglishOnly": "城市信息目前仅提供英文版本。我们正在努力翻译。",
+      "viewInEnglish": "查看英文版本",
+      "previous": "上一页",
+      "next": "下一页",
+      "backToHome": "返回首页",
+      "highlights": "亮点",
+      "faqs": "常见问题",
+      "population": "人口",
+      "readyToFindDreamProperty": "准备找到您的梦想房产？",
+      "contactExpertTeam": "今天就联系我们的专家团队进行个性化咨询，开始您寻找完美家园或投资房产的旅程。",
+      "scheduleConsultation": "安排咨询",
+      "readyToBuyOrSell": "准备在{countyName}购买或出售？今天就联系Reza Barghlameno，在您最需要的时候获得专家指导和快速服务。",
+      "rezaBarghlameno": "Reza Barghlameno",
+      "primeLocalHomes": "Prime Local Homes",
+      "name": "姓名",
+      "enterYourName": "输入您的姓名",
+      "phone": "电话",
+      "enterYourPhone": "输入您的电话",
+      "email": "电子邮件",
+      "enterYourEmail": "输入您的电子邮件",
+      "message": "留言",
+      "enterYourMessage": "输入您的留言",
+      "sendMessage": "发送留言",
+      "sending": "发送中...",
+      "title": "称谓"
+    },
+    "countyCards": {
+      "destinations": "我们的服务覆盖地区",
+      "loadingCounties": "正在加载县...",
+      "noCountiesAvailable": "目前没有可用的县。",
+      "seeAllCities": "查看所有城市",
+      "cities": "个城市",
+      "orangeCounty": {
+        "name": "橙县",
+        "description": "一个沿海地区，以其令人惊叹的海滩、高档社区和家庭友好社区而闻名，拥有世界级的餐饮和购物。",
+        "tags": {
+          "coastalLiving": "沿海生活",
+          "familyFriendly": "家庭友好"
+        }
+      },
+      "losAngelesCounty": {
+        "name": "洛杉矶县",
+        "description": "一个多元化的文化中心，提供从娱乐艺术到繁华商业区和风景如画的海岸度假胜地的一切。",
+        "tags": {
+          "culturalDiversity": "文化多样性",
+          "entertainment": "娱乐"
+        }
+      },
+      "sanDiegoCounty": {
+        "name": "圣地亚哥县",
+        "description": "一个悠闲的天堂，拥有美丽的海滩、蓬勃发展的科技和生物技术产业，以及全年完美的天气。",
+        "tags": {
+          "beaches": "海滩",
+          "outdoorLiving": "户外生活"
+        }
+      }
+    }
+  },
+  "blog": {
+    "title": "最新洞察",
+    "subtitle": "发现我们对全球豪华房地产市场专家观点。",
+    "date": "2023年6月15日",
+    "articleTitle": "豪华的未来：2024年需要关注的新兴市场",
+    "excerpt": "随着全球财富模式的变化，我们分析了豪华房地产领域的新星，聪明的投资者应该在明年的雷达上关注这些。",
+    "readArticle": "阅读文章",
+    "exploreMore": "探索更多洞察",
+    "meta": {
+      "title": "豪华房地产洞察与新闻 | 威望地产",
+      "description": "通过专家分析、市场趋势和豪华房地产投资世界的独家洞察保持最新状态。"
+    },
+    "featured": "特色",
+    "by": "作者",
+    "sectionHeader": {
+      "title": "最新市场洞察",
+      "subtitle": "通过我们的专家分析和全球豪华房地产市场的热门话题保持最新状态。"
+    },
+    "pagination": {
+      "previous": "上一页",
+      "next": "下一页"
+    }
+  },
+  "services": {
+    "title": "我们的服务",
+    "subtitle": "专为您独特需求设计的全面房地产解决方案。",
+    "propertyAcquisition": {
+      "title": "房产收购",
+      "description": "我们的全球网络和市场专业知识确保您找到满足所有要求的完美房产。"
+    },
+    "investmentAdvisory": {
+      "title": "投资咨询",
+      "description": "通过我们基于数据的方法，为您的房地产投资回报最大化提供战略指导。"
+    },
+    "relocationServices": {
+      "title": "搬迁服务",
+      "description": "为搬迁到新国家的国际客户提供全面支持，包括法律和物流援助。"
+    }
+  },
+  "cta": {
+    "title": "准备找到您的梦想房产？",
+    "text": "今天就联系我们的专家团队进行个人咨询，开始您寻找完美家园或投资房产的旅程。",
+    "button": "安排咨询",
+    "rezaBarghlameno": "Reza Barghlameno",
+    "primeLocalHomes": "Prime Local Homes",
+    "readyToBuyOrSell": "准备在南加州买卖房产？今天就联系Reza Barghlameno，获得专业指导，在您最需要的时候提供快速服务。",
+    "salutationLabel": "称谓",
+    "name": "姓名",
+    "enterYourName": "输入您的姓名",
+    "phone": "电话",
+    "enterYourPhone": "输入您的电话",
+    "email": "邮箱",
+    "enterYourEmail": "输入您的邮箱",
+    "message": "留言",
+    "enterYourMessage": "输入您的留言",
+    "sendMessage": "发送留言",
+    "sending": "发送中...",
+    "back": "返回"
+  },
+  "footer": {
+    "about": "拥有超过二十年的经验，SoCal Prime Homes是一家领先的全球房地产咨询公司，专门从事豪华房地产和定制搬迁服务。",
+    "quickLinks": "快速链接",
+    "locations": "位置",
+    "contact": "联系我们",
+    "services": "服务",
+    "insights": "洞察",
+    "northAmerica": "北美",
+    "europe": "欧洲",
+    "asia": "亚洲",
+    "middleEast": "中东",
+    "phone": "+1 (800) 555-1234",
+    "email": "info@prestigeestates.com",
+    "address": "123豪华大道<br />比佛利山庄，加利福尼亚州 90210",
+    "copyright": "© 2025，在加利福尼亚州用心制作",
+    "citiesDescription": "城市 - 探索我们的特色城市，在黄金地段发现优质房地产机会",
+    "blogsDescription": "博客 - 了解最新的房地产洞察、市场趋势和投资技巧",
+    "contactDescription": "联系我们 - 联系我们的专家团队，获得个性化房地产咨询和支持",
+    "partnersTitle": "我们的合作伙伴",
+    "partnersDescription": "受到全球领先房地产专业人士和组织的信赖。您在加利福尼亚州豪华沿海房地产的优质合作伙伴。",
+    "privacyPolicy": "隐私政策",
+    "termsOfService": "服务条款"
+  }
+}

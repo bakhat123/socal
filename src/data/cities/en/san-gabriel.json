@@ -1,0 +1,266 @@
+{
+  "slug": "san-gabriel",
+  "name": "San Gabriel",
+  "state": "California",
+  "language": "en",
+  "shortDescription": "A historic city in the San Gabriel Valley known for its rich cultural heritage and the famous San Gabriel Mission.",
+  "fullDescription": "San Gabriel is celebrated for its blend of cultural history and suburban charm. The city is home to the historic San Gabriel Mission, beautiful parks, and a thriving Asian dining scene. With a walkable downtown area and family-friendly neighborhoods, San Gabriel attracts residents who value community, good schools, and convenient access to nearby Los Angeles and Pasadena. Its diverse population contributes to a vibrant cultural atmosphere and numerous local festivals.",
+  "heroImage": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Historic San Gabriel Mission surrounded by greenery",
+  "population": "41K+",
+  "avgHomePrice": "$820K",
+  "tags": [
+    "Historic",
+    "Cultural heritage",
+    "Dining"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Alhambra",
+      "type": "city",
+      "slug": "alhambra",
+      "description": "City known for its cultural diversity and bustling dining scene.",
+      "image": "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Street view in Alhambra with palm trees and storefronts",
+      "distance": "2 miles west",
+      "avgHomePrice": "$850K",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Rosemead",
+      "type": "city",
+      "slug": "rosemead",
+      "description": "A family-oriented city with parks, schools, and a growing Asian-American community.",
+      "image": "https://images.unsplash.com/photo-1515896769750-31548aa180ed?auto=format&fit=crop&w=1920&q=80",
+      "imageAlt": "Residential street in Rosemead with trees",
+      "distance": "3 miles south",
+      "avgHomePrice": "$780K",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "San Gabriel Mission",
+      "description": "Historic Spanish mission founded in 1771 with beautiful gardens and a museum.",
+      "icon": "⛪",
+      "bgImage": "https://images.unsplash.com/photo-1515896769750-31548aa180ed?auto=format&fit=crop&w=1920&q=80",
+      "bgImageAlt": "Historic San Gabriel Mission building"
+    },
+    {
+      "title": "San Gabriel Park",
+      "description": "Community park featuring walking trails, picnic areas, and sports facilities.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Green park area with trees and benches"
+    },
+    {
+      "title": "Asian Dining District",
+      "description": "A vibrant area known for authentic Chinese, Vietnamese, and other Asian cuisines.",
+      "icon": "🍜",
+      "bgImage": "https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Bowl of Asian noodle soup"
+    },
+    {
+      "title": "Downtown San Gabriel",
+      "description": "Walkable area with shops, cafes, and community events throughout the year.",
+      "icon": "🏙️",
+      "bgImage": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Downtown shopping street with people walking"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is San Gabriel known for?",
+      "answer": "San Gabriel is known for its historic mission, cultural diversity, and excellent dining options.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is the real estate market in San Gabriel?",
+      "answer": "The real estate market is competitive with a mix of historic homes and newer developments.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "What are popular things to do in San Gabriel?",
+      "answer": "Visit the San Gabriel Mission, dine in the Asian Dining District, and explore local parks and shops.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is commuting from San Gabriel?",
+      "answer": "San Gabriel has easy access to the I-10 freeway and nearby public transportation options for commuting to Los Angeles and Pasadena.",
+      "category": "Transportation"
+    },
+    {
+      "question": "What's the average home price in San Gabriel?",
+      "answer": "The average home price in San Gabriel varies by neighborhood and property type. Reza Barghlameno provides current market analysis and helps buyers find homes within their budget. Contact Reza for the latest pricing data and market insights specific to your needs.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "How quickly can Reza help me buy a home in San Gabriel?",
+      "answer": "Reza Barghlameno's Express Service can find homes in San Gabriel within 48-72 hours for urgent buyers. With same-day mortgage pre-approval and weekend service availability, Reza accelerates the entire buying process while maintaining quality service.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "What makes Reza the best realtor in San Gabriel?",
+      "answer": "Reza Barghlameno brings 20+ years of San Gabriel real estate expertise, local market knowledge, and a proven track record. His express service, partner network, and 24/7 availability set him apart from other agents in Los Angeles County.",
+      "category": "Real Estate"
+    }
+  ],
+  "clients": [],
+  "canonicalUrl": "",
+  "hreflang_tags": [],
+  "seo": {
+    "metaTitle": "San Gabriel CA Real Estate & Lifestyle | Historic Mission & Dining",
+    "metaDescription": "Discover San Gabriel's neighborhoods, historic mission, cultural attractions, and real estate in the San Gabriel Valley.",
+    "keywords": "San Gabriel real estate, San Gabriel Mission, living in San Gabriel, San Gabriel homes for sale, homes for sale in San Gabriel, buy house in San Gabriel, sell home in San Gabriel, Prime Local Homes San Gabriel, Reza Barghlameno San Gabriel, best realtor in San Gabriel, luxury homes in San Gabriel, condos for sale in San Gabriel, single family homes in San Gabriel, townhomes in San Gabriel, new listings San Gabriel, property market San Gabriel, real estate trends San Gabriel, fast home buying San Gabriel, urgent house search San Gabriel, express real estate service San Gabriel, same day home finding San Gabriel, quick house purchase San Gabriel, emergency realtor San Gabriel, weekend home buying San Gabriel, family emergency home search San Gabriel, Reza Barghlameno, Reza Barghlameno realtor, Reza Barghlameno real estate agent, Reza Barghlameno Prime Local Homes, top realtor San Gabriel Reza Barghlameno",
+    "ogTitle": "Explore San Gabriel: Culture, History & Neighborhoods",
+    "ogDescription": "Find your home in San Gabriel with its rich history, dining, and welcoming community.",
+    "ogImage": "https://images.unsplash.com/photo-1601758124095-1c9d5e3a7ec5?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Historic San Gabriel Mission surrounded by greenery",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "San Gabriel",
+      "description": "Explore real estate, neighborhoods, and highlights in San Gabriel, California.",
+      "url": "https://example.com/locations/san-gabriel",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1601758124095-1c9d5e3a7ec5?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Historic San Gabriel Mission surrounded by greenery"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "San Gabriel",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is San Gabriel known for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "San Gabriel is known for its historic mission, cultural diversity, and excellent dining options."
+          },
+          "category": "Lifestyle"
+        },
+        {
+          "@type": "Question",
+          "name": "How is the real estate market in San Gabriel?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The real estate market is competitive with a mix of historic homes and newer developments."
+          },
+          "category": "Real Estate"
+        },
+        {
+          "@type": "Question",
+          "name": "What are popular things to do in San Gabriel?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Visit the San Gabriel Mission, dine in the Asian Dining District, and explore local parks and shops."
+          },
+          "category": "Lifestyle"
+        },
+        {
+          "@type": "Question",
+          "name": "How is commuting from San Gabriel?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "San Gabriel has easy access to the I-10 freeway and nearby public transportation options for commuting to Los Angeles and Pasadena."
+          },
+          "category": "Transportation"
+        },
+        {
+          "@type": "Question",
+          "name": "What's the average home price in San Gabriel?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The average home price in San Gabriel varies by neighborhood and property type. Reza Barghlameno provides current market analysis and helps buyers find homes within their budget. Contact Reza for the latest pricing data and market insights specific to your needs."
+          },
+          "category": "Real Estate"
+        },
+        {
+          "@type": "Question",
+          "name": "How quickly can Reza help me buy a home in San Gabriel?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Reza Barghlameno's Express Service can find homes in San Gabriel within 48-72 hours for urgent buyers. With same-day mortgage pre-approval and weekend service availability, Reza accelerates the entire buying process while maintaining quality service."
+          },
+          "category": "Real Estate"
+        },
+        {
+          "@type": "Question",
+          "name": "What makes Reza the best realtor in San Gabriel?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Reza Barghlameno brings 20+ years of San Gabriel real estate expertise, local market knowledge, and a proven track record. His express service, partner network, and 24/7 availability set him apart from other agents in Los Angeles County."
+          },
+          "category": "Real Estate"
+        }
+      ]
+    }
+  ],
+  "internal_links": [],
+  "city": "San Gabriel",
+  "county": "Los Angeles",
+  "url_slug": "/real-estate-san-gabriel",
+  "meta_title": "Buy & Sell Homes in San Gabriel | Prime Local Homes - Reza Barghlameno",
+  "meta_description": "Expert San Gabriel real estate service with Reza Barghlameno. Find homes for sale, get market analysis. Express service available for urgent buyers.",
+  "h1_title": "San Gabriel Real Estate Expert - Buy & Sell with Reza Barghlameno",
+  "primary_keywords": [
+    "San Gabriel real estate",
+    "homes for sale in San Gabriel",
+    "buy house in San Gabriel",
+    "sell home in San Gabriel",
+    "Prime Local Homes San Gabriel",
+    "Reza Barghlameno San Gabriel"
+  ],
+  "secondary_keywords": [
+    "best realtor in San Gabriel",
+    "luxury homes in San Gabriel",
+    "condos for sale in San Gabriel",
+    "single family homes in San Gabriel",
+    "townhomes in San Gabriel",
+    "new listings San Gabriel",
+    "property market San Gabriel",
+    "real estate trends San Gabriel"
+  ],
+  "express_keywords": [
+    "fast home buying San Gabriel",
+    "urgent house search San Gabriel",
+    "express real estate service San Gabriel",
+    "same day home finding San Gabriel",
+    "quick house purchase San Gabriel",
+    "emergency realtor San Gabriel",
+    "weekend home buying San Gabriel",
+    "family emergency home search San Gabriel"
+  ],
+  "agent_keywords": [
+    "Reza Barghlameno",
+    "Reza Barghlameno realtor",
+    "Reza Barghlameno San Gabriel",
+    "Reza Barghlameno real estate agent",
+    "Reza Barghlameno Prime Local Homes",
+    "top realtor San Gabriel Reza Barghlameno"
+  ],
+  "landing_page_text": "Welcome to San Gabriel, California - one of Los Angeles County's most sought-after communities for homebuyers and sellers. Reza Barghlameno, your trusted San Gabriel real estate expert with Prime Local Homes, brings over 20 years of experience to guide you through every aspect of your real estate journey. San Gabriel, known for its rich history and vibrant cultural scene, offers a unique blend of suburban tranquility and urban convenience. As you explore the San Gabriel real estate market, you'll find a diverse range of properties, from charming single-family homes to luxurious estates and modern condos. Reza Barghlameno is committed to helping you navigate this dynamic market with ease and confidence.\n\nThe San Gabriel real estate market is characterized by its competitive pricing and high demand. With Reza Barghlameno's expertise, you'll gain access to the latest market insights and trends, ensuring you make informed decisions whether you're buying or selling. The median home price in San Gabriel has seen a steady increase, reflecting the area's desirability and robust investment potential. Reza's deep understanding of local market conditions allows him to provide personalized strategies tailored to your specific needs.\n\nSan Gabriel's neighborhoods each offer their own unique charm and appeal. The Mission District, known for its historic architecture and vibrant community events, is perfect for those seeking a blend of history and modern living. For families, the North San Gabriel area is highly recommended, offering excellent schools and family-friendly amenities. Meanwhile, the San Gabriel Village area provides a bustling atmosphere with a variety of dining and shopping options.\n\nEducation is a cornerstone of San Gabriel's appeal, with top-rated schools such as Gabrielino High School and San Gabriel Mission High School providing excellent academic opportunities. Additionally, the city's proximity to major highways and public transportation makes commuting to downtown Los Angeles and other nearby areas convenient.\n\nReza Barghlameno and Prime Local Homes are dedicated to providing unparalleled service, ensuring your real estate experience in San Gabriel is seamless and rewarding. Whether you're looking to buy your dream home or sell your current property, Reza's commitment to excellence and client satisfaction is unmatched. Contact Reza Barghlameno today to start your San Gabriel real estate journey with a trusted expert by your side.",
+  "express_service": "When life demands immediate housing solutions, Reza Barghlameno's Express Service delivers results with unmatched speed and reliability in San Gabriel. Understanding that urgent situations require swift action, Reza offers a comprehensive express service designed to meet your needs within 48-72 hours. Whether you're relocating for a new job, facing a family emergency, or simply need to move quickly, Reza's express service ensures a stress-free experience.\n\nWith same-day mortgage approval and a network of trusted partners, including mortgage lenders, renovators, and movers, Reza Barghlameno provides a full-service solution tailored to your timeline. Weekend service is available for those with tight schedules, and Reza prioritizes family emergencies and unique situations such as support for pregnant couples and job relocations.\n\nReza's personal commitment to each client is evident in his 24/7 availability and proven track record of success. His express service is not just about speed; it's about delivering quality and satisfaction even under tight deadlines. Numerous success stories from past clients attest to Reza's ability to find the perfect home quickly and efficiently, making him the go-to emergency realtor in San Gabriel.\n\nTrust Reza Barghlameno and Prime Local Homes to handle your urgent real estate needs with professionalism and care. Contact Reza today to learn more about how his express service can provide you with the quick and reliable solutions you need.",
+  "neighborhood_guide": "San Gabriel offers a variety of neighborhoods, each with its own distinct character and appeal. The Mission District is a favorite among history enthusiasts, featuring beautiful Spanish-style architecture and the iconic San Gabriel Mission. This area is ideal for those who appreciate cultural heritage and community events.\n\nFor families, the North San Gabriel neighborhood is highly recommended. It boasts excellent schools, such as Coolidge Elementary and Jefferson Middle School, and is known for its safe, family-friendly environment. The area also offers numerous parks and recreational facilities, making it perfect for active families.\n\nThe San Gabriel Village area is a vibrant commercial hub, offering a wide array of dining, shopping, and entertainment options. It's an excellent choice for young professionals and those who enjoy a lively urban atmosphere. With Reza Barghlameno's insights and recommendations, you'll find the perfect neighborhood in San Gabriel that aligns with your lifestyle and preferences.",
+  "market_analysis": "The current San Gabriel real estate market is thriving, with a consistent rise in property values driven by high demand and limited inventory. The median home price has increased by approximately 5% over the past year, reflecting the area's growing popularity among homebuyers. Reza Barghlameno's professional forecasts suggest that this trend will continue, making now an opportune time to invest in San Gabriel real estate.\n\nBuyers are drawn to San Gabriel for its strategic location, excellent schools, and diverse housing options. The market is particularly competitive for single-family homes, with properties often receiving multiple offers shortly after listing. Reza's deep understanding of market dynamics and his strategic approach to buying and selling ensures that his clients achieve their real estate goals in this competitive environment.",
+  "agent_name": "Reza Barghlameno",
+  "company_name": "socalprimehomes.com",
+  "contact_phone": "+1 858-305-4362",
+  "contact_email": "reza@socalprimehomes.com",
+  "cta_text": "Ready to buy or sell in San Gabriel? Contact Reza Barghlameno today for expert guidance and express service when you need it most."
+}

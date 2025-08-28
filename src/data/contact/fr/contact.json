@@ -1,0 +1,142 @@
+{
+  "locale": "fr",
+  "author": {
+    "name": "Reza Barghlameno",
+    "photo": "/raza.jpg"
+  },
+  "form": {
+    "header": {
+      "badge": "Prêt à Se Connecter",
+      "title": "Contactez Crown Coastal Concierge",
+      "subtitle": "Prêt à commencer votre parcours immobilier ? Contactez-nous aujourd'hui et discutons de votre propriété de rêve à San Diego."
+    },
+    "fields": {
+      "name": {
+        "label": "Nom Complet",
+        "placeholder": "Entrez votre nom complet",
+        "required": "*"
+      },
+      "phone": {
+        "label": "Numéro de Téléphone",
+        "placeholder": "Entrez votre numéro de téléphone",
+        "required": "*"
+      },
+      "email": {
+        "label": "Adresse Email",
+        "placeholder": "Entrez votre adresse email",
+        "required": "*"
+      },
+      "message": {
+        "label": "Message",
+        "placeholder": "Parlez-nous de vos besoins immobiliers, emplacements préférés, budget et exigences spécifiques...",
+        "required": "*"
+      }
+    },
+    "consent": {
+      "title": "Confidentialité et Consentement",
+      "text": "En soumettant vos informations, vous acceptez que le professionnel immobilier identifié ci-dessus puisse vous appeler/envoyer des messages concernant votre recherche, ce qui peut impliquer l'utilisation de moyens automatisés et de voix préenregistrées/artificielles. Vous n'avez pas besoin de consentir comme condition d'achat de toute propriété, biens ou services. Des frais de messages/données peuvent s'appliquer. Vous acceptez également nos Conditions d'utilisation."
+    },
+    "submit": {
+      "sending": "Envoi du Message...",
+      "send": "Envoyer le Message"
+    },
+    "footer": {
+      "responseTime": "Nous répondons généralement dans les 2 heures pendant les heures de bureau"
+    }
+  },
+  "hero": {
+    "profileStatus": "Disponible Maintenant",
+    "profileCompany": "eXp de Californie",
+    "profileTitle": "Chef de Crown Coastal Concierge",
+    "profileBadges": {
+      "topProducer": "",
+      "fiveStarRated": ""
+    },
+    "recentSales": {
+      "title": "Ventes Récentes",
+      "seeAll": "Voir Tout",
+      "sold": "Vendu",
+      "properties": [
+        {
+          "address": "4632 Kensington Dr San Diego, CA, 92116",
+          "price": "$1,695,000",
+          "year": "2025",
+          "imageUrl": "/contact/property_1.png"
+        },
+        {
+          "address": " 30960 Eagle Ct Temecula, CA, 92591",
+          "price": "\t$779,800",
+          "year": "2025",
+          "imageUrl": "/contact/property_2.png"
+        },
+        {
+          "address": "10800 Valley Dr Riverside, CA, 92505",
+          "price": "$880,000",
+          "year": "2025",
+          "imageUrl": "/contact/property_3.png"
+        },
+        {
+          "address": "1750 W Citracado Pkwy W #164 Escondido, CA, 92029",
+          "price": "$515,000",
+          "year": "2025",
+          "imageUrl": "/contact/property_4.png"
+        },
+        {
+          "address": "375 Ventasso Way Fallbrook, CA, 92028",
+          "price": "$880,000",
+          "year": "2024",
+          "imageUrl": "/contact/property_5.png"
+        },
+        {
+          "address": " 1995 Casablanca Ct Vista, CA, 92081",
+          "price": "$1,035,000",
+          "year": "2024",
+          "imageUrl": "/contact/property_6.png"
+        },
+        {
+          "address": " 42006 Village 42 Camarillo, CA, 93012",
+          "price": "$840,000",
+          "year": "2024",
+          "imageUrl": "/contact/property_7.png"
+        },
+        {
+          "address": " 708 Pascali Ct San Marcos, CA, 92069",
+          "price": "\t$1,495,000",
+          "year": "2024",
+          "imageUrl": "/contact/property_8.png"
+        },
+        {
+          "address": "1721 Calle Platico Oceanside, CA, 92056",
+          "price": "$865,000",
+          "year": "2024",
+          "imageUrl": "/contact/property_9.png"
+        }
+      ]
+    }
+  },
+  "info": {
+    "description": {
+      "title": "Apprenez à connaître Reza",
+      "subtitle": "Professionnel Immobilier",
+      "text1": "Avec un parcours qui l'a mené à travers 32 pays et plus de cent villes, Reza apporte une expérience mondiale et une perspective globale unique au marché immobilier de San Diego. Il croit fermement qu'il n'y a pas d'endroit comme San Diego, avec ses lignes côtières sans pareil, son paysage urbain vibrant et ses aventures infinies.",
+      "text2": "Utilisant 17 ans d'expertise en gestion de clients et négociation, Reza a perfectionné l'art de comprendre les besoins de ses clients et de dépasser leurs attentes. Mais ce n'est pas seulement une question de transactions pour lui. Que ce soit en guidant les vendeurs pour maximiser la valeur de leur maison ou en aidant les acheteurs à trouver leur propriété de rêve, la vraie passion de Reza réside dans le fait de marquer des points importants pour ses clients.",
+      "text3": "Au-delà de l'immobilier, Reza est profondément intégré dans le tissu de la communauté de San Diego. Il a défendu des causes justes par des pétitions de base, participé activement aux nettoyages de plages et travaillé sans relâche pour élever les communautés mal desservies par divers programmes subventionnés par le gouvernement. Pour Reza, l'immobilier n'est pas seulement une affaire, c'est une plateforme pour servir et enrichir davantage la communauté qu'il chérit le plus."
+    },
+    "specialties": {
+      "title": "Spécialités",
+      "tags": [
+        "Agent d'Acheteurs",
+        "Agent de Vente",
+        "Relocalisation",
+        "Location de Vacances / Court Terme"
+      ],
+      "languages": "Parle : Anglais, Arabe, Persan, Turc"
+    }
+  },
+  "newProperty": {
+    "address": "",
+    "price": "",
+    "year": "",
+    "imageUrl": ""
+  }
+}

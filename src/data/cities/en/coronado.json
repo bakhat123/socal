@@ -1,0 +1,277 @@
+{
+  "slug": "coronado",
+  "name": "Coronado",
+  "state": "California",
+  "language": "en",
+  "shortDescription": "A charming resort city on a peninsula, famed for its beaches, historic Hotel del Coronado, and affluent community.",
+  "fullDescription": "Coronado is known for its picturesque beaches, iconic Victorian-era Hotel del Coronado, and a close-knit community on a peninsula across from downtown San Diego. It offers upscale shops, waterfront parks, and a laid-back, island-town feel with exceptional walkability.",
+  "heroImage": "https://images.unsplash.com/photo-1506755594592-349d12ca5f1e?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "View of beach and Hotel del Coronado at sunset",
+  "population": "18.6K",
+  "avgHomePrice": "$2.0M",
+  "tags": [
+    "Beachfront lifestyle",
+    "Historic resort",
+    "Affluent community"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Silver Strand",
+      "type": "neighborhood",
+      "slug": "silver-strand",
+      "description": "Long sandy stretch connecting Coronado to Silver Strand State Beach.",
+      "image": "https://images.unsplash.com/photo-1526401281627-3b3fbc3b4253?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Beachfront road with dunes",
+      "distance": "south edge",
+      "avgHomePrice": "$2.3M",
+      "county": "San Diego"
+    },
+    {
+      "name": "Coronado Village",
+      "type": "neighborhood",
+      "slug": "coronado-village",
+      "description": "Downtown area with shops, restaurants, and parks near the ferry landing.",
+      "image": "https://images.unsplash.com/photo-1510196839794-72f5d9527517?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Street with boutiques and palm trees",
+      "distance": "center",
+      "avgHomePrice": "$1.9M",
+      "county": "San Diego"
+    },
+    {
+      "name": "Coronado Cays",
+      "type": "neighborhood",
+      "slug": "coronado-cays",
+      "description": "A waterfront gated community with marinas and canals.",
+      "image": "https://images.unsplash.com/photo-1542343631-0c3f0c9ebf40?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Canal homes with boats docked",
+      "distance": "east side",
+      "avgHomePrice": "$2.4M",
+      "county": "San Diego"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Hotel del Coronado",
+      "description": "Iconic Victorian beachfront hotel and National Historic Landmark.",
+      "icon": "🏨",
+      "bgImage": "https://images.unsplash.com/photo-1542314825-63e7ab32a0f9?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Victorian hotel by the sea"
+    },
+    {
+      "title": "Coronado Beach",
+      "description": "Consistently ranked among the nation’s best beaches with golden sand.",
+      "icon": "🏖️",
+      "bgImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
+      "bgImageAlt": "Sunny beach with waves"
+    },
+    {
+      "title": "Coronado Ferry Landing",
+      "description": "Scenic ferry ride to San Diego with shops, dining, and harbor views.",
+      "icon": "⛴️",
+      "bgImage": "https://images.unsplash.com/photo-1483721310020-03333e577078?auto=format&fit=crop&w=800&q=80",
+      "bgImageAlt": "Ferry at harbor dock"
+    },
+    {
+      "title": "High Walkability",
+      "description": "Compact downtown makes walking or biking across town easy.",
+      "icon": "🚶",
+      "bgImage": "https://images.unsplash.com/photo-1494522358652-fc27822f31a6?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "People strolling a downtown street"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is Coronado family-friendly?",
+      "answer": "Yes — great beaches, parks, and safe neighborhoods make it ideal for families.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How pricey is real estate in Coronado?",
+      "answer": "Very — average home values around $2 million, with waterfront properties much higher.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "What things to do in Coronado?",
+      "answer": "Visit the Hotel del Coronado, bike the Silver Strand, and dine and shop at the Ferry Landing.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How’s commuting from Coronado to San Diego?",
+      "answer": "Quick 10-minute ferry or 20-minute drive across the bridge to downtown San Diego.",
+      "category": "Transportation"
+    },
+    {
+      "question": "What's the average home price in Coronado?",
+      "answer": "The average home price in Coronado varies by neighborhood and property type. Reza Barghlameno provides current market analysis and helps buyers find homes within their budget. Contact Reza for the latest pricing data and market insights specific to your needs.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "How quickly can Reza help me buy a home in Coronado?",
+      "answer": "Reza Barghlameno's Express Service can find homes in Coronado within 48-72 hours for urgent buyers. With same-day mortgage pre-approval and weekend service availability, Reza accelerates the entire buying process while maintaining quality service.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "What makes Reza the best realtor in Coronado?",
+      "answer": "Reza Barghlameno brings 20+ years of Coronado real estate expertise, local market knowledge, and a proven track record. His express service, partner network, and 24/7 availability set him apart from other agents in San Diego County.",
+      "category": "Real Estate"
+    }
+  ],
+  "clients": [],
+  "canonicalUrl": "",
+  "hreflang_tags": [],
+  "seo": {
+    "metaTitle": "Coronado CA Real Estate & Lifestyle | Beachfront & Resort Living",
+    "metaDescription": "Explore Coronado’s beachfront charm, historic Hotel del Coronado, and upscale homes on the Silver Strand.",
+    "keywords": "Coronado real estate, Coronado beachfront, living in Coronado, Coronado homes for sale, homes for sale in Coronado, buy house in Coronado, sell home in Coronado, Prime Local Homes Coronado, Reza Barghlameno Coronado, best realtor in Coronado, luxury homes in Coronado, condos for sale in Coronado, single family homes in Coronado, townhomes in Coronado, new listings Coronado, property market Coronado, real estate trends Coronado, fast home buying Coronado, urgent house search Coronado, express real estate service Coronado, same day home finding Coronado, quick house purchase Coronado, emergency realtor Coronado, weekend home buying Coronado, family emergency home search Coronado, Reza Barghlameno, Reza Barghlameno realtor, Reza Barghlameno real estate agent, Reza Barghlameno Prime Local Homes, top realtor Coronado Reza Barghlameno",
+    "ogTitle": "Discover Coronado: Resort-Style Beach Living",
+    "ogDescription": "See why Coronado is one of San Diego’s most desirable island towns with beautiful beaches and historic charm.",
+    "ogImage": "https://images.unsplash.com/photo-1506755594592-349d12ca5f1e?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Hotel del Coronado at sunset on the beach",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Coronado",
+      "description": "Explore real estate, neighborhoods, and highlights in Coronado, California.",
+      "url": "https://example.com/locations/coronado",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506755594592-349d12ca5f1e?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Hotel del Coronado at sunset on the beach"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Coronado",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is Coronado family-friendly?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes — great beaches, parks, and safe neighborhoods make it ideal for families."
+          },
+          "category": "Lifestyle"
+        },
+        {
+          "@type": "Question",
+          "name": "How pricey is real estate in Coronado?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Very — average home values around $2 million, with waterfront properties much higher."
+          },
+          "category": "Real Estate"
+        },
+        {
+          "@type": "Question",
+          "name": "What things to do in Coronado?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Visit the Hotel del Coronado, bike the Silver Strand, and dine and shop at the Ferry Landing."
+          },
+          "category": "Lifestyle"
+        },
+        {
+          "@type": "Question",
+          "name": "How’s commuting from Coronado to San Diego?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Quick 10-minute ferry or 20-minute drive across the bridge to downtown San Diego."
+          },
+          "category": "Transportation"
+        },
+        {
+          "@type": "Question",
+          "name": "What's the average home price in Coronado?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The average home price in Coronado varies by neighborhood and property type. Reza Barghlameno provides current market analysis and helps buyers find homes within their budget. Contact Reza for the latest pricing data and market insights specific to your needs."
+          },
+          "category": "Real Estate"
+        },
+        {
+          "@type": "Question",
+          "name": "How quickly can Reza help me buy a home in Coronado?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Reza Barghlameno's Express Service can find homes in Coronado within 48-72 hours for urgent buyers. With same-day mortgage pre-approval and weekend service availability, Reza accelerates the entire buying process while maintaining quality service."
+          },
+          "category": "Real Estate"
+        },
+        {
+          "@type": "Question",
+          "name": "What makes Reza the best realtor in Coronado?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Reza Barghlameno brings 20+ years of Coronado real estate expertise, local market knowledge, and a proven track record. His express service, partner network, and 24/7 availability set him apart from other agents in San Diego County."
+          },
+          "category": "Real Estate"
+        }
+      ]
+    }
+  ],
+  "internal_links": [],
+  "city": "Coronado",
+  "county": "San Diego",
+  "url_slug": "/real-estate-coronado",
+  "meta_title": "Buy & Sell Homes in Coronado | Prime Local Homes - Reza Barghlameno",
+  "meta_description": "Expert Coronado real estate service with Reza Barghlameno. Find homes for sale, get market analysis. Express service available for urgent buyers.",
+  "h1_title": "Coronado Real Estate Expert - Buy & Sell with Reza Barghlameno",
+  "primary_keywords": [
+    "Coronado real estate",
+    "homes for sale in Coronado",
+    "buy house in Coronado",
+    "sell home in Coronado",
+    "Prime Local Homes Coronado",
+    "Reza Barghlameno Coronado"
+  ],
+  "secondary_keywords": [
+    "best realtor in Coronado",
+    "luxury homes in Coronado",
+    "condos for sale in Coronado",
+    "single family homes in Coronado",
+    "townhomes in Coronado",
+    "new listings Coronado",
+    "property market Coronado",
+    "real estate trends Coronado"
+  ],
+  "express_keywords": [
+    "fast home buying Coronado",
+    "urgent house search Coronado",
+    "express real estate service Coronado",
+    "same day home finding Coronado",
+    "quick house purchase Coronado",
+    "emergency realtor Coronado",
+    "weekend home buying Coronado",
+    "family emergency home search Coronado"
+  ],
+  "agent_keywords": [
+    "Reza Barghlameno",
+    "Reza Barghlameno realtor",
+    "Reza Barghlameno Coronado",
+    "Reza Barghlameno real estate agent",
+    "Reza Barghlameno Prime Local Homes",
+    "top realtor Coronado Reza Barghlameno"
+  ],
+  "landing_page_text": "Welcome to Coronado, California - one of San Diego County's most sought-after communities for homebuyers and sellers. Reza Barghlameno, your trusted Coronado real estate expert with Prime Local Homes, brings over 20 years of experience to guide you through every aspect of your real estate journey. Coronado, known for its pristine beaches, charming downtown, and iconic landmarks like the Hotel del Coronado, offers a unique blend of luxury and community living. The real estate market here is vibrant, with a mix of historic homes, modern condos, and luxurious oceanfront properties. Whether you're looking to buy a house in Coronado or sell your current home, Reza Barghlameno's expertise ensures you make informed decisions. \n\nThe Coronado real estate market is characterized by its high demand and limited inventory, making it a competitive arena for buyers and sellers alike. With homes for sale in Coronado ranging from quaint cottages to sprawling estates, there's something for every taste and budget. Reza Barghlameno provides personalized service, leveraging his deep market knowledge and negotiation skills to help clients secure their dream homes or achieve top dollar for their properties. \n\nCoronado is divided into several distinct neighborhoods, each offering its own unique charm and amenities. The Village is perfect for those who love being in the heart of the action, with easy access to shops, restaurants, and the beach. For families, the Coronado Cays offers a tranquil setting with beautiful waterfront homes and a strong sense of community. Meanwhile, the Shores is ideal for those seeking luxury condos with stunning ocean views. \n\nEducation is a top priority in Coronado, with highly-rated schools such as Coronado High School and Silver Strand Elementary. Families are drawn to the area not just for its educational offerings but also for the safe, community-oriented environment. \n\nInvestors will find Coronado appealing due to its strong rental market, driven by the area's popularity among vacationers and military personnel stationed at nearby Naval Base Coronado. The combination of a stable economy, desirable location, and Reza Barghlameno's strategic insights makes investing in Coronado real estate a wise decision. \n\nFor those ready to embark on their real estate journey in Coronado, Reza Barghlameno and Prime Local Homes offer unparalleled service. With a commitment to client satisfaction and a proven track record, Reza is the ideal partner for buying or selling your home in Coronado. Contact him today to explore the opportunities awaiting you in this beautiful coastal community.",
+  "express_service": "When life demands immediate housing solutions, Reza Barghlameno's Express Service delivers results with unmatched speed and reliability in Coronado. Whether you're facing a sudden job relocation, a family emergency, or simply need to move quickly, Reza's team is equipped to handle your needs efficiently. Our express service includes 48-72 hour home finding, ensuring you have access to the best available listings in record time. We also offer same-day mortgage approval through our network of trusted lenders, helping you secure financing without delay. \n\nOur weekend service is perfect for those with busy schedules, allowing you to view properties and make decisions at your convenience. For families expecting a new addition, we prioritize finding the perfect home to accommodate your growing needs. Reza Barghlameno's express service is also ideal for those undergoing job relocations, with tailored solutions to make your transition as smooth as possible. \n\nOur partner network extends beyond real estate, offering renovation and moving services to ensure your new home is move-in ready. With 24/7 availability, Reza and his team are always on hand to address your concerns and provide guidance. Success stories from past clients highlight our commitment to delivering exceptional results, even under tight timelines. Choose Reza Barghlameno's Express Service for a seamless and stress-free real estate experience.",
+  "neighborhood_guide": "Coronado is home to several distinctive neighborhoods, each offering unique benefits for different buyer types. The Village is the heart of Coronado, perfect for those who enjoy a bustling atmosphere with easy access to shops, dining, and the beach. It's an ideal location for young professionals and retirees alike who appreciate walkability and a vibrant community. \n\nFor families, the Coronado Cays offers a serene, waterfront lifestyle with spacious homes and a strong sense of community. It's a great choice for those who value privacy and outdoor activities, with plenty of parks and recreational options nearby. \n\nThe Shores is a haven for luxury seekers, offering high-rise condos with breathtaking ocean views. This area is popular among those looking for a vacation home or a permanent residence with resort-style amenities. Reza Barghlameno's insights and recommendations ensure you find the perfect neighborhood to suit your lifestyle and needs.",
+  "market_analysis": "The current Coronado real estate market is characterized by high demand and limited inventory, leading to competitive conditions for buyers. Home prices have steadily increased, reflecting the area's desirability and strong economic fundamentals. Reza Barghlameno's professional forecasts suggest that this trend will continue, making now an opportune time to invest in Coronado real estate. \n\nWith interest rates remaining relatively low, buyers have a unique opportunity to secure favorable financing terms. Sellers, on the other hand, can benefit from the high demand and achieve top dollar for their properties. Reza's in-depth market analysis and strategic approach ensure that clients are well-positioned to capitalize on these market conditions.",
+  "agent_name": "Reza Barghlameno",
+  "company_name": "socalprimehomes.com",
+  "contact_phone": "+1 858-305-4362",
+  "contact_email": "reza@socalprimehomes.com",
+  "cta_text": "Ready to buy or sell in Coronado? Contact Reza Barghlameno today for expert guidance and express service when you need it most."
+}

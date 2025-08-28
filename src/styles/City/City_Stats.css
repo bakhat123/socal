@@ -1,0 +1,75 @@
+/* City Stats Styles - Individual City Pages */
+.city-stats-enhanced {
+  padding: 100px 40px;
+  background: var(--white);
+}
+
+.city-stats-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.stat-card {
+  text-align: center;
+  padding: 40px 30px;
+  background: linear-gradient(135deg, var(--cream) 0%, rgba(248, 246, 240, 0.8) 100%);
+  border-radius: 20px;
+  transition: all 0.4s ease;
+  border: 1px solid rgba(212, 175, 55, 0.1);
+}
+
+.stat-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  border-color: rgba(212, 175, 55, 0.3);
+}
+
+.stat-number {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  font-weight: 600;
+  color: var(--gold);
+  margin-bottom: 10px;
+  display: block;
+}
+
+.stat-label {
+  font-size: 14px;
+  color: var(--charcoal);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  opacity: 0.8;
+  font-weight: 500;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .city-stats-enhanced {
+    padding: 80px 20px;
+  }
+  
+  .stats-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .city-stats-enhanced {
+    padding: 60px 20px;
+  }
+  
+  .stat-card {
+    padding: 30px 20px;
+  }
+  
+  .stat-number {
+    font-size: 32px;
+  }
+}

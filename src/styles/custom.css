@@ -1,0 +1,42 @@
+/* Add any custom utility classes here */
+
+/* Spinner animation for uploads */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+
+.premium-border {
+  border: 2px solid transparent;
+  background: linear-gradient(135deg, var(--gold), #E8C252, var(--gold)) border-box;
+  -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out;
+  mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+}
+
+/* MOVED TO src/styles/County/CountyContent.css */
+
+/* Consultation styles moved to: src/styles/Consultation.css */
+
+/* MOVED TO src/styles/County/CountyContent.css */
+
+/* MOVED TO src/styles/County/CountyHero.css */
+
+
+
+/* MOVED TO src/styles/County/CountyCities.css */
+
+/* MOVED TO src/styles/County/CountyCities.css */
+
+/* MOVED TO src/styles/County/CountyCities.css */
+
+/* MOVED TO src/styles/County/CountyCities.css */
+
+/* MOVED TO src/styles/County/CountyCities.css */
+
+/* MOVED TO src/styles/County/CountyCities.css */
+
+/* CTA Section Consultation styles moved to: src/styles/Consultation.css */

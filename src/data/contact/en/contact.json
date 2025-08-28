@@ -1,0 +1,142 @@
+{
+  "locale": "en",
+  "author": {
+    "name": "Reza Barghlamen",
+    "photo": "/raza.jpg"
+  },
+  "form": {
+    "header": {
+      "badge": "Ready to Connect",
+      "title": "Contact Crown Coastal Concierge",
+      "subtitle": "Ready to start your real estate journey? Get in touch today and let's discuss your dream property in San Diego."
+    },
+    "fields": {
+      "name": {
+        "label": "Full Name",
+        "placeholder": "Enter your full name",
+        "required": "*"
+      },
+      "phone": {
+        "label": "Phone Number",
+        "placeholder": "Enter your phone number",
+        "required": "*"
+      },
+      "email": {
+        "label": "Email Address",
+        "placeholder": "Enter your email address",
+        "required": "*"
+      },
+      "message": {
+        "label": "Message",
+        "placeholder": "Tell us about your real estate needs, preferred locations, budget, and any specific requirements...",
+        "required": "*"
+      }
+    },
+    "consent": {
+      "title": "Privacy & Consent",
+      "text": "By submitting your information, you agree that the real estate professional identified above may call/text you about your search, which may involve use of automated means and pre-recorded/artificial voices. You don't need to consent as a condition of buying any property, goods, or services. Message/data rates may apply. You also agree to our Terms of Use."
+    },
+    "submit": {
+      "sending": "Sending Message...",
+      "send": "Send Message"
+    },
+    "footer": {
+      "responseTime": "We typically respond within 2 hours during business hours"
+    }
+  },
+  "hero": {
+    "profileStatus": "Available Now",
+    "profileCompany": "eXp of California",
+    "profileTitle": "Lead of Crown Coastal Concierge",
+    "profileBadges": {
+      "topProducer": "",
+      "fiveStarRated": ""
+    },
+    "recentSales": {
+      "title": "Recent Sales",
+      "seeAll": "See All",
+      "sold": "Sold",
+      "properties": [
+        {
+          "address": "4632 Kensington Dr San Diego, CA, 92116",
+          "price": "$1,695,000",
+          "year": "2025",
+          "imageUrl": "/contact/property_1.png"
+        },
+        {
+          "address": " 30960 Eagle Ct Temecula, CA, 92591",
+          "price": "\t$779,800",
+          "year": "2025",
+          "imageUrl": "/contact/property_2.png"
+        },
+        {
+          "address": "10800 Valley Dr Riverside, CA, 92505",
+          "price": "$880,000",
+          "year": "2025",
+          "imageUrl": "/contact/property_3.png"
+        },
+        {
+          "address": "1750 W Citracado Pkwy W #164 Escondido, CA, 92029",
+          "price": "$515,000",
+          "year": "2025",
+          "imageUrl": "/contact/property_4.png"
+        },
+        {
+          "address": "375 Ventasso Way Fallbrook, CA, 92028",
+          "price": "$880,000",
+          "year": "2024",
+          "imageUrl": "/contact/property_5.png"
+        },
+        {
+          "address": " 1995 Casablanca Ct Vista, CA, 92081",
+          "price": "$1,035,000",
+          "year": "2024",
+          "imageUrl": "/contact/property_6.png"
+        },
+        {
+          "address": " 42006 Village 42 Camarillo, CA, 93012",
+          "price": "$840,000",
+          "year": "2024",
+          "imageUrl": "/contact/property_7.png"
+        },
+        {
+          "address": " 708 Pascali Ct San Marcos, CA, 92069",
+          "price": "\t$1,495,000",
+          "year": "2024",
+          "imageUrl": "/contact/property_8.png"
+        },
+        {
+          "address": "1721 Calle Platico Oceanside, CA, 92056",
+          "price": "$865,000",
+          "year": "2024",
+          "imageUrl": "/contact/property_9.png"
+        }
+      ]
+    }
+  },
+  "info": {
+    "description": {
+      "title": "Get to know about Reza",
+      "subtitle": "Real Estate Professional",
+      "text1": "With a journey that has taken him across 32 countries and over a hundred cities, Reza brings a world of experience and a unique global perspective to San Diego's real estate market. He firmly believes there's no place like San Diego, with its unparalleled coastal lines, vibrant cityscape, and endless adventures.",
+      "text2": "Utilizing 17 years of client management & negotiation expertise, Reza has perfected the art of understanding his clients' needs and exceeding their expectations. But it's not just about transactions for him. Whether guiding sellers to maximize their home's value or helping buyers find their dream property, Reza's true passion lies in scoring big for his clients.",
+      "text3": "Beyond real estate, Reza is deeply embedded in the fabric of the San Diego community. He's championed righteous causes through grassroots petitions, actively participated in beach clean-ups, and tirelessly worked to uplift underserved communities via various government-subsidized programs. For Reza, real estate isn't just business—it's a platform to further serve and enrich the community he cherishes most."
+    },
+    "specialties": {
+      "title": "Specialties",
+      "tags": [
+        "Buyer's Agent",
+        "Listing Agent",
+        "Relocation",
+        "Vacation / Short-term Rentals"
+      ],
+      "languages": "Speaks: English, Arabic, Farsi, Turkish"
+    }
+  },
+  "newProperty": {
+    "address": "",
+    "price": "",
+    "year": "",
+    "imageUrl": ""
+  }
+}

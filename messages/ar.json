@@ -1,0 +1,265 @@
+{
+  "navigation": {
+    "cities": "المدن",
+    "blogs": "المدونات",
+    "services": "الخدمات",
+    "contact": "اتصل بنا"
+  },
+  "hero": {
+    "badge": "العقارات الفاخرة العالمية",
+    "title": "عقارات حصرية للعملاء المميزين",
+    "subtitle": "مع أكثر من 20 عاماً من الخبرة، نربط المشترين الدوليين بأفضل العقارات في أكثر المواقع المرغوبة في العالم.",
+    "viewProperties": "عرض العقارات",
+    "contactUs": "اتصل بنا",
+    "scrollDown": "مرر للأسفل"
+  },
+  "stats": {
+    "yearsExperience": "سنوات الخبرة",
+    "billionInSales": "مليارات المبيعات",
+    "countriesServed": "الدول المخدومة",
+    "clientSatisfaction": "رضا العملاء"
+  },
+  "cities": {
+    "title": "استكشف مدن كاليفورنيا",
+    "subtitle": "اكتشف أكثر المواقع المرغوبة في الولاية الذهبية، كل منها يوفر فرص نمط حياة فريدة وإمكانيات استثمارية.",
+    "population": "السكان",
+    "avgHomePrice": "متوسط سعر المنزل",
+    "neighborhoods": "الأحياء",
+    "pageHeader": {
+      "eyebrow": "جميع المدن",
+      "title": "اكتشف أفضل مدن كاليفورنيا",
+      "subtitle": "استكشف مجموعتنا المختارة من الوجهات المميزة في الولاية الذهبية"
+    },
+    "search": {
+      "title": "ابحث عن مدينتك المثالية",
+      "subtitle": "ابحث باسم المدينة أو الولاية أو الميزات"
+    },
+    "noResults": {
+      "title": "لم يتم العثور على مدن",
+      "text": "حاول تعديل مصطلحات البحث أو تصفح جميع المدن أدناه",
+      "button": "مسح البحث"
+    },
+    "hero": {
+      "title": "مرحباً بك في {cityName}",
+      "subtitle": "اكتشف السحر الفريد والفرص في هذه المدينة النابضة بالحياة في كاليفورنيا",
+      "exploreProperties": "استكشف العقارات",
+      "contactAgent": "اتصل بالوكيل"
+    },
+    "highlights": {
+      "title": "أبرز المدينة",
+      "subtitle": "ما يجعل {cityName} مميزة"
+    },
+    "faqs": {
+      "title": "الأسئلة الشائعة",
+      "subtitle": "كل ما تحتاج لمعرفته عن {cityName}"
+    },
+    "clients": {
+      "title": "عملاؤنا في {cityName}",
+      "subtitle": "مجتمع متنوع من المحترفين والعائلات الذين نخدمهم"
+    },
+    "cityPage": {
+      "residents": "سكان",
+      "avgPrice": "متوسط السعر",
+      "premiumDestination": "وجهة مميزة",
+      "discoverMagicOf": "اكتشف سحر",
+      "exploreProperties": "استكشف العقارات",
+      "contactAgent": "اتصل بالوكيل",
+      "population": "السكان",
+      "avgHomePrice": "متوسط سعر المنزل",
+      "neighborhoods": "الأحياء",
+      "highlights": "النقاط البارزة",
+      "about": "حول",
+      "whatMakesSpecial": "ما الذي يجعل {cityName} مميزة",
+      "noHighlightsAvailable": "لا توجد نقاط بارزة متاحة لـ {cityName}",
+      "nearbyCities": "المدن القريبة",
+      "exploreSurroundingAreas": "استكشف المناطق المحيطة",
+      "discoverDiverseNeighborhoods": "اكتشف الأحياء والمدن المتنوعة حول {cityName}",
+      "county": "المقاطعة",
+      "faq": "الأسئلة الشائعة",
+      "everythingYouNeedToKnow": "كل ما تحتاج لمعرفته",
+      "allQuestions": "جميع الأسئلة",
+      "exploreAllCities": "استكشف جميع المدن",
+      "readyToFindDreamProperty": "هل أنت مستعد لإيجاد عقارك المثالي؟",
+      "contactExpertTeam": "تواصل مع فريق الخبراء لدينا اليوم للحصول على استشارة مخصصة وابدأ رحلتك لإيجاد المنزل أو عقار الاستثمار المثالي.",
+      "scheduleConsultation": "جدولة استشارة",
+      "readyToBuyOrSell": "هل أنت مستعد للشراء أو البيع في {cityName}؟ تواصل مع رضا برغلامينو اليوم للحصول على إرشادات خبيرة وخدمة سريعة عندما تحتاجها أكثر.",
+      "rezaBarghlameno": "رضا برغلامينو",
+      "primeLocalHomes": "بريم لوكال هومز",
+      "name": "الاسم",
+      "enterYourName": "أدخل اسمك",
+      "phone": "الهاتف",
+      "enterYourPhone": "أدخل هاتفك",
+      "email": "البريد الإلكتروني",
+      "enterYourEmail": "أدخل بريدك الإلكتروني",
+      "message": "الرسالة",
+      "enterYourMessage": "أدخل رسالتك",
+      "sendMessage": "إرسال الرسالة",
+      "sending": "جاري الإرسال...",
+      "backToHome": "العودة للرئيسية",
+      "title": "اللقب"
+    },
+    "countyPage": {
+      "cities": "المدن",
+      "avgPrice": "متوسط السعر",
+      "premiumDestination": "وجهة مميزة",
+      "discoverMagicOf": "اكتشف سحر",
+      "exploreProperties": "استكشف العقارات",
+      "contactAgent": "اتصل بالوكيل",
+      "about": "حول",
+      "welcomeTo": "مرحباً بك في",
+      "yourRealEstateJourney": "رحلة العقارات الخاصة بك تبدأ من هنا",
+      "expressService": "خدمة سريعة",
+      "whenTimeIsEssence": "عندما يكون الوقت جوهرياً",
+      "whatMakesSpecial": "ما الذي يجعل {countyName} مميزة",
+      "marketAnalysis": "تحليل السوق",
+      "currentRealEstateTrends": "اتجاهات العقارات الحالية في {countyName}",
+      "countyGuide": "دليل المقاطعة",
+      "discoverBestAreas": "اكتشف أفضل المناطق في {countyName}",
+      "citiesInCounty": "المدن في {countyName}",
+      "exploreCitiesInCounty": "استكشف المدن في {countyName}",
+      "discoverDiverseCities": "اكتشف المدن والمجتمعات المتنوعة داخل {countyName}",
+      "searchCities": "البحث في المدن...",
+      "citiesFound": "مدينة",
+      "noCitiesFound": "لم يتم العثور على مدن في {countyName}",
+      "citiesInfoUpdating": "معلومات المدن قيد التحديث حالياً. يرجى التحقق لاحقاً.",
+      "citiesInfoEnglishOnly": "معلومات المدن متاحة باللغة الإنجليزية حالياً. نحن نعمل على الترجمة.",
+      "viewInEnglish": "عرض باللغة الإنجليزية",
+      "previous": "السابق",
+      "next": "التالي",
+      "backToHome": "العودة إلى الصفحة الرئيسية",
+      "highlights": "النقاط البارزة",
+      "faqs": "الأسئلة الشائعة",
+      "population": "السكان",
+      "readyToFindDreamProperty": "هل أنت مستعد للعثور على عقارك المثالي؟",
+      "contactExpertTeam": "اتصل بفريقنا الخبير اليوم للحصول على استشارة شخصية وابدأ رحلتك للعثور على المنزل المثالي أو عقار الاستثمار.",
+      "scheduleConsultation": "جدولة استشارة",
+      "readyToBuyOrSell": "هل أنت مستعد للشراء أو البيع في {countyName}؟ اتصل بـ Reza Barghlameno اليوم للحصول على التوجيه الخبير والخدمة السريعة عندما تحتاجها أكثر.",
+      "rezaBarghlameno": "Reza Barghlameno",
+      "primeLocalHomes": "Prime Local Homes",
+      "name": "الاسم",
+      "enterYourName": "أدخل اسمك",
+      "phone": "الهاتف",
+      "enterYourPhone": "أدخل هاتفك",
+      "email": "البريد الإلكتروني",
+      "enterYourEmail": "أدخل بريدك الإلكتروني",
+      "message": "الرسالة",
+      "enterYourMessage": "أدخل رسالتك",
+      "sendMessage": "إرسال الرسالة",
+      "sending": "جاري الإرسال...",
+      "title": "اللقب"
+    },
+    "countyCards": {
+      "destinations": "المناطق التي تتوفر فيها خدماتنا",
+      "loadingCounties": "جاري تحميل المقاطعات...",
+      "noCountiesAvailable": "لا توجد مقاطعات متاحة في الوقت الحالي.",
+      "seeAllCities": "عرض جميع المدن",
+      "cities": "مدن",
+      "orangeCounty": {
+        "name": "مقاطعة أورانج",
+        "description": "منطقة ساحلية معروفة بشواطئها الخلابة والأحياء الراقية والمجتمعات الصديقة للعائلة، مع مطاعم وتسوق من الطراز العالمي.",
+        "tags": {
+          "coastalLiving": "الحياة الساحلية",
+          "familyFriendly": "صديق للعائلة"
+        }
+      },
+      "losAngelesCounty": {
+        "name": "مقاطعة لوس أنجلوس",
+        "description": "مركز ثقافي متنوع يقدم كل شيء من الترفيه والفنون إلى المناطق التجارية النابضة بالحياة والهروب الساحلي الخلاب.",
+        "tags": {
+          "culturalDiversity": "التنوع الثقافي",
+          "entertainment": "الترفيه"
+        }
+      },
+      "sanDiegoCounty": {
+        "name": "مقاطعة سان دييغو",
+        "description": "جنة هادئة مع شواطئ جميلة ومشهد تكنولوجي وحيوي للتكنولوجيا الحيوية وطقس مثالي على مدار العام.",
+        "tags": {
+          "beaches": "الشواطئ",
+          "outdoorLiving": "الحياة في الهواء الطلق"
+        }
+      }
+    }
+  },
+  "blog": {
+    "title": "أحدث الرؤى",
+    "subtitle": "اكتشف وجهات نظرنا الخبيرة في أسواق العقارات الفاخرة حول العالم.",
+    "date": "15 يونيو 2023",
+    "articleTitle": "مستقبل الفخامة: الأسواق الناشئة التي يجب مراقبتها في 2024",
+    "excerpt": "مع تغير أنماط الثروة العالمية، نحلل النجوم الصاعدة في العقارات الفاخرة التي يجب أن يكون لدى المستثمرين الأذكياء على رادارهم للعام القادم.",
+    "readArticle": "اقرأ المقال",
+    "exploreMore": "استكشف المزيد من الرؤى",
+    "meta": {
+      "title": "رؤى وأخبار العقارات الفاخرة | برستيج إستيتس",
+      "description": "ابق على اطلاع مع التحليل الخبير والاتجاهات السوقية والرؤى الحصرية من عالم استثمارات العقارات الفاخرة."
+    },
+    "featured": "مميز",
+    "by": "بواسطة",
+    "sectionHeader": {
+      "title": "أحدث رؤى السوق",
+      "subtitle": "ابق على اطلاع مع تحليلنا الخبير والمواضيع الرائجة في أسواق العقارات الفاخرة حول العالم."
+    },
+    "pagination": {
+      "previous": "السابق",
+      "next": "التالي"
+    }
+  },
+  "services": {
+    "title": "خدماتنا",
+    "subtitle": "حلول عقارية شاملة مصممة خصيصاً لاحتياجاتك الفريدة.",
+    "propertyAcquisition": {
+      "title": "اقتناء العقارات",
+      "description": "شبكتنا العالمية وخبرتنا السوقية تضمن لك العثور على العقار المثالي الذي يلبي جميع متطلباتك."
+    },
+    "investmentAdvisory": {
+      "title": "الاستشارات الاستثمارية",
+      "description": "إرشادات استراتيجية لتعظيم العوائد على استثماراتك العقارية مع نهجنا القائم على البيانات."
+    },
+    "relocationServices": {
+      "title": "خدمات النقل",
+      "description": "دعم شامل للعملاء الدوليين الذين ينتقلون إلى بلدان جديدة، بما في ذلك المساعدة القانونية واللوجستية."
+    }
+  },
+  "cta": {
+    "title": "مستعد لإيجاد عقار أحلامك؟",
+    "text": "اتصل بفريق خبرائنا اليوم للحصول على استشارة شخصية وابدأ رحلتك لإيجاد المنزل أو عقار الاستثمار المثالي.",
+    "button": "جدولة استشارة",
+    "rezaBarghlameno": "رضا برغلامينو",
+    "primeLocalHomes": "بريم لوكال هومز",
+    "readyToBuyOrSell": "هل أنت مستعد للشراء أو البيع في جنوب كاليفورنيا؟ تواصل مع رضا برغلامينو اليوم للحصول على إرشادات خبيرة وخدمة سريعة عندما تحتاجها أكثر.",
+    "salutationLabel": "اللقب",
+    "name": "الاسم",
+    "enterYourName": "أدخل اسمك",
+    "phone": "الهاتف",
+    "enterYourPhone": "أدخل هاتفك",
+    "email": "البريد الإلكتروني",
+    "enterYourEmail": "أدخل بريدك الإلكتروني",
+    "message": "الرسالة",
+    "enterYourMessage": "أدخل رسالتك",
+    "sendMessage": "إرسال الرسالة",
+    "sending": "جاري الإرسال...",
+    "back": "رجوع"
+  },
+  "footer": {
+    "about": "مع أكثر من عقدين من الخبرة، سوكال برايم هومز هي شركة استشارات عقارية عالمية رائدة متخصصة في العقارات الفاخرة وخدمات النقل المخصصة.",
+    "quickLinks": "روابط سريعة",
+    "locations": "المواقع",
+    "contact": "اتصل بنا",
+    "services": "الخدمات",
+    "insights": "الرؤى",
+    "northAmerica": "أمريكا الشمالية",
+    "europe": "أوروبا",
+    "asia": "آسيا",
+    "middleEast": "الشرق الأوسط",
+    "phone": "+1 (800) 555-1234",
+    "email": "info@prestigeestates.com",
+    "address": "123 جادة الفخامة<br />بيفرلي هيلز، كاليفورنيا 90210",
+    "copyright": "© 2025، مصنوع بحب في كاليفورنيا",
+    "citiesDescription": "المدن - استكشف مدننا المميزة واكتشف فرص العقارات المميزة في المواقع المتميزة",
+    "blogsDescription": "المدونات - ابق على اطلاع بأحدث الرؤى العقارية واتجاهات السوق ونصائح الاستثمار",
+    "contactDescription": "اتصل بنا - تواصل مع فريق الخبراء لدينا للحصول على استشارات عقارية مخصصة ودعم",
+    "partnersTitle": "شركاؤنا",
+    "partnersDescription": "موثوق به من قبل كبار المتخصصين والمنظمات العقارية في جميع أنحاء العالم. شركاؤك المميزون للعقارات الساحلية الفاخرة في كاليفورنيا.",
+    "privacyPolicy": "سياسة الخصوصية",
+    "termsOfService": "شروط الخدمة"
+  }
+}

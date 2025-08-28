@@ -1,0 +1,288 @@
+{
+  "slug": "del-mar",
+  "name": "Del Mar",
+  "state": "California",
+  "language": "en",
+  "shortDescription": "An exclusive coastal enclave known for upscale living, the historic racetrack, and pristine beaches in North County San Diego.",
+  "fullDescription": "Del Mar epitomizes sophisticated coastal living with its famous racetrack, cliffside beaches, and village charm. This affluent community offers breathtaking ocean views, luxury boutiques, and gourmet dining along the Coast Highway. Home to the 'Where the turf meets the surf' summer racing season, Del Mar attracts discerning residents who value privacy, natural beauty, and proximity to both San Diego and Los Angeles.",
+  "heroImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Del Mar coastline with dramatic cliffs and ocean vista",
+  "population": "4K+",
+  "avgHomePrice": "$3.8M",
+  "tags": [
+    "Luxury",
+    "Beaches",
+    "Equestrian"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Solana Beach",
+      "type": "city",
+      "slug": "solana-beach",
+      "description": "Neighboring coastal town with the Cedros Design District, Fletcher Cove Beach, and vibrant arts scene.",
+      "image": "https://images.unsplash.com/photo-1567360425618-1594206637d2?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Solana Beach coastline and Cedros Avenue",
+      "distance": "2 miles north",
+      "avgHomePrice": "$2.3M",
+      "county": "San Diego"
+    },
+    {
+      "name": "Encinitas",
+      "type": "city",
+      "slug": "encinitas",
+      "description": "Bohemian beach community with legendary surf spots, meditation gardens, and coastal eateries.",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Encinitas surf culture and beach scene",
+      "distance": "6 miles north",
+      "avgHomePrice": "$1.9M",
+      "county": "San Diego"
+    },
+    {
+      "name": "Carlsbad",
+      "type": "city",
+      "slug": "carlsbad",
+      "description": "Family-friendly coastal city featuring LEGOLAND, expansive beaches, and the Flower Fields.",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1920&q=80",
+      "imageAlt": "Carlsbad coastline at sunset",
+      "distance": "15 miles north",
+      "avgHomePrice": "$1.8M",
+      "county": "San Diego"
+    },
+    {
+      "name": "San Diego",
+      "type": "city",
+      "slug": "san-diego",
+      "description": "Major metropolitan center with world-class dining, cultural attractions, and urban beaches.",
+      "image": "https://images.unsplash.com/photo-1501426026826-31c667bdf23d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "San Diego skyline and harbor",
+      "distance": "15 miles south",
+      "avgHomePrice": "$950K",
+      "county": "San Diego"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Del Mar Racetrack",
+      "description": "Historic thoroughbred racing venue with summer meets and year-round entertainment events.",
+      "icon": "🏇",
+      "bgImage": "https://images.unsplash.com/photo-1505761671935-60b3a7427bad?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Horse racing at Del Mar Racetrack"
+    },
+    {
+      "title": "Powerhouse Park & Beach",
+      "description": "Iconic oceanfront park with beach access, playground, and stunning sunset views.",
+      "icon": "🌊",
+      "bgImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Powerhouse Park overlooking Del Mar beach"
+    },
+    {
+      "title": "Del Mar Village",
+      "description": "Upscale downtown with designer boutiques, art galleries, and fine dining establishments.",
+      "icon": "🛍️",
+      "bgImage": "https://images.unsplash.com/photo-1488747279002-c8523379faaa?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Charming street in Del Mar Village"
+    },
+    {
+      "title": "Torrey Pines State Reserve",
+      "description": "Protected coastal wilderness with hiking trails, rare pines, and panoramic ocean views.",
+      "icon": "🌲",
+      "bgImage": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Hiking trail in Torrey Pines State Reserve"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is Del Mar known for?",
+      "answer": "The Del Mar Racetrack, luxury coastal living, dramatic cliffside beaches, and its exclusive village atmosphere.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "Are there public beach access points?",
+      "answer": "Limited public access via pathways like 15th Street and Powerhouse Park. Beachfront is primarily residential.",
+      "category": "Recreation"
+    },
+    {
+      "question": "How is the school system in Del Mar?",
+      "answer": "Top-rated Del Mar Union School District, with students feeding into highly-ranked San Dieguito High School District.",
+      "category": "Education"
+    },
+    {
+      "question": "What is the average home price?",
+      "answer": "Del Mar consistently ranks among California's most expensive markets, with median prices exceeding $3.5 million.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "What's the average home price in Del Mar?",
+      "answer": "The average home price in Del Mar varies by neighborhood and property type. Reza Barghlameno provides current market analysis and helps buyers find homes within their budget. Contact Reza for the latest pricing data and market insights specific to your needs.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "How quickly can Reza help me buy a home in Del Mar?",
+      "answer": "Reza Barghlameno's Express Service can find homes in Del Mar within 48-72 hours for urgent buyers. With same-day mortgage pre-approval and weekend service availability, Reza accelerates the entire buying process while maintaining quality service.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "What makes Reza the best realtor in Del Mar?",
+      "answer": "Reza Barghlameno brings 20+ years of Del Mar real estate expertise, local market knowledge, and a proven track record. His express service, partner network, and 24/7 availability set him apart from other agents in San Diego County.",
+      "category": "Real Estate"
+    }
+  ],
+  "clients": [],
+  "canonicalUrl": "",
+  "hreflang_tags": [],
+  "seo": {
+    "metaTitle": "Del Mar CA Real Estate & Lifestyle | Luxury Coastal Living & Racetrack",
+    "metaDescription": "Discover Del Mar's exclusive communities, famous racetrack, luxury real estate, and coastal lifestyle in North County San Diego.",
+    "keywords": "Del Mar real estate, Del Mar Racetrack, luxury homes Del Mar, Del Mar beaches, coastal living, homes for sale in Del Mar, buy house in Del Mar, sell home in Del Mar, Prime Local Homes Del Mar, Reza Barghlameno Del Mar, best realtor in Del Mar, luxury homes in Del Mar, condos for sale in Del Mar, single family homes in Del Mar, townhomes in Del Mar, new listings Del Mar, property market Del Mar, real estate trends Del Mar, fast home buying Del Mar, urgent house search Del Mar, express real estate service Del Mar, same day home finding Del Mar, quick house purchase Del Mar, emergency realtor Del Mar, weekend home buying Del Mar, family emergency home search Del Mar, Reza Barghlameno, Reza Barghlameno realtor, Reza Barghlameno real estate agent, Reza Barghlameno Prime Local Homes, top realtor Del Mar Reza Barghlameno",
+    "ogTitle": "Experience Del Mar: Luxury Coastal Living & Equestrian Heritage",
+    "ogDescription": "Explore exclusive living in Del Mar with its racetrack, beaches, and luxury communities.",
+    "ogImage": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Del Mar coastline with dramatic cliffs",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Del Mar",
+      "description": "Explore real estate, neighborhoods, and highlights in Del Mar, California.",
+      "url": "https://example.com/locations/del-mar",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Del Mar coastline with dramatic cliffs"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Del Mar",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Del Mar known for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Del Mar Racetrack, luxury coastal living, dramatic cliffside beaches, and its exclusive village atmosphere."
+          },
+          "category": "Lifestyle"
+        },
+        {
+          "@type": "Question",
+          "name": "Are there public beach access points?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Limited public access via pathways like 15th Street and Powerhouse Park. Beachfront is primarily residential."
+          },
+          "category": "Recreation"
+        },
+        {
+          "@type": "Question",
+          "name": "How is the school system in Del Mar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Top-rated Del Mar Union School District, with students feeding into highly-ranked San Dieguito High School District."
+          },
+          "category": "Education"
+        },
+        {
+          "@type": "Question",
+          "name": "What is the average home price?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Del Mar consistently ranks among California's most expensive markets, with median prices exceeding $3.5 million."
+          },
+          "category": "Real Estate"
+        },
+        {
+          "@type": "Question",
+          "name": "What's the average home price in Del Mar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The average home price in Del Mar varies by neighborhood and property type. Reza Barghlameno provides current market analysis and helps buyers find homes within their budget. Contact Reza for the latest pricing data and market insights specific to your needs."
+          },
+          "category": "Real Estate"
+        },
+        {
+          "@type": "Question",
+          "name": "How quickly can Reza help me buy a home in Del Mar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Reza Barghlameno's Express Service can find homes in Del Mar within 48-72 hours for urgent buyers. With same-day mortgage pre-approval and weekend service availability, Reza accelerates the entire buying process while maintaining quality service."
+          },
+          "category": "Real Estate"
+        },
+        {
+          "@type": "Question",
+          "name": "What makes Reza the best realtor in Del Mar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Reza Barghlameno brings 20+ years of Del Mar real estate expertise, local market knowledge, and a proven track record. His express service, partner network, and 24/7 availability set him apart from other agents in San Diego County."
+          },
+          "category": "Real Estate"
+        }
+      ]
+    }
+  ],
+  "internal_links": [],
+  "city": "Del Mar",
+  "county": "San Diego",
+  "url_slug": "/real-estate-del-mar",
+  "meta_title": "Buy & Sell Homes in Del Mar | Prime Local Homes - Reza Barghlameno",
+  "meta_description": "Expert Del Mar real estate service with Reza Barghlameno. Find homes for sale, get market analysis. Express service available for urgent buyers.",
+  "h1_title": "Del Mar Real Estate Expert - Buy & Sell with Reza Barghlameno",
+  "primary_keywords": [
+    "Del Mar real estate",
+    "homes for sale in Del Mar",
+    "buy house in Del Mar",
+    "sell home in Del Mar",
+    "Prime Local Homes Del Mar",
+    "Reza Barghlameno Del Mar"
+  ],
+  "secondary_keywords": [
+    "best realtor in Del Mar",
+    "luxury homes in Del Mar",
+    "condos for sale in Del Mar",
+    "single family homes in Del Mar",
+    "townhomes in Del Mar",
+    "new listings Del Mar",
+    "property market Del Mar",
+    "real estate trends Del Mar"
+  ],
+  "express_keywords": [
+    "fast home buying Del Mar",
+    "urgent house search Del Mar",
+    "express real estate service Del Mar",
+    "same day home finding Del Mar",
+    "quick house purchase Del Mar",
+    "emergency realtor Del Mar",
+    "weekend home buying Del Mar",
+    "family emergency home search Del Mar"
+  ],
+  "agent_keywords": [
+    "Reza Barghlameno",
+    "Reza Barghlameno realtor",
+    "Reza Barghlameno Del Mar",
+    "Reza Barghlameno real estate agent",
+    "Reza Barghlameno Prime Local Homes",
+    "top realtor Del Mar Reza Barghlameno"
+  ],
+  "landing_page_text": "Welcome to Del Mar, California - one of San Diego County's most sought-after communities for homebuyers and sellers. Reza Barghlameno, your trusted Del Mar real estate expert with Prime Local Homes, brings over 20 years of experience to guide you through every aspect of your real estate journey. Del Mar is renowned for its stunning coastal views, charming village atmosphere, and vibrant community life. With a diverse range of properties, including luxury homes, condos, and single-family residences, Del Mar offers something for every buyer. The Del Mar real estate market is characterized by its competitive pricing and high demand, driven by the area's desirable location and quality of life. Homes for sale in Del Mar often feature modern amenities, spacious layouts, and proximity to top-rated schools, making it an ideal choice for families. Reza Barghlameno's deep understanding of the local market ensures that whether you're buying or selling, you receive the best possible advice and results. Neighborhoods like Del Mar Heights and Beach Colony offer unique living experiences, each with its own charm and appeal. Del Mar Heights is known for its elevated views and family-friendly environment, while Beach Colony provides direct access to the beach and a laid-back lifestyle. The investment potential in Del Mar is significant, with property values steadily appreciating and a strong rental market for those looking to invest. Reza Barghlameno's expertise extends beyond just buying and selling; he provides comprehensive market analysis, helping clients make informed decisions. With Prime Local Homes, you gain access to a network of professionals, including mortgage lenders and home inspectors, ensuring a seamless transaction. The lifestyle in Del Mar is unparalleled, with its pristine beaches, world-class dining, and annual events like the Del Mar Fair and horse races at the Del Mar Racetrack. These amenities, coupled with the area's natural beauty, make Del Mar a highly desirable place to live. Buyers choose Del Mar not only for its real estate but for the quality of life it offers. Reza Barghlameno is committed to helping you find your dream home or achieve the best sale price for your property. His personalized approach and dedication to client satisfaction set him apart as a top realtor in Del Mar. Ready to embark on your real estate journey? Contact Reza Barghlameno today and experience the difference with Prime Local Homes.",
+  "express_service": "When life demands immediate housing solutions, Reza Barghlameno's Express Service delivers results with unmatched speed and reliability in Del Mar. Our express service is designed for those who need to find a home quickly, whether due to job relocation, family emergencies, or other urgent situations. With a 48-72 hour home finding process, Reza ensures you won't miss out on the perfect property. Our same-day mortgage approval service streamlines the buying process, allowing you to act fast in a competitive market. We offer weekend service to accommodate your busy schedule, ensuring you have access to viewings and consultations when it suits you. For families experiencing emergencies or expecting couples needing a quick move, our priority service guarantees you'll find a suitable home without delay. Reza's extensive network of partners, including mortgage brokers, renovation experts, and moving companies, provides a comprehensive solution to your urgent housing needs. Available 24/7, Reza Barghlameno is committed to providing exceptional service and peace of mind during your home search. Our success stories speak for themselves, with numerous clients finding their ideal homes swiftly and efficiently. Trust Reza's expertise and dedication to guide you through this expedited process with ease.",
+  "neighborhood_guide": "Del Mar is home to several distinct neighborhoods, each offering unique benefits and lifestyles. Del Mar Heights is perfect for families, with its top-rated schools, parks, and community spirit. This area is known for its panoramic views and spacious homes, providing a suburban feel with easy access to urban amenities. Beach Colony, on the other hand, is ideal for those seeking a coastal lifestyle. With its proximity to the beach and vibrant nightlife, it attracts young professionals and retirees alike. The Del Mar Village offers a charming, walkable environment with boutique shopping and dining options, appealing to those who enjoy an active, community-oriented lifestyle. For luxury seekers, the estates in Rancho Del Mar provide privacy, exclusivity, and stunning ocean views. Reza Barghlameno's insights and recommendations ensure that whether you're looking for a family-friendly neighborhood or a luxurious retreat, you'll find the perfect fit in Del Mar.",
+  "market_analysis": "The current Del Mar real estate market is thriving, with property values continuing to rise due to high demand and limited inventory. The average home price in Del Mar has seen a steady increase, reflecting the area's desirability and economic stability. Reza Barghlameno's professional forecasts suggest that this trend will continue, making it an opportune time for both buyers and sellers. The market is characterized by quick turnover, with homes often receiving multiple offers shortly after listing. This competitive environment necessitates expert guidance, and Reza's extensive experience and strategic approach provide clients with a significant advantage. Whether you're looking to invest or sell, understanding these market dynamics is crucial, and Reza is here to provide the insights you need to make informed decisions.",
+  "agent_name": "Reza Barghlameno",
+  "company_name": "socalprimehomes.com",
+  "contact_phone": "+1 858-305-4362",
+  "contact_email": "reza@socalprimehomes.com",
+  "cta_text": "Ready to buy or sell in Del Mar? Contact Reza Barghlameno today for expert guidance and express service when you need it most."
+}

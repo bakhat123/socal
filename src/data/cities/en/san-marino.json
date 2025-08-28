@@ -1,0 +1,277 @@
+{
+  "slug": "san-marino",
+  "name": "San Marino",
+  "state": "California",
+  "language": "en",
+  "shortDescription": "An affluent city in Los Angeles County known for its prestigious schools, historic estates, and the Huntington Library.",
+  "fullDescription": "San Marino is a wealthy residential community located in the San Gabriel Valley of Los Angeles County. Known for its tree-lined streets, expansive estates, and top-ranked schools, the city offers a serene and exclusive atmosphere. It is home to the world-renowned Huntington Library, Art Museum, and Botanical Gardens, making it a cultural landmark. Strict zoning laws preserve the city's low-density, suburban charm.",
+  "heroImage": "https://images.unsplash.com/photo-1614215246286-0dba1e1f93a6?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Elegant estate in San Marino with landscaped gardens",
+  "population": "12K+",
+  "avgHomePrice": "$3.5M+",
+  "tags": [
+    "Prestigious schools",
+    "Historic estates",
+    "Cultural attractions"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Mission District",
+      "type": "neighborhood",
+      "slug": "mission-district",
+      "description": "A historic neighborhood featuring elegant homes and proximity to cultural landmarks.",
+      "image": "https://images.unsplash.com/photo-1600585153923-6725b9f6b1de?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Tree-lined residential street",
+      "distance": "central",
+      "avgHomePrice": "$3.8M",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Huntington Grove",
+      "type": "neighborhood",
+      "slug": "huntington-grove",
+      "description": "Area surrounding the Huntington Library with stately homes and mature landscaping.",
+      "image": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Historic home with manicured garden",
+      "distance": "north",
+      "avgHomePrice": "$4M",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Oak Knoll",
+      "type": "neighborhood",
+      "slug": "oak-knoll",
+      "description": "A prestigious residential enclave with large estates and classic architecture.",
+      "image": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Estate with large driveway",
+      "distance": "south",
+      "avgHomePrice": "$3.6M",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "The Huntington Library",
+      "description": "A world-famous library, art museum, and botanical garden.",
+      "icon": "📚",
+      "bgImage": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Botanical gardens at the Huntington"
+    },
+    {
+      "title": "Top-Ranked Schools",
+      "description": "San Marino Unified School District is among the highest-rated in California.",
+      "icon": "🏫",
+      "bgImage": "https://images.unsplash.com/photo-1596495577886-d920f1fb7238?auto=format&fit=crop&w=800&q=80",
+      "bgImageAlt": "School building with students"
+    },
+    {
+      "title": "Historic Architecture",
+      "description": "Home to well-preserved estates with Colonial Revival, Mediterranean, and Tudor styles.",
+      "icon": "🏛️",
+      "bgImage": "https://images.unsplash.com/photo-1614215246286-0dba1e1f93a6?auto=format&fit=crop&w=800&q=80",
+      "bgImageAlt": "Historic mansion"
+    },
+    {
+      "title": "Quiet, Tree-Lined Streets",
+      "description": "Wide streets with lush landscaping offer a peaceful residential setting.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+      "bgImageAlt": "Tree canopy over neighborhood street"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is San Marino known for?",
+      "answer": "San Marino is known for its affluent lifestyle, cultural landmarks, and top-tier schools.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "Is San Marino a good place to live?",
+      "answer": "Yes — it offers exclusivity, excellent education, and a safe, quiet environment.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is the real estate market in San Marino?",
+      "answer": "The market is competitive, with high demand for luxury estates and historic homes.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "Does San Marino have public parks?",
+      "answer": "Yes — the city has several parks and is near the Huntington Botanical Gardens.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "What's the average home price in San Marino?",
+      "answer": "The average home price in San Marino varies by neighborhood and property type. Reza Barghlameno provides current market analysis and helps buyers find homes within their budget. Contact Reza for the latest pricing data and market insights specific to your needs.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "How quickly can Reza help me buy a home in San Marino?",
+      "answer": "Reza Barghlameno's Express Service can find homes in San Marino within 48-72 hours for urgent buyers. With same-day mortgage pre-approval and weekend service availability, Reza accelerates the entire buying process while maintaining quality service.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "What makes Reza the best realtor in San Marino?",
+      "answer": "Reza Barghlameno brings 20+ years of San Marino real estate expertise, local market knowledge, and a proven track record. His express service, partner network, and 24/7 availability set him apart from other agents in Los Angeles County.",
+      "category": "Real Estate"
+    }
+  ],
+  "clients": [],
+  "canonicalUrl": "",
+  "hreflang_tags": [],
+  "seo": {
+    "metaTitle": "San Marino CA Real Estate & Lifestyle | Luxury & Culture",
+    "metaDescription": "Explore San Marino — an exclusive city in Los Angeles County known for luxury estates, top schools, and the Huntington Library.",
+    "keywords": "San Marino real estate, luxury homes, Huntington Library, affluent neighborhoods, homes for sale in San Marino, buy house in San Marino, sell home in San Marino, Prime Local Homes San Marino, Reza Barghlameno San Marino, best realtor in San Marino, luxury homes in San Marino, condos for sale in San Marino, single family homes in San Marino, townhomes in San Marino, new listings San Marino, property market San Marino, real estate trends San Marino, fast home buying San Marino, urgent house search San Marino, express real estate service San Marino, same day home finding San Marino, quick house purchase San Marino, emergency realtor San Marino, weekend home buying San Marino, family emergency home search San Marino, Reza Barghlameno, Reza Barghlameno realtor, Reza Barghlameno real estate agent, Reza Barghlameno Prime Local Homes, top realtor San Marino Reza Barghlameno",
+    "ogTitle": "Discover San Marino: Culture, Luxury & Education",
+    "ogDescription": "Learn about San Marino’s upscale lifestyle, historic estates, and cultural attractions.",
+    "ogImage": "https://images.unsplash.com/photo-1614215246286-0dba1e1f93a6?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Elegant estate in San Marino with landscaped gardens",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "San Marino",
+      "description": "Explore real estate, neighborhoods, and highlights in San Marino, California.",
+      "url": "https://example.com/locations/san-marino",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1614215246286-0dba1e1f93a6?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Elegant estate in San Marino with landscaped gardens"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "San Marino",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is San Marino known for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "San Marino is known for its affluent lifestyle, cultural landmarks, and top-tier schools."
+          },
+          "category": "Lifestyle"
+        },
+        {
+          "@type": "Question",
+          "name": "Is San Marino a good place to live?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes — it offers exclusivity, excellent education, and a safe, quiet environment."
+          },
+          "category": "Lifestyle"
+        },
+        {
+          "@type": "Question",
+          "name": "How is the real estate market in San Marino?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The market is competitive, with high demand for luxury estates and historic homes."
+          },
+          "category": "Real Estate"
+        },
+        {
+          "@type": "Question",
+          "name": "Does San Marino have public parks?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes — the city has several parks and is near the Huntington Botanical Gardens."
+          },
+          "category": "Lifestyle"
+        },
+        {
+          "@type": "Question",
+          "name": "What's the average home price in San Marino?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The average home price in San Marino varies by neighborhood and property type. Reza Barghlameno provides current market analysis and helps buyers find homes within their budget. Contact Reza for the latest pricing data and market insights specific to your needs."
+          },
+          "category": "Real Estate"
+        },
+        {
+          "@type": "Question",
+          "name": "How quickly can Reza help me buy a home in San Marino?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Reza Barghlameno's Express Service can find homes in San Marino within 48-72 hours for urgent buyers. With same-day mortgage pre-approval and weekend service availability, Reza accelerates the entire buying process while maintaining quality service."
+          },
+          "category": "Real Estate"
+        },
+        {
+          "@type": "Question",
+          "name": "What makes Reza the best realtor in San Marino?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Reza Barghlameno brings 20+ years of San Marino real estate expertise, local market knowledge, and a proven track record. His express service, partner network, and 24/7 availability set him apart from other agents in Los Angeles County."
+          },
+          "category": "Real Estate"
+        }
+      ]
+    }
+  ],
+  "internal_links": [],
+  "city": "San Marino",
+  "county": "Los Angeles",
+  "url_slug": "/real-estate-san-marino",
+  "meta_title": "Buy & Sell Homes in San Marino | Prime Local Homes - Reza Barghlameno",
+  "meta_description": "Expert San Marino real estate service with Reza Barghlameno. Find homes for sale, get market analysis. Express service available for urgent buyers.",
+  "h1_title": "San Marino Real Estate Expert - Buy & Sell with Reza Barghlameno",
+  "primary_keywords": [
+    "San Marino real estate",
+    "homes for sale in San Marino",
+    "buy house in San Marino",
+    "sell home in San Marino",
+    "Prime Local Homes San Marino",
+    "Reza Barghlameno San Marino"
+  ],
+  "secondary_keywords": [
+    "best realtor in San Marino",
+    "luxury homes in San Marino",
+    "condos for sale in San Marino",
+    "single family homes in San Marino",
+    "townhomes in San Marino",
+    "new listings San Marino",
+    "property market San Marino",
+    "real estate trends San Marino"
+  ],
+  "express_keywords": [
+    "fast home buying San Marino",
+    "urgent house search San Marino",
+    "express real estate service San Marino",
+    "same day home finding San Marino",
+    "quick house purchase San Marino",
+    "emergency realtor San Marino",
+    "weekend home buying San Marino",
+    "family emergency home search San Marino"
+  ],
+  "agent_keywords": [
+    "Reza Barghlameno",
+    "Reza Barghlameno realtor",
+    "Reza Barghlameno San Marino",
+    "Reza Barghlameno real estate agent",
+    "Reza Barghlameno Prime Local Homes",
+    "top realtor San Marino Reza Barghlameno"
+  ],
+  "landing_page_text": "Welcome to San Marino, California - one of Los Angeles County's most sought-after communities for homebuyers and sellers. Reza Barghlameno, your trusted San Marino real estate expert with Prime Local Homes, brings over 20 years of experience to guide you through every aspect of your real estate journey. Nestled in the heart of the San Gabriel Valley, San Marino is renowned for its prestigious neighborhoods, top-rated schools, and an unparalleled quality of life. Whether you're looking to buy a house in San Marino or sell your home, Reza Barghlameno is dedicated to providing personalized service tailored to your unique needs. \n\nSan Marino real estate offers a diverse range of properties, from charming single-family homes to luxurious estates. The city's architectural landscape is a testament to its rich history, with many homes reflecting classic styles such as Spanish Colonial and Mid-Century Modern. As a prospective buyer, you'll find that homes for sale in San Marino are often situated on spacious lots with mature landscaping, providing a serene and private living environment.\n\nReza Barghlameno's deep understanding of the San Marino real estate market ensures that you receive accurate and up-to-date information on current market trends and pricing. With a median home price significantly higher than the national average, San Marino remains a competitive market, attracting buyers who value exclusivity and community. Reza's expertise in negotiating and closing deals positions you for success, whether you're buying or selling.\n\nFamilies are drawn to San Marino for its exceptional educational opportunities. The San Marino Unified School District consistently ranks among the top in California, offering students a robust academic program and a wide array of extracurricular activities. This focus on education makes San Marino an ideal place for families looking to invest in their children's future.\n\nBeyond academics, San Marino boasts a vibrant community life with numerous parks, cultural institutions, and recreational facilities. The Huntington Library, Art Museum, and Botanical Gardens is a local treasure, offering residents and visitors alike a chance to explore its extensive collections and beautiful grounds. Additionally, the city's proximity to downtown Los Angeles provides easy access to world-class dining, shopping, and entertainment.\n\nChoosing San Marino as your home means embracing a lifestyle of elegance and convenience. With Reza Barghlameno by your side, you have a dedicated partner committed to making your real estate dreams a reality. Contact Reza today to explore the finest homes for sale in San Marino and discover why so many buyers choose this exceptional community.",
+  "express_service": "When life demands immediate housing solutions, Reza Barghlameno's Express Service delivers results with unmatched speed and reliability in San Marino. Understanding that time is often of the essence, Reza offers a comprehensive express real estate service designed to meet urgent needs. Whether you're relocating for a new job, facing a family emergency, or simply pressed for time, Reza's Express Service ensures you find the perfect home quickly and efficiently.\n\nThe Express Service includes a 48-72 hour home finding process, leveraging Reza's extensive network and deep market knowledge. With same-day mortgage approval options and weekend service availability, you can move forward with confidence, knowing that your needs are prioritized. Reza's commitment to client satisfaction means that even in urgent situations, no detail is overlooked.\n\nFor families expecting a new addition or those undergoing significant life changes, Reza offers specialized support to ensure a seamless transition. His partner network, including mortgage brokers, renovation experts, and moving services, provides a full spectrum of resources to facilitate your move. Available 24/7, Reza is dedicated to being there when you need him most, turning stressful situations into successful outcomes.\n\nReza Barghlameno's proven track record in fast home buying and selling is a testament to his ability to deliver under pressure. His personal commitment to each client ensures that your express real estate needs are met with professionalism and care. Reach out to Reza today to experience the difference his Express Service can make in your real estate journey.",
+  "neighborhood_guide": "San Marino is home to several distinguished neighborhoods, each offering unique characteristics and appeal. Reza Barghlameno's insights can help you find the perfect fit for your lifestyle and preferences.\n\nThe Huntington Library District is ideal for those who appreciate cultural enrichment, with easy access to the renowned Huntington Library, Art Museum, and Botanical Gardens. This area features a mix of historic homes and modern residences, providing a diverse living environment.\n\nMission District is a vibrant neighborhood that blends residential charm with a bustling commercial area. It's perfect for buyers who enjoy a lively atmosphere and proximity to shops and restaurants. The district's tree-lined streets and community events make it a favorite among young professionals and families alike.\n\nFor those seeking luxury and privacy, the Oak Knoll area offers expansive estates and a serene setting. Known for its exclusivity, this neighborhood attracts high-end buyers looking for a prestigious address and a tranquil lifestyle.\n\nReza Barghlameno's expertise in these neighborhoods ensures that you receive tailored recommendations based on your specific needs and desires. Whether you're looking for a family-friendly community or a luxurious retreat, Reza can guide you to the best options in San Marino.",
+  "market_analysis": "The current real estate market in San Marino is characterized by high demand and limited inventory, maintaining its status as a seller's market. With a median home price well above the national average, San Marino continues to attract buyers seeking exclusivity and a high quality of life.\n\nReza Barghlameno's professional forecast indicates that while prices remain stable, the market is poised for gradual appreciation due to ongoing demand and the city's desirable location. Buyers are advised to act swiftly, as properties in San Marino often receive multiple offers, driving competitive bidding.\n\nFor sellers, this environment presents an opportunity to maximize returns on investment. Reza's strategic marketing and negotiation skills ensure that your property stands out, attracting qualified buyers and achieving optimal sale prices. Stay informed with Reza's market insights and make confident real estate decisions in San Marino.",
+  "agent_name": "Reza Barghlameno",
+  "company_name": "socalprimehomes.com",
+  "contact_phone": "+1 858-305-4362",
+  "contact_email": "reza@socalprimehomes.com",
+  "cta_text": "Ready to buy or sell in San Marino? Contact Reza Barghlameno today for expert guidance and express service when you need it most."
+}

@@ -1,0 +1,136 @@
+{
+  "locale": "zh",
+  "author": {
+    "name": "Reza Barghlameno",
+    "photo": "/raza.jpg"
+  },
+  "form": {
+    "header": {
+      "badge": "准备联系",
+      "title": "联系 Crown Coastal Concierge",
+      "subtitle": "准备开始您的置业之旅？今天就联系我们，一起聊聊您在圣迭戈的梦想房产。"
+    },
+    "fields": {
+      "name": {
+        "label": "全名",
+        "placeholder": "请输入您的全名",
+        "required": "*"
+      },
+      "phone": {
+        "label": "电话号码",
+        "placeholder": "请输入您的电话号码",
+        "required": "*"
+      },
+      "email": {
+        "label": "电子邮箱",
+        "placeholder": "请输入您的电子邮箱",
+        "required": "*"
+      },
+      "message": {
+        "label": "信息",
+        "placeholder": "请告诉我们您的置业需求、意向区域、预算以及任何具体要求...",
+        "required": "*"
+      }
+    },
+    "consent": {
+      "title": "隐私与同意",
+      "text": "提交信息即表示您同意上述房地产专业人士就您的搜索致电/短信联系您，可能使用自动化方式和预录/人工语音。您无需作为购买任何房产、商品或服务的前提而给出同意。可能会产生短信/数据费用。您也同意我们的使用条款。"
+    },
+    "submit": {
+      "sending": "正在发送消息...",
+      "send": "发送消息"
+    },
+    "footer": {
+      "responseTime": "我们通常会在工作时间的 2 小时内回复"
+    }
+  },
+  "hero": {
+    "profileStatus": "现在可用",
+    "profileCompany": "加州 eXp",
+    "profileTitle": "Crown Coastal Concierge 负责人",
+    "profileBadges": {
+      "topProducer": "",
+      "fiveStarRated": ""
+    },
+    "recentSales": {
+      "title": "最近成交",
+      "seeAll": "查看全部",
+      "sold": "已售",
+      "properties": [
+        {
+          "address": "4632 Kensington Dr San Diego, CA, 92116",
+          "price": "$1,695,000",
+          "year": "2025",
+          "imageUrl": "/contact/property_1.png"
+        },
+        {
+          "address": " 30960 Eagle Ct Temecula, CA, 92591",
+          "price": "\t$779,800",
+          "year": "2025",
+          "imageUrl": "/contact/property_2.png"
+        },
+        {
+          "address": "10800 Valley Dr Riverside, CA, 92505",
+          "price": "$880,000",
+          "year": "2025",
+          "imageUrl": "/contact/property_3.png"
+        },
+        {
+          "address": "1750 W Citracado Pkwy W #164 Escondido, CA, 92029",
+          "price": "$515,000",
+          "year": "2025",
+          "imageUrl": "/contact/property_4.png"
+        },
+        {
+          "address": "375 Ventasso Way Fallbrook, CA, 92028",
+          "price": "$880,000",
+          "year": "2024",
+          "imageUrl": "/contact/property_5.png"
+        },
+        {
+          "address": " 1995 Casablanca Ct Vista, CA, 92081",
+          "price": "$1,035,000",
+          "year": "2024",
+          "imageUrl": "/contact/property_6.png"
+        },
+        {
+          "address": " 42006 Village 42 Camarillo, CA, 93012",
+          "price": "$840,000",
+          "year": "2024",
+          "imageUrl": "/contact/property_7.png"
+        },
+        {
+          "address": " 708 Pascali Ct San Marcos, CA, 92069",
+          "price": "\t$1,495,000",
+          "year": "2024",
+          "imageUrl": "/contact/property_8.png"
+        },
+        {
+          "address": "1721 Calle Platico Oceanside, CA, 92056",
+          "price": "$865,000",
+          "year": "2024",
+          "imageUrl": "/contact/property_9.png"
+        }
+      ]
+    }
+  },
+  "info": {
+    "description": {
+      "title": "了解 Reza",
+      "subtitle": "房地产专业人士",
+      "text1": "Reza 的足迹遍布 32 个国家和一百多座城市，为圣迭戈房地产市场带来了丰富的国际经验和独特的全球视野。他坚信，世界上没有任何地方能与圣迭戈相比，这里拥有无与伦比的海岸线、充满活力的城市风貌和无尽的探险。",
+      "text2": "凭借 17 年的客户管理与谈判经验，Reza 已经将洞察客户需求并超越期望的能力打磨得炉火纯青。但对他来说，这不仅仅是交易。无论是指导卖家最大化房屋价值，还是帮助买家找到梦想之家，Reza 真正的热忱在于为客户创造非凡成果。",
+      "text3": "在房地产之外，Reza 深深扎根于圣迭戈社区。他通过基层请愿推动正义事业，积极参与海滩清洁，并通过多种政府资助项目不懈地帮助弱势群体。对 Reza 而言，房地产不仅是一门生意，更是一种服务并丰富他最珍视的社区的平台。"
+    },
+    "specialties": {
+      "title": "专长",
+      "tags": [
+        "买方代理",
+        "挂牌代理",
+        "异地安置",
+        "度假/短租"
+      ],
+      "languages": "会说：英语、阿拉伯语、波斯语、土耳其语"
+    }
+  }
+}

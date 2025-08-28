@@ -1,0 +1,288 @@
+{
+  "slug": "escondido",
+  "name": "Escondido",
+  "state": "California",
+  "language": "en",
+  "shortDescription": "A scenic inland city with parks, cultural attractions, and easy access to North County beaches and trails.",
+  "fullDescription": "Escondido blends suburban charm with rich cultural history and outdoor recreation. Located in North San Diego County, Escondido is known for Daley Ranch and the San Diego Zoo Safari Park, a vibrant downtown (Grand Ave) with dining and events, and easy access to nearby coastal communities. The city offers diverse housing, family amenities, and open space for hikers and nature lovers.",
+  "heroImage": "https://images.unsplash.com/photo-1506806732259-39c2d0268443?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "California vineyard rows at golden hour near Escondido",
+  "population": "150K+",
+  "avgHomePrice": "$800K",
+  "tags": [
+    "Hills",
+    "Parks",
+    "Family-friendly"
+  ],
+  "neighborhoods": [
+    {
+      "name": "San Marcos",
+      "type": "city",
+      "slug": "san-marcos",
+      "description": "Neighboring city with strong schools, Lake San Marcos, and easy access to regional shopping and trails.",
+      "image": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Rolling green hills and open space near San Marcos",
+      "distance": "8 miles west",
+      "avgHomePrice": "$800K",
+      "county": "San Diego"
+    },
+    {
+      "name": "Vista",
+      "type": "city",
+      "slug": "vista",
+      "description": "A family-friendly inland city known for parks, an active craft-beer scene, and community events.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Suburban neighborhood and tree-lined street in Vista",
+      "distance": "10 miles southwest",
+      "avgHomePrice": "$750K",
+      "county": "San Diego"
+    },
+    {
+      "name": "Carlsbad",
+      "type": "city",
+      "slug": "carlsbad",
+      "description": "Coastal city with beaches, family attractions (LEGOLAND), and dining — a short drive from Escondido.",
+      "image": "https://images.unsplash.com/photo-1493558103817-58b2924bce98?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Sunset pier and coastline near Carlsbad",
+      "distance": "18 miles southwest",
+      "avgHomePrice": "$1.1M",
+      "county": "San Diego"
+    },
+    {
+      "name": "Poway",
+      "type": "city",
+      "slug": "poway",
+      "description": "Quiet suburban community southeast of Escondido with trails, equestrian areas, and family neighborhoods.",
+      "image": "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Scenic hiking trail through Poway hills",
+      "distance": "15 miles southeast",
+      "avgHomePrice": "$900K",
+      "county": "San Diego"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Daley Ranch & Hiking",
+      "description": "Over 3,000 acres of preserved land with trails for hiking, mountain biking, and wildlife viewing.",
+      "icon": "🥾",
+      "bgImage": "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Trail through rolling hills and oaks"
+    },
+    {
+      "title": "San Diego Zoo Safari Park",
+      "description": "World-class wildlife park with safari experiences, conservation programs, and family activities.",
+      "icon": "🦁",
+      "bgImage": "https://images.unsplash.com/photo-1502680390469-be75c86b636f?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Savanna-style exhibit at a wildlife park"
+    },
+    {
+      "title": "Downtown Grand Avenue",
+      "description": "Historic downtown with restaurants, breweries, live music, and the weekly Cruisin’ Grand car nights in season.",
+      "icon": "🎶",
+      "bgImage": "https://images.unsplash.com/photo-1488747279002-c8523379faaa?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Downtown street with restaurant string lights in the evening"
+    },
+    {
+      "title": "Local Wineries & Farmers Markets",
+      "description": "Nearby small wineries and regular farmers markets offer local produce and weekend activities.",
+      "icon": "🍷",
+      "bgImage": "https://images.unsplash.com/photo-1506806732259-39c2d0268443?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Vineyard rows at golden hour"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What are the best neighborhoods in Escondido?",
+      "answer": "Popular areas include Downtown near Grand Avenue for nightlife and restaurants, neighborhoods near Daley Ranch for outdoor access, and residential pockets near Valley and Felicita Parks for families.",
+      "category": "Neighborhoods"
+    },
+    {
+      "question": "How is the real estate market in Escondido?",
+      "answer": "Escondido offers mix of housing types — from historic cottages to newer developments — with median prices typically lower than coastal North County but varying by neighborhood.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "What can you do in Escondido?",
+      "answer": "Explore Daley Ranch, visit the San Diego Zoo Safari Park, attend events on Grand Avenue, or take day trips to nearby beaches and hiking areas.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How is commuting from Escondido?",
+      "answer": "Escondido is served by Highway 78 and 15 for regional travel. Driving is the most common mode; some transit options connect to North County and central San Diego.",
+      "category": "Transportation"
+    },
+    {
+      "question": "What's the average home price in Escondido?",
+      "answer": "The average home price in Escondido varies by neighborhood and property type. Reza Barghlameno provides current market analysis and helps buyers find homes within their budget. Contact Reza for the latest pricing data and market insights specific to your needs.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "How quickly can Reza help me buy a home in Escondido?",
+      "answer": "Reza Barghlameno's Express Service can find homes in Escondido within 48-72 hours for urgent buyers. With same-day mortgage pre-approval and weekend service availability, Reza accelerates the entire buying process while maintaining quality service.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "What makes Reza the best realtor in Escondido?",
+      "answer": "Reza Barghlameno brings 20+ years of Escondido real estate expertise, local market knowledge, and a proven track record. His express service, partner network, and 24/7 availability set him apart from other agents in San Diego County.",
+      "category": "Real Estate"
+    }
+  ],
+  "clients": [],
+  "canonicalUrl": "",
+  "hreflang_tags": [],
+  "seo": {
+    "metaTitle": "Escondido CA Real Estate & Lifestyle | Parks, Safari Park & Downtown",
+    "metaDescription": "Learn about Escondido neighborhoods, outdoor recreation at Daley Ranch, the San Diego Zoo Safari Park, and real estate options in North San Diego County.",
+    "keywords": "Escondido real estate, Daley Ranch, San Diego Zoo Safari Park, living in Escondido, Escondido homes, homes for sale in Escondido, buy house in Escondido, sell home in Escondido, Prime Local Homes Escondido, Reza Barghlameno Escondido, best realtor in Escondido, luxury homes in Escondido, condos for sale in Escondido, single family homes in Escondido, townhomes in Escondido, new listings Escondido, property market Escondido, real estate trends Escondido, fast home buying Escondido, urgent house search Escondido, express real estate service Escondido, same day home finding Escondido, quick house purchase Escondido, emergency realtor Escondido, weekend home buying Escondido, family emergency home search Escondido, Reza Barghlameno, Reza Barghlameno realtor, Reza Barghlameno real estate agent, Reza Barghlameno Prime Local Homes, top realtor Escondido Reza Barghlameno",
+    "ogTitle": "Discover Escondido: Parks, Safari Park & Downtown Life",
+    "ogDescription": "Explore Escondido's neighborhoods, parks, and cultural attractions. Find the right area to call home in North San Diego County.",
+    "ogImage": "https://images.unsplash.com/photo-1565120130286-c1b77b57b14f?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Escondido valley hills at sunset",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Escondido",
+      "description": "Explore real estate, neighborhoods, and highlights in Escondido, California.",
+      "url": "https://example.com/locations/escondido",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1565120130286-c1b77b57b14f?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Rolling hills near Escondido at sunset"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Escondido",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What are the best neighborhoods in Escondido?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Popular areas include Downtown near Grand Avenue for nightlife and restaurants, neighborhoods near Daley Ranch for outdoor access, and residential pockets near Valley and Felicita Parks for families."
+          },
+          "category": "Neighborhoods"
+        },
+        {
+          "@type": "Question",
+          "name": "How is the real estate market in Escondido?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Escondido offers mix of housing types — from historic cottages to newer developments — with median prices typically lower than coastal North County but varying by neighborhood."
+          },
+          "category": "Real Estate"
+        },
+        {
+          "@type": "Question",
+          "name": "What can you do in Escondido?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Explore Daley Ranch, visit the San Diego Zoo Safari Park, attend events on Grand Avenue, or take day trips to nearby beaches and hiking areas."
+          },
+          "category": "Lifestyle"
+        },
+        {
+          "@type": "Question",
+          "name": "How is commuting from Escondido?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Escondido is served by Highway 78 and 15 for regional travel. Driving is the most common mode; some transit options connect to North County and central San Diego."
+          },
+          "category": "Transportation"
+        },
+        {
+          "@type": "Question",
+          "name": "What's the average home price in Escondido?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The average home price in Escondido varies by neighborhood and property type. Reza Barghlameno provides current market analysis and helps buyers find homes within their budget. Contact Reza for the latest pricing data and market insights specific to your needs."
+          },
+          "category": "Real Estate"
+        },
+        {
+          "@type": "Question",
+          "name": "How quickly can Reza help me buy a home in Escondido?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Reza Barghlameno's Express Service can find homes in Escondido within 48-72 hours for urgent buyers. With same-day mortgage pre-approval and weekend service availability, Reza accelerates the entire buying process while maintaining quality service."
+          },
+          "category": "Real Estate"
+        },
+        {
+          "@type": "Question",
+          "name": "What makes Reza the best realtor in Escondido?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Reza Barghlameno brings 20+ years of Escondido real estate expertise, local market knowledge, and a proven track record. His express service, partner network, and 24/7 availability set him apart from other agents in San Diego County."
+          },
+          "category": "Real Estate"
+        }
+      ]
+    }
+  ],
+  "internal_links": [],
+  "city": "Escondido",
+  "county": "San Diego",
+  "url_slug": "/real-estate-escondido",
+  "meta_title": "Buy & Sell Homes in Escondido | Prime Local Homes - Reza Barghlameno",
+  "meta_description": "Expert Escondido real estate service with Reza Barghlameno. Find homes for sale, get market analysis. Express service available for urgent buyers.",
+  "h1_title": "Escondido Real Estate Expert - Buy & Sell with Reza Barghlameno",
+  "primary_keywords": [
+    "Escondido real estate",
+    "homes for sale in Escondido",
+    "buy house in Escondido",
+    "sell home in Escondido",
+    "Prime Local Homes Escondido",
+    "Reza Barghlameno Escondido"
+  ],
+  "secondary_keywords": [
+    "best realtor in Escondido",
+    "luxury homes in Escondido",
+    "condos for sale in Escondido",
+    "single family homes in Escondido",
+    "townhomes in Escondido",
+    "new listings Escondido",
+    "property market Escondido",
+    "real estate trends Escondido"
+  ],
+  "express_keywords": [
+    "fast home buying Escondido",
+    "urgent house search Escondido",
+    "express real estate service Escondido",
+    "same day home finding Escondido",
+    "quick house purchase Escondido",
+    "emergency realtor Escondido",
+    "weekend home buying Escondido",
+    "family emergency home search Escondido"
+  ],
+  "agent_keywords": [
+    "Reza Barghlameno",
+    "Reza Barghlameno realtor",
+    "Reza Barghlameno Escondido",
+    "Reza Barghlameno real estate agent",
+    "Reza Barghlameno Prime Local Homes",
+    "top realtor Escondido Reza Barghlameno"
+  ],
+  "landing_page_text": "Welcome to Escondido, California - one of San Diego County's most sought-after communities for homebuyers and sellers. Reza Barghlameno, your trusted Escondido real estate expert with Prime Local Homes, brings over 20 years of experience to guide you through every aspect of your real estate journey. Nestled in a picturesque valley surrounded by rocky hills, Escondido offers a unique blend of suburban comfort and rural charm, making it a prime destination for families, retirees, and professionals alike. The Escondido real estate market is diverse, featuring everything from charming single-family homes to luxurious estates and modern condos. With Reza Barghlameno at your side, you gain access to exclusive listings and insider knowledge that can make all the difference in a competitive market. Homes for sale in Escondido range from affordable starter homes to high-end properties, ensuring there's something for every budget and lifestyle. Escondido's neighborhoods each have their own unique appeal. From the historic charm of Old Escondido to the family-friendly vibes of Felicita, Reza can help you find the perfect fit. The city is also known for its excellent schools, vibrant arts scene, and numerous parks and recreational facilities. Whether you're looking to buy a house in Escondido or sell your home, Reza Barghlameno's expertise and dedication ensure a smooth and successful transaction. With Prime Local Homes, you can expect personalized service, comprehensive market analysis, and a commitment to achieving the best possible outcome for your real estate needs. Contact Reza today to explore the opportunities that await in Escondido.",
+  "express_service": "When life demands immediate housing solutions, Reza Barghlameno's Express Service delivers results with unmatched speed and reliability in Escondido. Understanding that time is often of the essence, Reza offers a 48-72 hour home finding service that ensures you won't miss out on the perfect property. With same-day mortgage approval and weekend service, Reza is there when you need him most. Whether you're facing a job relocation, family emergency, or simply need to move quickly, Reza's express real estate service in Escondido is designed to meet your needs. His extensive network of partners, including mortgage lenders, renovation experts, and moving companies, ensures a seamless transition into your new home. Available 24/7, Reza Barghlameno is committed to providing personalized attention and expert guidance every step of the way. With a proven track record of success, Reza's express service is the ideal solution for those in need of a quick house purchase in Escondido. Contact Reza today to learn more about how his express service can help you navigate the Escondido real estate market with ease and confidence.",
+  "neighborhood_guide": "Escondido is home to a variety of neighborhoods, each offering its own distinct character and charm. Old Escondido is perfect for those who appreciate historic architecture and a tight-knit community feel. With its beautifully preserved Victorian homes, this area is a favorite among history buffs and those seeking a unique living environment. For families, the Felicita neighborhood is a top choice, offering excellent schools, parks, and family-friendly amenities. The area is known for its spacious homes and safe, welcoming atmosphere. If you're looking for luxury, the Hidden Meadows community offers stunning views and upscale properties, providing a serene escape from the hustle and bustle of city life. Reza Barghlameno's deep knowledge of these neighborhoods ensures that you'll find the perfect fit for your lifestyle and needs. Whether you're a first-time buyer or looking to upgrade, Reza's insights and recommendations will guide you to the ideal Escondido neighborhood.",
+  "market_analysis": "The Escondido real estate market is currently experiencing a dynamic phase, with demand for homes steadily increasing. As of the latest reports, the median home price in Escondido has seen a moderate rise, reflecting the area's growing popularity. With a balanced mix of buyers and sellers, the market remains competitive, making it essential to have a seasoned professional like Reza Barghlameno by your side. Reza's professional forecasts indicate a continued upward trend in property values, driven by Escondido's appealing lifestyle and strategic location within San Diego County. For investors, this presents a promising opportunity to capitalize on future growth. Whether you're buying or selling, understanding these market trends is crucial, and Reza's expertise ensures you're always one step ahead.",
+  "agent_name": "Reza Barghlameno",
+  "company_name": "socalprimehomes.com",
+  "contact_phone": "+1 858-305-4362",
+  "contact_email": "reza@socalprimehomes.com",
+  "cta_text": "Ready to buy or sell in Escondido? Contact Reza Barghlameno today for expert guidance and express service when you need it most."
+}

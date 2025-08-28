@@ -1,0 +1,288 @@
+{
+  "slug": "costa-mesa",
+  "name": "Costa Mesa",
+  "state": "California",
+  "language": "en",
+  "shortDescription": "A vibrant urban city known for arts, shopping, and a diverse community.",
+  "fullDescription": "Costa Mesa blends cultural richness with suburban living. Famous for the South Coast Plaza shopping center and a thriving arts scene including theaters and galleries, the city offers a mix of residential neighborhoods, dining, and entertainment options. Its central location in Orange County provides easy access to beaches, highways, and employment hubs, making it popular among professionals and families alike.",
+  "heroImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Downtown Costa Mesa with urban shops and theaters",
+  "population": "115K+",
+  "avgHomePrice": "$900K",
+  "tags": [
+    "Arts & Culture",
+    "Shopping",
+    "Family-friendly"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Newport Beach",
+      "type": "city",
+      "slug": "newport-beach",
+      "description": "Luxury coastal city with beaches, boating, and upscale shopping.",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Beachfront and marina in Newport Beach",
+      "distance": "5 miles south",
+      "avgHomePrice": "$2.5M",
+      "county": "Orange"
+    },
+    {
+      "name": "Huntington Beach",
+      "type": "city",
+      "slug": "huntington-beach",
+      "description": "Famous surf city with a lively downtown and extensive beaches.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Surfboards on the beach in Huntington Beach",
+      "distance": "8 miles northwest",
+      "avgHomePrice": "$1.2M",
+      "county": "Orange"
+    },
+    {
+      "name": "Fountain Valley",
+      "type": "city",
+      "slug": "fountain-valley",
+      "description": "Quiet suburban community with parks and family amenities.",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Suburban park area in Fountain Valley",
+      "distance": "4 miles east",
+      "avgHomePrice": "$850K",
+      "county": "Orange"
+    },
+    {
+      "name": "Santa Ana",
+      "type": "city",
+      "slug": "santa-ana",
+      "description": "Downtown urban hub with cultural institutions and historic sites.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Downtown Santa Ana skyline",
+      "distance": "7 miles northeast",
+      "avgHomePrice": "$650K",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "South Coast Plaza",
+      "description": "One of the largest shopping centers in the U.S. with luxury brands and dining.",
+      "icon": "🛍️",
+      "bgImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Exterior of South Coast Plaza shopping mall"
+    },
+    {
+      "title": "Segerstrom Center for the Arts",
+      "description": "Premier venue for theater, music, and dance performances.",
+      "icon": "🎭",
+      "bgImage": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Exterior view of Segerstrom Center for the Arts"
+    },
+    {
+      "title": "Costa Mesa Parks",
+      "description": "Numerous parks offering playgrounds, sports fields, and picnic areas.",
+      "icon": "🌳",
+      "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Green park area in Costa Mesa"
+    },
+    {
+      "title": "Arts & Culture Scene",
+      "description": "Vibrant galleries, public art installations, and community events celebrate creativity.",
+      "icon": "🎨",
+      "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Art gallery exhibit in Costa Mesa"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is Costa Mesa known for?",
+      "answer": "Costa Mesa is renowned for its arts and culture, South Coast Plaza shopping, and family-friendly parks.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How are the schools in Costa Mesa?",
+      "answer": "The city is served by the Newport-Mesa Unified School District, with a variety of public and private school options.",
+      "category": "Education"
+    },
+    {
+      "question": "What outdoor activities are available?",
+      "answer": "Residents enjoy parks, community events, and proximity to nearby beaches for surfing and hiking.",
+      "category": "Recreation"
+    },
+    {
+      "question": "How is the commute to job centers?",
+      "answer": "Costa Mesa offers convenient freeway access (55, 405) with commutes to Newport Beach, Irvine, and Los Angeles.",
+      "category": "Transportation"
+    },
+    {
+      "question": "What's the average home price in Costa Mesa?",
+      "answer": "The average home price in Costa Mesa varies by neighborhood and property type. Reza Barghlameno provides current market analysis and helps buyers find homes within their budget. Contact Reza for the latest pricing data and market insights specific to your needs.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "How quickly can Reza help me buy a home in Costa Mesa?",
+      "answer": "Reza Barghlameno's Express Service can find homes in Costa Mesa within 48-72 hours for urgent buyers. With same-day mortgage pre-approval and weekend service availability, Reza accelerates the entire buying process while maintaining quality service.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "What makes Reza the best realtor in Costa Mesa?",
+      "answer": "Reza Barghlameno brings 20+ years of Costa Mesa real estate expertise, local market knowledge, and a proven track record. His express service, partner network, and 24/7 availability set him apart from other agents in Orange County.",
+      "category": "Real Estate"
+    }
+  ],
+  "clients": [],
+  "canonicalUrl": "",
+  "hreflang_tags": [],
+  "seo": {
+    "metaTitle": "Costa Mesa CA Real Estate & Lifestyle | Arts, Shopping & Family Living",
+    "metaDescription": "Explore Costa Mesa’s neighborhoods, arts scene, shopping centers, and parks in Orange County.",
+    "keywords": "Costa Mesa real estate, South Coast Plaza, living in Costa Mesa, Orange County homes, homes for sale in Costa Mesa, buy house in Costa Mesa, sell home in Costa Mesa, Prime Local Homes Costa Mesa, Reza Barghlameno Costa Mesa, best realtor in Costa Mesa, luxury homes in Costa Mesa, condos for sale in Costa Mesa, single family homes in Costa Mesa, townhomes in Costa Mesa, new listings Costa Mesa, property market Costa Mesa, real estate trends Costa Mesa, fast home buying Costa Mesa, urgent house search Costa Mesa, express real estate service Costa Mesa, same day home finding Costa Mesa, quick house purchase Costa Mesa, emergency realtor Costa Mesa, weekend home buying Costa Mesa, family emergency home search Costa Mesa, Reza Barghlameno, Reza Barghlameno realtor, Reza Barghlameno real estate agent, Reza Barghlameno Prime Local Homes, top realtor Costa Mesa Reza Barghlameno",
+    "ogTitle": "Discover Costa Mesa: Arts, Shopping & Family-Friendly Living",
+    "ogDescription": "Experience vibrant cultural amenities and suburban comfort in Costa Mesa, California.",
+    "ogImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Downtown Costa Mesa urban scene",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Costa Mesa",
+      "description": "Explore real estate, neighborhoods, and highlights in Costa Mesa, California.",
+      "url": "https://example.com/locations/costa-mesa",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Downtown Costa Mesa urban scene"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Costa Mesa",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Costa Mesa known for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Costa Mesa is renowned for its arts and culture, South Coast Plaza shopping, and family-friendly parks."
+          },
+          "category": "Lifestyle"
+        },
+        {
+          "@type": "Question",
+          "name": "How are the schools in Costa Mesa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The city is served by the Newport-Mesa Unified School District, with a variety of public and private school options."
+          },
+          "category": "Education"
+        },
+        {
+          "@type": "Question",
+          "name": "What outdoor activities are available?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Residents enjoy parks, community events, and proximity to nearby beaches for surfing and hiking."
+          },
+          "category": "Recreation"
+        },
+        {
+          "@type": "Question",
+          "name": "How is the commute to job centers?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Costa Mesa offers convenient freeway access (55, 405) with commutes to Newport Beach, Irvine, and Los Angeles."
+          },
+          "category": "Transportation"
+        },
+        {
+          "@type": "Question",
+          "name": "What's the average home price in Costa Mesa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The average home price in Costa Mesa varies by neighborhood and property type. Reza Barghlameno provides current market analysis and helps buyers find homes within their budget. Contact Reza for the latest pricing data and market insights specific to your needs."
+          },
+          "category": "Real Estate"
+        },
+        {
+          "@type": "Question",
+          "name": "How quickly can Reza help me buy a home in Costa Mesa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Reza Barghlameno's Express Service can find homes in Costa Mesa within 48-72 hours for urgent buyers. With same-day mortgage pre-approval and weekend service availability, Reza accelerates the entire buying process while maintaining quality service."
+          },
+          "category": "Real Estate"
+        },
+        {
+          "@type": "Question",
+          "name": "What makes Reza the best realtor in Costa Mesa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Reza Barghlameno brings 20+ years of Costa Mesa real estate expertise, local market knowledge, and a proven track record. His express service, partner network, and 24/7 availability set him apart from other agents in Orange County."
+          },
+          "category": "Real Estate"
+        }
+      ]
+    }
+  ],
+  "internal_links": [],
+  "city": "Costa Mesa",
+  "county": "Orange",
+  "url_slug": "/real-estate-costa-mesa",
+  "meta_title": "Buy & Sell Homes in Costa Mesa | Prime Local Homes - Reza Barghlameno",
+  "meta_description": "Expert Costa Mesa real estate service with Reza Barghlameno. Find homes for sale, get market analysis. Express service available for urgent buyers.",
+  "h1_title": "Costa Mesa Real Estate Expert - Buy & Sell with Reza Barghlameno",
+  "primary_keywords": [
+    "Costa Mesa real estate",
+    "homes for sale in Costa Mesa",
+    "buy house in Costa Mesa",
+    "sell home in Costa Mesa",
+    "Prime Local Homes Costa Mesa",
+    "Reza Barghlameno Costa Mesa"
+  ],
+  "secondary_keywords": [
+    "best realtor in Costa Mesa",
+    "luxury homes in Costa Mesa",
+    "condos for sale in Costa Mesa",
+    "single family homes in Costa Mesa",
+    "townhomes in Costa Mesa",
+    "new listings Costa Mesa",
+    "property market Costa Mesa",
+    "real estate trends Costa Mesa"
+  ],
+  "express_keywords": [
+    "fast home buying Costa Mesa",
+    "urgent house search Costa Mesa",
+    "express real estate service Costa Mesa",
+    "same day home finding Costa Mesa",
+    "quick house purchase Costa Mesa",
+    "emergency realtor Costa Mesa",
+    "weekend home buying Costa Mesa",
+    "family emergency home search Costa Mesa"
+  ],
+  "agent_keywords": [
+    "Reza Barghlameno",
+    "Reza Barghlameno realtor",
+    "Reza Barghlameno Costa Mesa",
+    "Reza Barghlameno real estate agent",
+    "Reza Barghlameno Prime Local Homes",
+    "top realtor Costa Mesa Reza Barghlameno"
+  ],
+  "landing_page_text": "Welcome to Costa Mesa, California - one of Orange County's most sought-after communities for homebuyers and sellers. Reza Barghlameno, your trusted Costa Mesa real estate expert with Prime Local Homes, brings over 20 years of experience to guide you through every aspect of your real estate journey. Costa Mesa, known for its vibrant arts scene, diverse dining options, and proximity to Southern California's stunning beaches, offers a unique blend of urban and suburban living. Whether you're looking to buy a house in Costa Mesa or sell your home, Reza Barghlameno ensures a seamless process with his in-depth knowledge and personalized service.\n\nThe Costa Mesa real estate market is dynamic and competitive, with a variety of homes for sale ranging from luxury estates to charming single-family homes and modern condos. With Reza's expertise, you can navigate the market confidently, whether you're a first-time homebuyer or a seasoned investor. Costa Mesa's top neighborhoods, such as Eastside Costa Mesa, Mesa Verde, and South Coast Metro, each offer distinct characteristics that cater to different lifestyles and preferences.\n\nEastside Costa Mesa is renowned for its tree-lined streets and proximity to Newport Beach, making it a favorite among families and professionals seeking a tranquil yet convenient location. Mesa Verde, with its picturesque golf courses and parks, attracts those looking for a suburban feel with easy access to amenities. Meanwhile, South Coast Metro is ideal for those who enjoy a bustling urban environment with shopping, entertainment, and cultural attractions at their doorstep.\n\nCosta Mesa's schools are highly rated, providing excellent educational opportunities for families. With Reza Barghlameno's guidance, you can explore the best school districts and find a home that meets your family's needs. The city's commitment to community and quality of life is evident in its well-maintained parks, recreational facilities, and community events that foster a strong sense of belonging.\n\nInvesting in Costa Mesa real estate offers promising returns due to the city's steady growth and development. Reza Barghlameno's market analysis and insights help you make informed decisions, whether you're looking to buy, sell, or invest. His strategic approach and negotiation skills ensure you get the best value, maximizing your investment potential.\n\nWith Reza Barghlameno and Prime Local Homes, you're not just buying or selling a property; you're gaining a partner dedicated to your success. Ready to explore homes for sale in Costa Mesa or list your property? Contact Reza Barghlameno today and experience the difference of working with a top realtor in Costa Mesa.",
+  "express_service": "When life demands immediate housing solutions, Reza Barghlameno's Express Service delivers results with unmatched speed and reliability in Costa Mesa. Whether you're facing a job relocation, family emergency, or any urgent need, Reza's express real estate service is designed to meet your timeline. With a 48-72 hour home finding process, you can secure a property quickly without compromising on quality or location.\n\nReza Barghlameno's express service includes same-day mortgage approval, ensuring your financial readiness aligns with your home search. Weekend service is available to accommodate your busy schedule, allowing you to explore properties at your convenience. For pregnant couples or families experiencing sudden changes, Reza prioritizes your needs, providing compassionate and efficient support.\n\nJob relocations can be stressful, but with Reza's extensive partner network, including mortgage lenders, renovation experts, and moving services, your transition to Costa Mesa is seamless. His 24/7 availability means you're never alone in the process, receiving guidance and updates whenever you need them.\n\nSuccess stories from past clients highlight Reza's dedication and effectiveness in urgent scenarios. His personal commitment to each client ensures a tailored approach, making him the emergency realtor Costa Mesa residents trust. Choose Reza Barghlameno for your express real estate needs and experience the peace of mind that comes with expert support and proven results.",
+  "neighborhood_guide": "Costa Mesa is a city of diverse neighborhoods, each offering unique benefits for different buyer types. Eastside Costa Mesa is perfect for families and professionals seeking a peaceful environment with easy access to Newport Beach. Its charming streets and community vibe make it a top choice for those prioritizing lifestyle and convenience.\n\nMesa Verde attracts buyers looking for a suburban feel with its lush golf courses and family-friendly parks. It's a haven for those who appreciate outdoor activities and a strong sense of community. The neighborhood's proximity to shopping centers and dining options adds to its appeal.\n\nSouth Coast Metro is ideal for urban enthusiasts who thrive in a vibrant setting. With its proximity to South Coast Plaza, the Segerstrom Center for the Arts, and a plethora of dining options, it's a cultural hub that offers an exciting lifestyle. Reza Barghlameno's insights help you choose the neighborhood that aligns with your preferences and lifestyle needs.",
+  "market_analysis": "The Costa Mesa real estate market is experiencing steady growth, characterized by a high demand for homes and limited inventory. This competitive landscape makes it crucial to have a knowledgeable realtor like Reza Barghlameno by your side. Current trends show a strong interest in single-family homes and luxury properties, driven by the city's desirable location and amenities.\n\nPricing in Costa Mesa reflects its premium market status, with median home prices showing an upward trajectory. Reza's professional forecasts indicate continued appreciation, making it an opportune time for both buyers and sellers. His market analysis provides a comprehensive understanding of pricing dynamics, helping clients make informed decisions that align with their financial goals.",
+  "agent_name": "Reza Barghlameno",
+  "company_name": "socalprimehomes.com",
+  "contact_phone": "+1 858-305-4362",
+  "contact_email": "reza@socalprimehomes.com",
+  "cta_text": "Ready to buy or sell in Costa Mesa? Contact Reza Barghlameno today for expert guidance and express service when you need it most."
+}

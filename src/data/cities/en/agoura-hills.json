@@ -1,0 +1,266 @@
+{
+  "slug": "agoura-hills",
+  "name": "Agoura Hills",
+  "state": "California",
+  "language": "en",
+  "shortDescription": "A scenic gateway to the Santa Monica Mountains offering outdoor adventures, equestrian culture, and family-friendly neighborhoods.",
+  "fullDescription": "Nestled in the Conejo Valley, Agoura Hills blends natural beauty with suburban comfort. Known for its rolling hills, hiking trails through the Santa Monica Mountains, and equestrian-friendly communities, this city offers a peaceful retreat with easy freeway access. Home to renowned entertainment tech companies and top-rated schools, Agoura Hills attracts families and professionals seeking a balanced lifestyle between nature and urban conveniences.",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Rolling hills and a scenic view near Agoura Hills",
+  "population": "20K+",
+  "avgHomePrice": "$1.5M",
+  "tags": [
+    "Outdoors",
+    "Family-friendly",
+    "Equestrian"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Calabasas",
+      "type": "city",
+      "slug": "calabasas",
+      "description": "Affluent neighbor with luxury estates, celebrity homes, and the Commons shopping center.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Luxury homes and shopping in Calabasas",
+      "distance": "5 miles southwest",
+      "avgHomePrice": "$2.3M",
+      "county": "Los Angeles"
+    },
+    {
+      "name": "Malibu",
+      "type": "city",
+      "slug": "malibu",
+      "description": "Iconic coastal city with celebrity beaches, surfing spots, and oceanfront dining.",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Malibu beach coastline with ocean view",
+      "distance": "12 miles south",
+      "avgHomePrice": "$3.9M",
+      "county": "Los Angeles"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Santa Monica Mountains",
+      "description": "Protected wilderness area offering hiking, mountain biking, and horseback riding trails.",
+      "icon": "⛰️",
+      "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Trail with mountains and wildflowers in the Santa Monica Mountains"
+    },
+    {
+      "title": "Paramount Ranch",
+      "description": "Historic film set turned national park with Western town and event space.",
+      "icon": "🎬",
+      "bgImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Western-style buildings in Paramount Ranch"
+    },
+    {
+      "title": "Reyes Adobe",
+      "description": "Restored 19th-century adobe home serving as cultural center and museum.",
+      "icon": "🏛️",
+      "bgImage": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Historic adobe building with trees"
+    },
+    {
+      "title": "Equestrian Culture",
+      "description": "Horse-friendly community with riding trails, boarding facilities, and annual events.",
+      "icon": "🐎",
+      "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Horseback rider on a trail"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is Agoura Hills known for?",
+      "answer": "Gateway to the Santa Monica Mountains, equestrian lifestyle, and as a filming location for movies/TV shows.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How are the schools in Agoura Hills?",
+      "answer": "Top-rated Las Virgenes Unified School District serves the community, including top-ranked Agoura High School.",
+      "category": "Education"
+    },
+    {
+      "question": "What outdoor activities are available?",
+      "answer": "Hiking at Cheeseboro Canyon, mountain biking, horseback riding, and rock climbing in the Santa Monicas.",
+      "category": "Recreation"
+    },
+    {
+      "question": "How is the commute to Los Angeles?",
+      "answer": "Easy access via 101 Freeway, with commute times averaging 45-60 minutes to downtown LA.",
+      "category": "Transportation"
+    },
+    {
+      "question": "What's the average home price in Agoura Hills?",
+      "answer": "The average home price in Agoura Hills varies by neighborhood and property type. Reza Barghlameno provides current market analysis and helps buyers find homes within their budget. Contact Reza for the latest pricing data and market insights specific to your needs.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "How quickly can Reza help me buy a home in Agoura Hills?",
+      "answer": "Reza Barghlameno's Express Service can find homes in Agoura Hills within 48-72 hours for urgent buyers. With same-day mortgage pre-approval and weekend service availability, Reza accelerates the entire buying process while maintaining quality service.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "What makes Reza the best realtor in Agoura Hills?",
+      "answer": "Reza Barghlameno brings 20+ years of Agoura Hills real estate expertise, local market knowledge, and a proven track record. His express service, partner network, and 24/7 availability set him apart from other agents in Los Angeles County.",
+      "category": "Real Estate"
+    }
+  ],
+  "clients": [],
+  "canonicalUrl": "",
+  "hreflang_tags": [],
+  "seo": {
+    "metaTitle": "Agoura Hills CA Real Estate & Lifestyle | Mountain Living & Family Community",
+    "metaDescription": "Discover Agoura Hills' neighborhoods, outdoor recreation, schools, and real estate options in the Santa Monica Mountains.",
+    "keywords": "Agoura Hills real estate, Santa Monica Mountains, living in Agoura Hills, Conejo Valley homes, homes for sale in Agoura Hills, buy house in Agoura Hills, sell home in Agoura Hills, Prime Local Homes Agoura Hills, Reza Barghlameno Agoura Hills, best realtor in Agoura Hills, luxury homes in Agoura Hills, condos for sale in Agoura Hills, single family homes in Agoura Hills, townhomes in Agoura Hills, new listings Agoura Hills, property market Agoura Hills, real estate trends Agoura Hills, fast home buying Agoura Hills, urgent house search Agoura Hills, express real estate service Agoura Hills, same day home finding Agoura Hills, quick house purchase Agoura Hills, emergency realtor Agoura Hills, weekend home buying Agoura Hills, family emergency home search Agoura Hills, Reza Barghlameno, Reza Barghlameno realtor, Reza Barghlameno real estate agent, Reza Barghlameno Prime Local Homes, top realtor Agoura Hills Reza Barghlameno",
+    "ogTitle": "Explore Agoura Hills: Mountain Living & Outdoor Adventure",
+    "ogDescription": "Discover family-friendly communities and natural beauty in Agoura Hills at the gateway to the Santa Monicas.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Panoramic view of Agoura Hills and mountains",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Agoura Hills",
+      "description": "Explore real estate, neighborhoods, and highlights in Agoura Hills, California.",
+      "url": "https://example.com/locations/agoura-hills",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Agoura Hills landscape with Santa Monica Mountains"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Agoura Hills",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Agoura Hills known for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Gateway to the Santa Monica Mountains, equestrian lifestyle, and as a filming location for movies/TV shows."
+          },
+          "category": "Lifestyle"
+        },
+        {
+          "@type": "Question",
+          "name": "How are the schools in Agoura Hills?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Top-rated Las Virgenes Unified School District serves the community, including top-ranked Agoura High School."
+          },
+          "category": "Education"
+        },
+        {
+          "@type": "Question",
+          "name": "What outdoor activities are available?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hiking at Cheeseboro Canyon, mountain biking, horseback riding, and rock climbing in the Santa Monicas."
+          },
+          "category": "Recreation"
+        },
+        {
+          "@type": "Question",
+          "name": "How is the commute to Los Angeles?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Easy access via 101 Freeway, with commute times averaging 45-60 minutes to downtown LA."
+          },
+          "category": "Transportation"
+        },
+        {
+          "@type": "Question",
+          "name": "What's the average home price in Agoura Hills?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The average home price in Agoura Hills varies by neighborhood and property type. Reza Barghlameno provides current market analysis and helps buyers find homes within their budget. Contact Reza for the latest pricing data and market insights specific to your needs."
+          },
+          "category": "Real Estate"
+        },
+        {
+          "@type": "Question",
+          "name": "How quickly can Reza help me buy a home in Agoura Hills?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Reza Barghlameno's Express Service can find homes in Agoura Hills within 48-72 hours for urgent buyers. With same-day mortgage pre-approval and weekend service availability, Reza accelerates the entire buying process while maintaining quality service."
+          },
+          "category": "Real Estate"
+        },
+        {
+          "@type": "Question",
+          "name": "What makes Reza the best realtor in Agoura Hills?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Reza Barghlameno brings 20+ years of Agoura Hills real estate expertise, local market knowledge, and a proven track record. His express service, partner network, and 24/7 availability set him apart from other agents in Los Angeles County."
+          },
+          "category": "Real Estate"
+        }
+      ]
+    }
+  ],
+  "internal_links": [],
+  "city": "Agoura Hills",
+  "county": "Los Angeles",
+  "url_slug": "/real-estate-agoura-hills",
+  "meta_title": "Buy & Sell Homes in Agoura Hills | Prime Local Homes - Reza Barghlameno",
+  "meta_description": "Expert Agoura Hills real estate service with Reza Barghlameno. Find homes for sale, get market analysis. Express service available for urgent buyers.",
+  "h1_title": "Agoura Hills Real Estate Expert - Buy & Sell with Reza Barghlameno",
+  "primary_keywords": [
+    "Agoura Hills real estate",
+    "homes for sale in Agoura Hills",
+    "buy house in Agoura Hills",
+    "sell home in Agoura Hills",
+    "Prime Local Homes Agoura Hills",
+    "Reza Barghlameno Agoura Hills"
+  ],
+  "secondary_keywords": [
+    "best realtor in Agoura Hills",
+    "luxury homes in Agoura Hills",
+    "condos for sale in Agoura Hills",
+    "single family homes in Agoura Hills",
+    "townhomes in Agoura Hills",
+    "new listings Agoura Hills",
+    "property market Agoura Hills",
+    "real estate trends Agoura Hills"
+  ],
+  "express_keywords": [
+    "fast home buying Agoura Hills",
+    "urgent house search Agoura Hills",
+    "express real estate service Agoura Hills",
+    "same day home finding Agoura Hills",
+    "quick house purchase Agoura Hills",
+    "emergency realtor Agoura Hills",
+    "weekend home buying Agoura Hills",
+    "family emergency home search Agoura Hills"
+  ],
+  "agent_keywords": [
+    "Reza Barghlameno",
+    "Reza Barghlameno realtor",
+    "Reza Barghlameno Agoura Hills",
+    "Reza Barghlameno real estate agent",
+    "Reza Barghlameno Prime Local Homes",
+    "top realtor Agoura Hills Reza Barghlameno"
+  ],
+  "landing_page_text": "Welcome to Agoura Hills, California - one of Los Angeles County's most sought-after communities for homebuyers and sellers. Reza Barghlameno, your trusted Agoura Hills real estate expert with Prime Local Homes, brings over 20 years of experience to guide you through every aspect of your real estate journey. Nestled between the Santa Monica Mountains and the bustling city of Los Angeles, Agoura Hills offers a unique blend of suburban tranquility and urban convenience. The real estate market here is as diverse as its landscape, with options ranging from luxurious estates to charming single-family homes and modern townhouses. Whether you're searching for a spacious family home or a cozy condo, Reza Barghlameno is here to help you navigate the Agoura Hills real estate market with confidence.\n\nAgoura Hills real estate is characterized by its strong community feel and excellent amenities. The area boasts top-rated schools, making it an ideal choice for families. The Las Virgenes Unified School District is renowned for its academic excellence and comprehensive extracurricular programs. In addition to educational opportunities, Agoura Hills offers a wealth of recreational activities. From hiking trails in the nearby mountains to cultural events at the local performing arts center, there's always something to do.\n\nThe neighborhoods in Agoura Hills each have their own unique charm. Morrison Ranch offers sprawling homes with large lots, perfect for those seeking privacy and space. Old Agoura is known for its equestrian properties, providing a rural feel while still being close to city amenities. For those seeking a more urban lifestyle, the Agoura Hills City Center offers modern condos and townhomes within walking distance to shops and restaurants.\n\nThe Agoura Hills real estate market is currently experiencing a period of growth. With a steady increase in home values and a low inventory of available properties, it's a seller's market. Reza Barghlameno's expertise in market analysis ensures that whether you're buying or selling, you'll receive the most accurate and up-to-date information to make informed decisions. His personalized approach and deep understanding of the local market make him the best realtor in Agoura Hills.\n\nInvesting in Agoura Hills real estate is not just about finding a home; it's about securing a lifestyle. The area's proximity to major employment centers in Los Angeles, combined with its serene environment, makes it a highly desirable location. Whether you're looking to buy a house in Agoura Hills or sell your home, Reza Barghlameno and Prime Local Homes offer unparalleled service and results.\n\nReady to explore the opportunities in Agoura Hills real estate? Contact Reza Barghlameno today for expert guidance and express service when you need it most. With Reza, your real estate goals are within reach.",
+  "express_service": "When life demands immediate housing solutions, Reza Barghlameno's Express Service delivers results with unmatched speed and reliability in Agoura Hills. Understanding that time is often of the essence, especially in today's fast-paced world, Reza offers a dedicated 48-72 hour home finding service. This ensures that clients can secure their dream homes swiftly without compromising on quality or choice.\n\nFor those in urgent need, such as families relocating for work or expecting a new addition, Reza's express service includes same-day mortgage approval assistance and weekend availability. This flexibility is particularly beneficial for those with tight schedules or unexpected changes in circumstances. Reza's extensive network of partners, including mortgage lenders, renovation experts, and moving companies, ensures a seamless transition into your new home.\n\nReza Barghlameno's commitment to his clients is evident in his 24/7 availability and personalized approach. Whether you're facing a family emergency or simply need to move quickly, Reza prioritizes your needs and works tirelessly to meet them. His proven track record and numerous success stories speak to his ability to deliver under pressure, making him the go-to emergency realtor in Agoura Hills.\n\nWith Reza Barghlameno and Prime Local Homes, you can trust that your urgent real estate needs will be handled with care, efficiency, and expertise. Contact Reza today to learn more about how his express service can benefit you.",
+  "neighborhood_guide": "Agoura Hills is home to several distinct neighborhoods, each offering unique benefits for different types of buyers. Morrison Ranch is a favorite among families, known for its large lots and beautiful, spacious homes. The community atmosphere is strong, with parks and schools nearby, making it an ideal place for raising children.\n\nOld Agoura is perfect for those seeking a more rural lifestyle without sacrificing proximity to city amenities. This neighborhood is famous for its equestrian properties and open spaces, providing a serene environment for horse lovers and outdoor enthusiasts.\n\nFor buyers looking for convenience and modern living, the Agoura Hills City Center offers a variety of condos and townhomes. This area is bustling with activity, featuring shops, restaurants, and entertainment options within walking distance. It's an excellent choice for young professionals and those seeking a vibrant urban lifestyle.\n\nReza Barghlameno's insights into these neighborhoods can help you find the perfect fit for your lifestyle and needs. Whether you're looking for a family-friendly community or a modern urban setting, Reza's expertise ensures you'll find the right home in Agoura Hills.",
+  "market_analysis": "The Agoura Hills real estate market is currently thriving, with a noticeable increase in home values over the past year. This growth is driven by a combination of low inventory and high demand, making it a competitive market for buyers. Sellers are in a strong position, often receiving multiple offers above asking price.\n\nReza Barghlameno's professional analysis indicates that this trend is likely to continue, with Agoura Hills remaining a desirable location due to its excellent schools, amenities, and proximity to Los Angeles. Buyers should be prepared to act quickly and decisively, while sellers can expect favorable conditions to maximize their returns.\n\nReza's comprehensive market knowledge and strategic approach provide clients with the tools they need to navigate this dynamic market successfully. Whether you're buying or selling, Reza Barghlameno offers the expertise and guidance necessary to achieve your real estate goals in Agoura Hills.",
+  "agent_name": "Reza Barghlameno",
+  "company_name": "socalprimehomes.com",
+  "contact_phone": "+1 858-305-4362",
+  "contact_email": "reza@socalprimehomes.com",
+  "cta_text": "Ready to buy or sell in Agoura Hills? Contact Reza Barghlameno today for expert guidance and express service when you need it most."
+}

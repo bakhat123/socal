@@ -1,0 +1,102 @@
+{
+  "locale": "en",
+  "blog": {
+    "title": "Latest Insights",
+    "subtitle": "Discover our expert perspectives on luxury real estate markets across the United States and Southern California."
+  },
+  "cities": {
+    "title": "Explore the Counties of Southern California",
+    "subtitle": "Discover the most vibrant and desirable counties in Southern California, each offering unique communities, lifestyles, and investment opportunities."
+  },
+  "cta": {
+    "title": "Ready to Find Your Dream Property?",
+    "text": "Contact our team of experts today for a personalized consultation and begin your journey to finding the perfect home or investment property in Orange County, San Diego, or Los Angeles.",
+    "button": "Schedule Consultation"
+  },
+  "hero": {
+    "badge": "Exclusive Luxury Real Estate Service",
+    "title": "Exclusive Properties for Discerning Service",
+    "subtitle": "We proudly serve an international clientele, offering bespoke real estate services in every city across \nSouthern California. From coastal retreats to vibrant city residences, we connect you with \nextraordinary properties in the region’s most coveted locations.",
+    "viewProperties": "View Cities",
+    "contactUs": "Contact Us",
+    "scrollDown": "Scroll Down",
+    "backgroundImage": "/home/hero.png"
+  },
+  "services": {
+    "title": "Our Services – Prime Local Homes",
+    "subtitle": "Comprehensive real estate solutions from Prime Local Homes, tailored to your lifestyle, investment goals, and relocation needs.",
+    "propertyAcquisition": {
+      "title": "Property Acquisition",
+      "description": "At Prime Local Homes, we specialize in finding the perfect property for every client. With our global real estate network and local market expertise in Southern California, we help you buy luxury homes, investment properties, and family residences that meet all your requirements. From property search to closing, we guide you every step of the way.",
+      "icon": "🏡"
+    },
+    "investmentAdvisory": {
+      "title": "Investment Advisory",
+      "description": "Boost your returns with Prime Local Homes’ data-driven investment strategies. Our real estate advisors provide market analysis, ROI optimization, and portfolio diversification to ensure your property investments deliver maximum profitability. Whether you are a first-time investor or a seasoned buyer, we help you make informed, profitable decisions.",
+      "icon": "💰"
+    },
+    "relocationServices": {
+      "title": "Relocation Services",
+      "description": "Relocate with confidence through Prime Local Homes’ international relocation services. We offer complete visa and immigration support, housing search assistance, and logistical planning to make your move to the United States and Southern California smooth and stress-free. From legal assistance to settling into your new community, we handle all the details so you can focus on your new life.",
+      "icon": "🌎"
+    }
+  },
+  "stats": {
+    "yearsExperience": "Fast Response",
+    "billionInSales": "Southern California Focus",
+    "countriesServed": "World-Class Affiliates ",
+    "clientSatisfaction": "Unrivaled Dedication ",
+    "yearsExperienceLabel": "Quick turnaround for every project",
+    "billionInSalesLabel": "Strong local presence & expertise",
+    "countriesServedLabel": "Collaborating with partners across industries ",
+    "clientSatisfactionLabel": "Driven by passion. Inspiring lasting impact."
+  },
+  "testimonials": {
+    "title": "What Our Clients Say",
+    "subtitle": "Real stories from families who found their dream homes with us",
+    "items": [
+      {
+        "id": "t1",
+        "quote": "Working with Reza meant to be working with excellency! We had an incredible experience, due to his professionalism, was very knowledgeable, and truly invested his willingness and time in helping us find the place we chose.",
+        "author": "Silvia Jacobo",
+        "rating": 5,
+        "image": "/clients/client1.png"
+      },
+      {
+        "id": "t2",
+        "quote": "Reza Barghlalmeno made buying our home such an incredible experience—one of the best we've had as a family, and I've been through quite a few home purchases in my 80+ years!",
+        "author": "Fern Siegel",
+        "rating": 5,
+        "image": "/clients/client2.png"
+      },
+      {
+        "id": "t3",
+        "quote": "I recently had the pleasure of working with Reza and I cannot speak highly enough of the exceptional experience I had. From start to finish, Reza went above and beyond to ensure that my home buying process was as smooth as possible.",
+        "author": "Maxim Gantman",
+        "rating": 5,
+        "image": "/clients/client3.png"
+      },
+      {
+        "id": "t4",
+        "quote": "My husband and I are first-time buyers in San Diego which, as those of us lucky enough to live here know, has one of the most expensive and competitive housing markets in the nation. We entered this process with very high hopes and very little knowledge. From the moment we met him, Reza was helpful, understanding, patient, professional, empathetic, and operated at the highest level of integrity.",
+        "author": "Mary Jane Gantman",
+        "rating": 5,
+        "image": "/clients/client4.png"
+      },
+      {
+        "id": "t5",
+        "quote": "Reza was the best agent we have ever worked with. His expertise was beyond belief. He had an approach to working with a new real estate group that allowed us to make updates to our home and within 3 weeks we had one showing for three days and we had 5 offers above asking price.",
+        "author": "Russell McQueen",
+        "rating": 5,
+        "image": "/clients/client5.png"
+      },
+      {
+        "id": "t6",
+        "quote": "Reza was incredibly helpful in our home search and securing our first home! He had knowledge of the area and was always responsive to our questions. He made the first-time home buying process very smooth and handled communicating with the seller's agent easily.",
+        "author": "Pulkit Kaushal",
+        "rating": 5,
+        "image": "/clients/client6.png"
+      }
+    ]
+  }
+}

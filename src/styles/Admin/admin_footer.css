@@ -1,0 +1,83 @@
+/* ========================================
+   ADMIN FOOTER STYLES
+   ======================================== */
+
+/* ===== ADMIN FOOTER ===== */
+.admin-footer {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 16px 24px;
+  margin-top: auto;
+}
+
+.admin-footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1400px;
+  margin: 0 auto;
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.admin-footer-left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.admin-footer-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.admin-footer-link {
+  color: #6b7280;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.admin-footer-link:hover {
+  color: #3b82f6;
+}
+
+.admin-footer-version {
+  font-family: 'Courier New', monospace;
+  font-size: 12px;
+  color: #9ca3af;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  .admin-footer {
+    padding: 12px 16px;
+  }
+  
+  .admin-footer-content {
+    flex-direction: column;
+    gap: 12px;
+    text-align: center;
+  }
+  
+  .admin-footer-left,
+  .admin-footer-right {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .admin-footer {
+    padding: 8px 12px;
+  }
+  
+  .admin-footer-content {
+    font-size: 12px;
+  }
+  
+  .admin-footer-version {
+    font-size: 10px;
+  }
+}

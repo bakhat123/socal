@@ -1,0 +1,136 @@
+{
+  "locale": "ar",
+  "author": {
+    "name": "Reza Barghlameno",
+    "photo": "/raza.jpg"
+  },
+  "form": {
+    "header": {
+      "badge": "جاهز للتواصل",
+      "title": "تواصل مع Crown Coastal Concierge",
+      "subtitle": "هل أنت مستعد لبدء رحلتك العقارية؟ تواصل معنا اليوم ولنناقش عقار أحلامك في سان دييغو."
+    },
+    "fields": {
+      "name": {
+        "label": "الاسم الكامل",
+        "placeholder": "أدخل اسمك الكامل",
+        "required": "*"
+      },
+      "phone": {
+        "label": "رقم الهاتف",
+        "placeholder": "أدخل رقم هاتفك",
+        "required": "*"
+      },
+      "email": {
+        "label": "عنوان البريد الإلكتروني",
+        "placeholder": "أدخل عنوان بريدك الإلكتروني",
+        "required": "*"
+      },
+      "message": {
+        "label": "الرسالة",
+        "placeholder": "أخبرنا باحتياجاتك العقارية والمناطق المفضلة والميزانية وأي متطلبات محددة...",
+        "required": "*"
+      }
+    },
+    "consent": {
+      "title": "الخصوصية والموافقة",
+      "text": "من خلال إرسال معلوماتك، فإنك توافق على أن المتخصص العقاري المذكور أعلاه قد يتصل بك/يرسل لك رسائل نصية بشأن بحثك، وقد يشمل ذلك استخدام وسائل آلية وأصوات مسجلة/اصطناعية. لا تحتاج إلى الموافقة كشرط لشراء أي عقار أو سلع أو خدمات. قد تنطبق رسوم الرسائل/البيانات. أنت توافق أيضًا على شروط الاستخدام الخاصة بنا."
+    },
+    "submit": {
+      "sending": "جارٍ إرسال الرسالة...",
+      "send": "إرسال الرسالة"
+    },
+    "footer": {
+      "responseTime": "عادةً ما نرد خلال ساعتين أثناء ساعات العمل"
+    }
+  },
+  "hero": {
+    "profileStatus": "متاح الآن",
+    "profileCompany": "eXp كاليفورنيا",
+    "profileTitle": "قائد Crown Coastal Concierge",
+    "profileBadges": {
+      "topProducer": "",
+      "fiveStarRated": ""
+    },
+    "recentSales": {
+      "title": "المبيعات الأخيرة",
+      "seeAll": "عرض الكل",
+      "sold": "تم البيع",
+      "properties": [
+        {
+          "address": "4632 Kensington Dr San Diego, CA, 92116",
+          "price": "$1,695,000",
+          "year": "2025",
+          "imageUrl": "/contact/property_1.png"
+        },
+        {
+          "address": " 30960 Eagle Ct Temecula, CA, 92591",
+          "price": "\t$779,800",
+          "year": "2025",
+          "imageUrl": "/contact/property_2.png"
+        },
+        {
+          "address": "10800 Valley Dr Riverside, CA, 92505",
+          "price": "$880,000",
+          "year": "2025",
+          "imageUrl": "/contact/property_3.png"
+        },
+        {
+          "address": "1750 W Citracado Pkwy W #164 Escondido, CA, 92029",
+          "price": "$515,000",
+          "year": "2025",
+          "imageUrl": "/contact/property_4.png"
+        },
+        {
+          "address": "375 Ventasso Way Fallbrook, CA, 92028",
+          "price": "$880,000",
+          "year": "2024",
+          "imageUrl": "/contact/property_5.png"
+        },
+        {
+          "address": " 1995 Casablanca Ct Vista, CA, 92081",
+          "price": "$1,035,000",
+          "year": "2024",
+          "imageUrl": "/contact/property_6.png"
+        },
+        {
+          "address": " 42006 Village 42 Camarillo, CA, 93012",
+          "price": "$840,000",
+          "year": "2024",
+          "imageUrl": "/contact/property_7.png"
+        },
+        {
+          "address": " 708 Pascali Ct San Marcos, CA, 92069",
+          "price": "\t$1,495,000",
+          "year": "2024",
+          "imageUrl": "/contact/property_8.png"
+        },
+        {
+          "address": "1721 Calle Platico Oceanside, CA, 92056",
+          "price": "$865,000",
+          "year": "2024",
+          "imageUrl": "/contact/property_9.png"
+        }
+      ]
+    }
+  },
+  "info": {
+    "description": {
+      "title": "تعرّف على رضا",
+      "subtitle": "متخصص عقاري",
+      "text1": "مع رحلة قادته عبر 32 دولة وأكثر من مئة مدينة، يجلب رضا خبرة عالمية ومنظورًا فريدًا إلى سوق العقارات في سان دييغو. فهو يؤمن بشدة بأنه لا مكان مثل سان دييغو، بسواحلها الفريدة، ومشهدها الحضري النابض بالحياة، ومغامراتها التي لا تنتهي.",
+      "text2": "باستخدام 17 عامًا من خبرة إدارة العملاء والتفاوض، أتقن رضا فن فهم احتياجات عملائه وتجاوز توقعاتهم. لكنه لا يقتصر على الصفقات فقط؛ سواء بإرشاد البائعين لتعظيم قيمة منازلهم أو مساعدة المشترين في العثور على عقار أحلامهم، تكمن شغفه الحقيقي في تحقيق نتائج كبيرة لعملائه.",
+      "text3": "بعيدًا عن العقارات، ينغمس رضا بعمق في نسيج مجتمع سان دييغو. لقد دافع عن القضايا العادلة من خلال التماسات شعبية، وشارك بنشاط في حملات تنظيف الشواطئ، وعمل بلا كلل لرفع مستوى المجتمعات المحرومة عبر برامج حكومية مدعومة. بالنسبة لرضا، العقارات ليست مجرد تجارة—بل منصة لخدمة المجتمع الذي يعشقه وتعزيزه."
+    },
+    "specialties": {
+      "title": "الاختصاصات",
+      "tags": [
+        "وكيل مشتري",
+        "وكيل إدراج",
+        "إعادة توطين",
+        "إيجارات عطلات / قصيرة الأجل"
+      ],
+      "languages": "يتحدث: الإنجليزية، العربية، الفارسية، التركية"
+    }
+  }
+}

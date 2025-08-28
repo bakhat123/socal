@@ -1,0 +1,179 @@
+/* County Page Base Styles */
+.county-page {
+  font-family: 'Inter', sans-serif;
+  background: var(--white);
+  color: var(--charcoal);
+}
+
+/* County Hero Styles */
+.county-hero {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.county-hero .hero-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.county-hero .hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.county-hero .hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%);
+  z-index: 2;
+}
+
+.county-hero .hero-content {
+  position: relative;
+  z-index: 3;
+  text-align: center;
+  color: white;
+  max-width: 800px;
+  padding: 0 20px;
+}
+
+.county-hero .hero-text {
+  margin-bottom: 2rem;
+}
+
+.county-hero .hero-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 3.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.county-hero .hero-subtitle {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  opacity: 0.9;
+}
+
+.county-hero .hero-stats {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.county-hero .stat {
+  text-align: center;
+}
+
+.county-hero .hero-quick-stats {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+/* County Sections */
+.county-highlights {
+  padding: 80px 0;
+}
+
+.county-express-service,
+.county-cities-guide,
+.county-market-analysis {
+  padding: 60px 0;
+}
+
+.county-faqs {
+  padding: 80px 0;
+}
+
+/* County Cards */
+.county-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.county-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+.county-card-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.county-card-stats {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.county-card-tag {
+  background: rgba(212, 175, 55, 0.1);
+  color: var(--gold);
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.county-card:hover .county-card-tag {
+  background: var(--gold);
+  color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .county-hero .hero-title {
+    font-size: 2.5rem;
+  }
+
+  .county-hero .hero-subtitle {
+    font-size: 1.125rem;
+  }
+
+  .county-hero .hero-stats {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .county-hero .hero-quick-stats {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .county-hero .hero-title {
+    font-size: 2rem;
+  }
+
+  .county-hero .hero-subtitle {
+    font-size: 1rem;
+  }
+
+  .section-title {
+    font-size: 1.75rem;
+  }
+}

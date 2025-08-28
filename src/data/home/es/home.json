@@ -1,0 +1,102 @@
+{
+  "locale": "es",
+  "blog": {
+    "title": "Últimas Perspectivas",
+    "subtitle": "Descubra nuestras perspectivas expertas sobre los mercados inmobiliarios de lujo en todo Estados Unidos y el sur de California."
+  },
+  "cities": {
+    "title": "Explore los condados del sur de California",
+    "subtitle": "Descubra los condados más vibrantes y deseados del sur de California, cada uno con comunidades únicas, estilos de vida e interesantes oportunidades de inversión."
+  },
+  "cta": {
+    "title": "¿Listo para Encontrar tu Propiedad Soñada?",
+    "text": "Contacte hoy a nuestro equipo de expertos para una consulta personalizada y comience su camino hacia la compra de la casa perfecta o propiedad de inversión en el Condado de Orange, San Diego o Los Ángeles.",
+    "button": "Programar Consulta"
+  },
+  "hero": {
+    "badge": "Servicio Exclusivo de Bienes Raíces de Lujo",
+    "title": "Propiedades Exclusivas con un Servicio de máxima Distinción",
+    "subtitle": "Atendemos con orgullo a una clientela internacional, ofreciendo servicios inmobiliarios a medida en cada ciudad del sur de California. Desde retiros costeros hasta vibrantes residencias urbanas, lo conectamos con propiedades extraordinarias en las ubicaciones más codiciadas de la región.",
+    "viewProperties": "Ver ciudades",
+    "contactUs": "Contáctanos",
+    "scrollDown": "Desplázate Abajo",
+    "backgroundImage": "/home/hero.png"
+  },
+  "services": {
+    "title": "Nuestros Servicios – Prime Local Homes ",
+    "subtitle": "Soluciones inmobiliarias integrales de Prime Local Homes, adaptadas a tu estilo de vida, metas de inversión y necesidades de reubicación.",
+    "propertyAcquisition": {
+      "title": "Adquisición de propiedades",
+      "description": "En Prime Local Homes nos especializamos en encontrar la propiedad perfecta para cada cliente. Con nuestra red global de bienes raíces y experiencia local en el sur de California, te ayudamos a comprar casas de lujo, propiedades de inversión y residencias familiares que cumplan con todos tus requisitos. Desde la búsqueda de la propiedad hasta el cierre, te guiamos en cada paso del camino.",
+      "icon": "🏡"
+    },
+    "investmentAdvisory": {
+      "title": "Asesoría de inversión",
+      "description": "Aumenta tus rendimientos con las estrategias de inversión basadas en datos de Prime Local Homes. Nuestros asesores inmobiliarios brindan análisis de mercado, optimización del ROI y diversificación de portafolio para asegurar que tus inversiones inmobiliarias generen la máxima rentabilidad. Seas un inversionista principiante o un comprador experimentado, te ayudamos a tomar decisiones informadas y rentables.",
+      "icon": "💰"
+    },
+    "relocationServices": {
+      "title": "Servicios de reubicación",
+      "description": "Reubícate con confianza gracias a los servicios de reubicación internacional de Prime Local Homes. Ofrecemos apoyo completo en visas e inmigración, asistencia en la búsqueda de vivienda y planificación logística para que tu mudanza a Estados Unidos y el sur de California sea fluida y sin estrés. Desde asistencia legal hasta la integración en tu nueva comunidad, manejamos todos los detalles para que te concentres en tu nueva vida.",
+      "icon": "🌎"
+    }
+  },
+  "stats": {
+    "yearsExperience": "Respuesta rápida ",
+    "billionInSales": "Enfoque en el sur de California",
+    "countriesServed": "Afiliados de clase mundial",
+    "clientSatisfaction": "Dedicación inigualable",
+    "yearsExperienceLabel": "Entrega ágil para cada proyecto",
+    "billionInSalesLabel": "Fuerte presencia local y experiencia",
+    "countriesServedLabel": "Colaborando con socios de múltiples sectores",
+    "clientSatisfactionLabel": "Impulsados por la pasión. Inspirando un impacto duradero."
+  },
+  "testimonials": {
+    "title": "Lo que dicen nuestros clientes",
+    "subtitle": "Historias reales de familias que encontraron sus hogares soñados con nosotros",
+    "items": [
+      {
+        "id": "t1",
+        "quote": "¡Trabajar con Reza significa trabajar con excelencia! Tuvimos una experiencia increíble, gracias a su profesionalismo, era muy conocedor y realmente invirtió su disposición y tiempo para ayudarnos a encontrar el lugar que elegimos. Una de las cosas que más me gustó personalmente fue su carisma, muy accesible, siempre que acudíamos a él con preguntas. Pero lo mejor de todo es que es muy respetuoso con nuestras solicitudes, ya fueran creencias religiosas, lo cual era muy importante para nosotros. Siempre se tomó el tiempo para entender exactamente lo que estábamos buscando y nos guió a través de cada paso del proceso con paciencia y profesionalismo. Apreciamos su agudo ojo para los detalles, otro plus para nosotros, y más importante aún, su consejo honesto nos dio confianza en nuestra decisión de ir por el lugar en Temecula, donde podríamos estar más cerca de nuestros hijos. No podríamos haber pedido un mejor agente y recomendamos encarecidamente a Reza Barghlameno a cualquiera que quiera comprar una casa.",
+        "author": "Silvia Jacobo",
+        "rating": 5,
+        "image": "/clients/client1.png"
+      },
+      {
+        "id": "t2",
+        "quote": "Reza Barghlalmeno hizo que comprar nuestra casa fuera una experiencia tan increíble—¡una de las mejores que hemos tenido como familia, y he pasado por algunas compras de casas en mis más de 80 años! Cuando mi hija encontró esta casa Kensington en línea, no estábamos seguros de si deberíamos trabajar con el agente que Zillow nos asignó. Pero desde la primera llamada telefónica, Reza nos tranquilizó completamente. Era amigable, profesional y tan orientado a los detalles que todo el proceso parecía perfecto. Cerramos en solo 18 días, y todo funcionó tan suavemente de nuestro lado, gracias a su arduo trabajo detrás de escena. Esta casa es todo lo que hemos soñado. Hay un pequeño casita encantador donde mi hija puede quedarse cuando me visita desde fuera del estado. También está cerca de mi hijo, que tiene trastornos del desarrollo, para que finalmente podamos reunirnos como familia. Ya me imagino organizando clubes de lectura, pasando tiempo con mi nieto cuando me visita, y creando tantos nuevos recuerdos aquí. Reza no solo nos ayudó a comprar una casa—nos ayudó a encontrar un hogar para el próximo capítulo de nuestras vidas. Fue más allá en cada paso, desde manejar negociaciones hasta administrar todos los pequeños detalles y verificar con nosotros, incluso después de que se completara la venta. Honestamente no podría estar más agradecida. Si tienes la oportunidad de trabajar con Reza, estás en las mejores manos posibles.",
+        "author": "Fern Siegel",
+        "rating": 5,
+        "image": "/clients/client2.png"
+      },
+      {
+        "id": "t3",
+        "quote": "Recientemente tuve el placer de trabajar con Reza y no puedo decir lo suficiente sobre la experiencia extraordinaria que tuve. De principio a fin, Reza fue más allá de lo esperado para asegurar que mi proceso de compra de casa fuera lo más fluido posible. Conocí a Reza por casualidad mientras caminaba por el vecindario de mis padres presentándose a la comunidad. Desde nuestra primera reunión, estaba claro que Reza no solo era conocedor, sino que realmente apasionado por ayudar a los clientes a encontrar el hogar perfecto. Se tomó el tiempo para escuchar mis necesidades, preferencias y preocupaciones, y dio consejos perspicaces sobre cada propiedad que vimos. Su atención al detalle, capacidad de respuesta y dedicación fueron realmente impresionantes. Ya fuera responder preguntas tarde en la noche o programar visitas de última hora, Reza siempre estuvo ahí para mí. Una cosa que realmente lo destacó fue su capacidad para negociar en mi nombre. Me impresionó la forma en que manejó todo el proceso—desde crear la oferta perfecta hasta asegurar que se completaran todos los papeles y logística. Su experiencia y profesionalismo me dieron la confianza que necesitaba para superar el proceso de compra de casa, incluso durante los diversos contratiempos que encontramos. Reza estuvo ahí y luchó por nosotros en cada paso del camino a través de toda la transacción. Más allá del aspecto comercial, Reza me hizo sentir como familia. Su calidez, paciencia y actitud positiva hicieron que una experiencia potencialmente estresante fuera mucho más fácil. Realmente se preocupaba por que mi familia y yo encontráramos el hogar correcto, y eso se mostraba en cada interacción. Si estás buscando un agente que dé el paso extra y te asegure una experiencia sobresaliente, no puedo recomendar lo suficiente a Reza. ¡Realmente es un destacado en la industria!",
+        "author": "Maxim Gantman",
+        "rating": 5,
+        "image": "/clients/client3.png"
+      },
+      {
+        "id": "t4",
+        "quote": "Mi esposo y yo somos compradores primerizos en San Diego, que, como aquellos de nosotros que tenemos la suerte de vivir aquí saben, tiene uno de los mercados inmobiliarios más caros y competitivos de la nación. Entramos en este proceso con esperanzas muy altas y muy poco conocimiento. Desde el momento en que lo conocimos, Reza fue útil, comprensivo, paciente, profesional, empático y operó con el más alto nivel de integridad. Nuestra experiencia fue difícil, y Reza hizo un trabajo fenomenal manejando nuestras expectativas sin destruir nuestra emoción. Nos ayudó a mantener nuestro impulso a través de pérdidas frustrantes, y nos permitió el espacio y la humanidad para llorar cuando las cosas no salían como esperábamos. Reza se quedó con nosotros a través de una cantidad enorme de obstáculos en los últimos 7 meses. Tuvimos el placer de ir a escrow dos veces durante nuestra búsqueda de la casa perfecta. La primera vez que fuimos a escrow fue para una casa que tenía una escritura. No fue hasta después de que fuimos a escrow que Reza descubrió que había una limitación significativa puesta en el ingreso familiar anual total para esta casa (algo que ni los vendedores NI la ciudad de San Marcos sabían en ese momento) que hacía que nuestra familia fuera inadecuada para vivir allí. Luchó por nuestra familia, yendo tan lejos como para reunirse con un representante de la ciudad de San Marcos en el ayuntamiento para determinar cuál era el problema con nuestra compra de esta propiedad. Reza nos mantuvo al tanto tanto por texto como por teléfono en cada paso, y pudo explicar los problemas pendientes en un idioma que nos permitía entender las situaciones legales y complicaciones. Nos ayudó a navegar saliendo del escrow, y lloró con nosotros cuando nuestra decepción se volvió abrumadora. La segunda casa en la que fuimos a escrow (que ahora es nuestro hogar familiar) también tuvo un proceso laborioso que Reza nos ayudó a navegar. Tuvimos tantos problemas surgiendo que estaban completamente fuera de nuestras manos y las suyas; abordó cada uno con profesionalismo y nunca se rindió en nuestra familia. Navegamos problemas con el vendedor, resultados de inspección decepcionantes, un préstamo cancelado, problemas de título que llevaron a la pérdida de nuestro inversor, problemas con documentos HOA expirados y más. La cantidad de veces que pensamos que tendríamos que reiniciar este proceso fue abrumadora, pero con cada nuevo desafío, Reza nos ayudó a mantenernos equilibrados, luchó por nosotros y encontró formas creativas de evitarlos y trabajar a través de ellos. Su diligencia nos permitió encontrar el hogar en el que estamos emocionados de criar a nuestros hijos, y una comunidad donde podemos prosperar. En el futuro, esperamos trabajar con Reza nuevamente, y continuaremos recomendándolo a todos y cada uno que conozcamos que también esté pasando por este proceso. Comprar una casa es un proceso muy frustrante y definitivamente no es para los débiles de corazón. Saber que hay personas como Reza por ahí solo lo hace mucho mejor, más seguro, más agradable y útil. ¡Gracias, Reza, por todo lo que has hecho por nuestra familia! No podemos esperar a tenerte para cenar una vez que nos mudemos.",
+        "author": "Mary Jane Gantman",
+        "rating": 5,
+        "image": "/clients/client4.png"
+      },
+      {
+        "id": "t5",
+        "quote": "Reza fue el mejor agente con el que hemos trabajado. Su experiencia estaba más allá de la creencia. Tenía un enfoque para trabajar con un nuevo grupo inmobiliario que nos permitió hacer actualizaciones a nuestra casa, y dentro de 3 semanas tuvimos una vista de 3 días y tuvimos 5 ofertas por encima del precio solicitado. Su enfoque considerado nos mantuvo en el camino correcto sin estresarnos, y nos aseguró que alcanzaríamos nuestro objetivo de no solo vender nuestra casa, sino que trabajó diligentemente para encontrar un nuevo hogar en un área que está a 150 millas al norte de su área. Estamos eternamente agradecidos por él y FAM Realtor Group por todos los esfuerzos personales que todos han hecho para ayudarnos a vender nuestra casa y encontrar un nuevo hogar.",
+        "author": "Russell MacQueen",
+        "rating": 5,
+        "image": "/clients/client5.png"
+      },
+      {
+        "id": "t6",
+        "quote": "¡Reza fue increíblemente útil en nuestra búsqueda de casa y asegurando nuestra primera casa! Tenía conocimiento del área y siempre fue receptivo a nuestras preguntas. Hizo que nuestro proceso como compradores primerizos fuera muy fluido y manejó fácilmente el contacto con el agente del vendedor. Recomendamos mucho a Reza ya que trata a sus clientes como familia y quiere asegurarse de que reciban el mejor servicio. ¡Realmente apreciamos todos sus esfuerzos y que fuera nuestro agente para nuestra primera casa!",
+        "author": "Pulkit Kaushal",
+        "rating": 5,
+        "image": "/clients/client6.png"
+      }
+    ]
+  }
+}

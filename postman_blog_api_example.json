@@ -1,0 +1,119 @@
+{
+  "info": {
+    "name": "Blog API Testing",
+    "description": "Examples for testing the blog API with the new comprehensive schema"
+  },
+  "item": [
+    {
+      "name": "Create New Blog",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"slug\": \"luxury-penthouses-beverly-hills-investment-2025\",\n  \"title\": \"Luxury Penthouses in Beverly Hills: Elite Investment Guide 2025\",\n  \"subtitle\": \"Explore exclusive penthouse investments in Beverly Hills' most prestigious buildings with comprehensive market analysis and ROI insights\",\n  \"canonicalurl\": \"www.abc.com/en/luxury-penthouses-beverly-hills-investment-2025\",\n  \"language\": \"en\",\n  \"category\": \"Luxury Real Estate\",\n  \"author\": {\n    \"name\": \"Alexander Mitchell\",\n    \"title\": \"Luxury Real Estate Investment Specialist\",\n    \"avatar\": \"AM\",\n    \"bio\": \"Alexander Mitchell is a premier luxury real estate expert with over 18 years of experience in Beverly Hills' ultra-luxury market.\"\n  },\n  \"status\": \"Published\",\n  \"featured\": true,\n  \"heroImage\": \"https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?ixlib=rb-4.0.3&auto=format&fit=crop&w=2340&q=80\",\n  \"imagealt\": \"Luxury penthouse terrace overlooking Beverly Hills skyline with infinity pool and modern outdoor furniture\",\n  \"readTime\": \"9 min read\",\n  \"wordcount\": 1847,\n  \"content\": {\n    \"lead\": \"Beverly Hills luxury penthouses represent the pinnacle of Southern California's elite real estate market, commanding premium prices that reflect their exclusive status and unparalleled city views.\",\n    \"sections\": [\n      {\n        \"title\": \"Market Overview & Current Trends\",\n        \"content\": \"Beverly Hills' luxury penthouse market has demonstrated exceptional resilience, with premium units appreciating an average of 14.2% annually over the past five years.\",\n        \"quote\": {\n          \"text\": \"Beverly Hills penthouses have evolved beyond luxury residences into trophy assets that define global real estate portfolios.\",\n          \"author\": \"Jennifer Walsh, Senior Vice President at Christie's International Real Estate\"\n        },\n        \"additional\": \"Post-pandemic market dynamics have fundamentally altered luxury penthouse preferences.\",\n        \"subsections\": [\n          {\n            \"title\": \"Price Performance and Investment Metrics\",\n            \"content\": \"Luxury penthouses in Beverly Hills have consistently outperformed broader luxury real estate markets.\"\n          }\n        ]\n      }\n    ]\n  },\n  \"ctaSection\": {\n    \"title\": \"Ready To Make A Move?\",\n    \"subtitle\": \"Connect with our Beverly Hills luxury penthouse specialists today\",\n    \"ctaText\": \"Schedule Private Consultation\",\n    \"ctaLink\": \"/contact/beverly-hills-penthouses\"\n  },\n  \"seo\": {\n    \"metaTitle\": \"Luxury Penthouses Beverly Hills - Elite Investment Guide 2025\",\n    \"metaDescription\": \"Discover exclusive Beverly Hills luxury penthouses. Complete investment guide with market analysis, ROI data, and international buyer process for 2025.\",\n    \"keywords\": \"luxury penthouses, Beverly Hills real estate, penthouse investment, ultra-luxury condos, international buyers, Wilshire Corridor, Century City penthouses\"\n  }\n}"
+        },
+        "url": {
+          "raw": "{{base_url}}/admin/api/blogs",
+          "host": ["{{base_url}}"],
+          "path": ["admin", "api", "blogs"]
+        }
+      }
+    },
+    {
+      "name": "Get All Blogs",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/admin/api/blogs",
+          "host": ["{{base_url}}"],
+          "path": ["admin", "api", "blogs"]
+        }
+      }
+    },
+    {
+      "name": "Get Single Blog",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/admin/api/blogs/{{blog_id}}",
+          "host": ["{{base_url}}"],
+          "path": ["admin", "api", "blogs", "{{blog_id}}"]
+        }
+      }
+    },
+    {
+      "name": "Update Blog",
+      "request": {
+        "method": "PUT",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"slug\": \"updated-luxury-penthouses-beverly-hills\",\n  \"title\": \"Updated: Luxury Penthouses in Beverly Hills\",\n  \"subtitle\": \"Updated subtitle with new market insights\",\n  \"canonicalurl\": \"www.abc.com/en/updated-luxury-penthouses-beverly-hills\",\n  \"language\": \"en\",\n  \"category\": \"Luxury Real Estate\",\n  \"author\": {\n    \"name\": \"Alexander Mitchell\",\n    \"title\": \"Updated Title\",\n    \"avatar\": \"AM\",\n    \"bio\": \"Updated bio with new credentials.\"\n  },\n  \"status\": \"Published\",\n  \"featured\": true,\n  \"heroImage\": \"https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?ixlib=rb-4.0.3&auto=format&fit=crop&w=2340&q=80\",\n  \"imagealt\": \"Updated image alt text\",\n  \"readTime\": \"10 min read\",\n  \"wordcount\": 2000,\n  \"content\": {\n    \"lead\": \"Updated lead paragraph with new market insights.\",\n    \"sections\": [\n      {\n        \"title\": \"Updated Market Overview\",\n        \"content\": \"Updated content with latest market trends.\",\n        \"quote\": {\n          \"text\": \"Updated quote with new insights.\",\n          \"author\": \"Updated Author Name\"\n        },\n        \"additional\": \"Updated additional information.\",\n        \"subsections\": [\n          {\n            \"title\": \"Updated Subsection Title\",\n            \"content\": \"Updated subsection content.\"\n          }\n        ]\n      }\n    ]\n  },\n  \"ctaSection\": {\n    \"title\": \"Updated CTA Title\",\n    \"subtitle\": \"Updated CTA subtitle\",\n    \"ctaText\": \"Updated CTA Button\",\n    \"ctaLink\": \"/updated-contact-link\"\n  },\n  \"seo\": {\n    \"metaTitle\": \"Updated SEO Title\",\n    \"metaDescription\": \"Updated SEO description with new keywords.\",\n    \"keywords\": \"updated, luxury, penthouses, Beverly Hills, real estate\"\n  }\n}"
+        },
+        "url": {
+          "raw": "{{base_url}}/admin/api/blogs/{{blog_id}}",
+          "host": ["{{base_url}}"],
+          "path": ["admin", "api", "blogs", "{{blog_id}}"]
+        }
+      }
+    },
+    {
+      "name": "Delete Blog",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/admin/api/blogs/{{blog_id}}",
+          "host": ["{{base_url}}"],
+          "path": ["admin", "api", "blogs", "{{blog_id}}"]
+        }
+      }
+    },
+    {
+      "name": "Create Simple Blog (Minimal Fields)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"slug\": \"simple-blog-example\",\n  \"title\": \"Simple Blog Example\",\n  \"subtitle\": \"A simple blog with minimal required fields\",\n  \"category\": \"Marketing\",\n  \"author\": \"John Doe\",\n  \"status\": \"Draft\",\n  \"content\": {\n    \"lead\": \"This is a simple blog post with minimal required fields.\"\n  }\n}"
+        },
+        "url": {
+          "raw": "{{base_url}}/admin/api/blogs",
+          "host": ["{{base_url}}"],
+          "path": ["admin", "api", "blogs"]
+        }
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "http://localhost:3000",
+      "type": "string"
+    },
+    {
+      "key": "blog_id",
+      "value": "your_blog_id_here",
+      "type": "string"
+    }
+  ]
+}

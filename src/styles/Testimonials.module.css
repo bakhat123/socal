@@ -1,0 +1,597 @@
+
+.testimonialsSection {
+  position: relative;
+  padding: 56px 0;
+  background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+  overflow: hidden;
+  border-radius: 16px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  position: relative;
+}
+
+.slider { position: relative; padding: 0 28px; }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 30px;
+}
+
+.card {
+  background: #ffffff;
+  padding: 44px;
+  border-radius: 20px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  min-height: 320px;
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(135deg, #bfa16b, #d9b878, #bfa16b);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+}
+
+.card:hover::before {
+  opacity: 1;
+}
+
+.stars {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 18px;
+}
+
+.star {
+  color: #ffd700;
+  font-size: 1.1rem;
+  transition: transform 0.2s ease;
+}
+
+.card:hover .star {
+  transform: scale(1.08);
+}
+
+.quoteWrap {
+  position: relative;
+  margin-bottom: 16px;
+}
+
+.quoteWrap::before {
+  content: '\"';
+  font-size: 3.5rem;
+  color: #e8e8e8;
+  position: absolute;
+  top: -12px;
+  left: -10px;
+  font-family: serif;
+}
+
+.quote {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #555;
+  margin-bottom: 22px;
+  font-style: italic;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 12px;
+  padding: 14px 16px;
+}
+
+.quoteScroll {
+  max-height: 200px;
+  overflow: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.quoteScroll::-webkit-scrollbar { display: none; }
+
+.fadeBottom {
+  position: absolute;
+  left: 0; right: 0; bottom: 6px;
+  height: 36px;
+  pointer-events: none;
+  background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,0.85));
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.scrollHint {
+  position: absolute;
+  left: 0; right: 0; bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  font-size: 12px;
+  color: #2c3e50; /* default, arrow gets gold */
+  font-weight: 600;
+  text-shadow: 0 1px 2px rgba(255,255,255,0.5);
+  pointer-events: none;
+}
+
+.chevron {
+  display: inline-block;
+  animation: hintBounce 1.6s ease-in-out infinite;
+  color: #bfa16b; /* gold accent */
+  font-weight: 700;
+}
+
+.scrollText {
+  color: #0f172a; /* slate-900 style for strong contrast */
+}
+
+@keyframes hintBounce {
+  0%, 100% { transform: translateY(0); opacity: 0.6; }
+  50% { transform: translateY(-4px); opacity: 1; }
+}
+
+.client {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 12px;
+}
+
+.avatar {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+}
+
+.clientImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.clientName {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 4px;
+}
+
+.clientRole {
+  color: #7f8c8d;
+  font-size: 0.9rem;
+}
+
+.navBtn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 5;
+  padding: 10px;
+  border-radius: 9999px;
+  background: #fff;
+  border: 1px solid rgba(191, 161, 107, 0.3);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+}
+
+.navLeft { left: -28px; }
+.navRight { right: -28px; }
+
+.navBtn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+/* Background image removed per request */
+
+/* Enhanced Responsive Design for All Screen Sizes */
+@media (max-width: 1200px) {
+  .container {
+    max-width: 1000px;
+    padding: 0 24px;
+  }
+  
+  .grid {
+    gap: 24px;
+  }
+  
+  .card {
+    padding: 36px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .testimonialsSection {
+    position: relative;
+    z-index: 10;
+    margin-bottom: 64px;
+    padding: 60px 0;
+  }
+  
+  .container {
+    overflow: visible;
+    padding: 0 20px 48px 20px;
+    max-width: 900px;
+  }
+  
+  .slider {
+    overflow: visible;
+    padding: 0 20px;
+  }
+  
+  .stage {
+    position: static;
+    height: auto;
+    min-height: 0;
+  }
+  
+  .stack {
+    position: static;
+    inset: auto;
+  }
+  
+  .grid {
+    transform: none !important;
+    gap: 20px;
+  }
+  
+  .outLeft, .inRight, .outRight, .inLeft {
+    animation: none !important;
+  }
+  
+  .card {
+    min-height: unset;
+    height: auto;
+    padding: 32px;
+  }
+  
+  .navBtn {
+    top: auto;
+    bottom: 0;
+    transform: none;
+    width: 44px;
+    height: 44px;
+  }
+  
+  .navLeft {
+    left: 8px;
+  }
+  
+  .navRight {
+    right: 8px;
+  }
+}
+
+@media (max-width: 768px) {
+  .testimonialsSection {
+    padding: 50px 20px;
+    margin-bottom: 48px;
+  }
+  
+  .container {
+    padding: 0 0 40px 0;
+  }
+  
+  .slider {
+    padding: 0 16px;
+  }
+  
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .card {
+    padding: 28px 24px;
+    min-height: 280px;
+  }
+  
+  .quote {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 18px;
+  }
+  
+  .stars {
+    margin-bottom: 16px;
+  }
+  
+  .star {
+    font-size: 1rem;
+  }
+  
+  .client {
+    margin-bottom: 12px;
+  }
+  
+  .clientName {
+    font-size: 1rem;
+    line-height: 1.2;
+  }
+  
+  .clientRole {
+    font-size: 0.875rem;
+    line-height: 1.2;
+  }
+  
+  .navBtn {
+    width: 40px;
+    height: 40px;
+    bottom: 0;
+  }
+  
+  .navLeft {
+    left: 16px;
+  }
+  
+  .navRight {
+    right: 16px;
+  }
+}
+
+@media (max-width: 640px) {
+  .testimonialsSection {
+    padding: 40px 16px;
+    margin-bottom: 40px;
+  }
+  
+  .container {
+    padding: 0 0 36px 0;
+  }
+  
+  .slider {
+    padding: 0 12px;
+  }
+  
+  .grid {
+    gap: 16px;
+  }
+  
+  .card {
+    padding: 24px 20px;
+    min-height: 260px;
+  }
+  
+  .card::before {
+    font-size: 2rem;
+    top: -6px;
+    left: -6px;
+  }
+  
+  .quote {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin-bottom: 16px;
+  }
+  
+  .stars {
+    margin-bottom: 14px;
+  }
+  
+  .star {
+    font-size: 0.9rem;
+  }
+  
+  .client {
+    margin-bottom: 10px;
+  }
+  
+  .clientName {
+    font-size: 0.95rem;
+    line-height: 1.2;
+  }
+  
+  .clientRole {
+    font-size: 0.8rem;
+    line-height: 1.2;
+  }
+  
+  .navBtn {
+    width: 36px;
+    height: 36px;
+    bottom: 0;
+  }
+  
+  .navLeft {
+    left: 12px;
+  }
+  
+  .navRight {
+    right: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .testimonialsSection {
+    padding: 32px 12px;
+    margin-bottom: 32px;
+  }
+  
+  .container {
+    padding: 0 0 32px 0;
+  }
+  
+  .slider {
+    padding: 0 8px;
+  }
+  
+  .grid {
+    gap: 12px;
+  }
+  
+  .card {
+    padding: 20px 16px;
+    min-height: 240px;
+  }
+  
+  .card::before {
+    font-size: 1.8rem;
+    top: -4px;
+    left: -4px;
+  }
+  
+  .quote {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    margin-bottom: 14px;
+  }
+  
+  .stars {
+    margin-bottom: 12px;
+  }
+  
+  .star {
+    font-size: 0.85rem;
+  }
+  
+  .client {
+    margin-bottom: 8px;
+  }
+  
+  .avatar {
+    width: 48px;
+    height: 48px;
+  }
+  
+  .clientName {
+    font-size: 0.9rem;
+    line-height: 1.2;
+  }
+  
+  .clientRole {
+    font-size: 0.75rem;
+    line-height: 1.2;
+  }
+  
+  .navBtn {
+    width: 32px;
+    height: 32px;
+    bottom: 0;
+  }
+  
+  .navLeft {
+    left: 8px;
+  }
+  
+  .navRight {
+    right: 8px;
+  }
+}
+
+@media (max-width: 360px) {
+  .testimonialsSection {
+    padding: 24px 8px;
+    margin-bottom: 24px;
+  }
+  
+  .container {
+    padding: 0 0 28px 0;
+  }
+  
+  .slider {
+    padding: 0 4px;
+  }
+  
+  .grid {
+    gap: 8px;
+  }
+  
+  .card {
+    padding: 16px 12px;
+    min-height: 220px;
+  }
+  
+  .card::before {
+    font-size: 1.6rem;
+    top: -2px;
+    left: -2px;
+  }
+  
+  .quote {
+    font-size: 0.85rem;
+    line-height: 1.3;
+    margin-bottom: 12px;
+  }
+  
+  .stars {
+    margin-bottom: 10px;
+  }
+  
+  .star {
+    font-size: 0.8rem;
+  }
+  
+  .client {
+    margin-bottom: 6px;
+  }
+  
+  .avatar {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .clientName {
+    font-size: 0.85rem;
+    line-height: 1.2;
+  }
+  
+  .clientRole {
+    font-size: 0.7rem;
+    line-height: 1.2;
+  }
+  
+  .navBtn {
+    width: 28px;
+    height: 28px;
+    bottom: 0;
+  }
+  
+  .navLeft {
+    left: 4px;
+  }
+  
+  .navRight {
+    right: 4px;
+  }
+}
+
+/* Slide transition stage */
+.stage { position: relative; min-height: 360px; }
+.stack { position: absolute; inset: 0; }
+
+@keyframes slideOutLeft { from { opacity: 1; transform: translateX(0); } to { opacity: 0; transform: translateX(-60px); } }
+@keyframes slideInRight { from { opacity: 0; transform: translateX(60px); } to { opacity: 1; transform: translateX(0); } }
+@keyframes slideOutRight { from { opacity: 1; transform: translateX(0); } to { opacity: 0; transform: translateX(60px); } }
+@keyframes slideInLeft { from { opacity: 0; transform: translateX(-60px); } to { opacity: 1; transform: translateX(0); } }
+
+.outLeft { animation: slideOutLeft 0.45s ease both; }
+.inRight { animation: slideInRight 0.45s ease both; }
+.outRight { animation: slideOutRight 0.45s ease both; }
+.inLeft { animation: slideInLeft 0.45s ease both; }
+
+@media (max-width: 480px) {
+  .stage { min-height: 300px; }
+}
+
+

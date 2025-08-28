@@ -1,0 +1,375 @@
+{
+  "slug": "santa-ana",
+  "name": "Santa Ana",
+  "state": "California",
+  "language": "en",
+  "shortDescription": "Vibrant urban city known for its rich cultural heritage, arts scene, and diverse communities.",
+  "fullDescription": "Santa Ana is the county seat of Orange County and one of its largest cities. Known for its historic downtown, thriving arts and cultural institutions, and diverse population, Santa Ana offers a dynamic urban environment. The city boasts numerous museums, theaters, and community events that celebrate its heritage. With a mix of residential neighborhoods and commercial hubs, Santa Ana provides a lively, affordable alternative to coastal Orange County cities while maintaining easy freeway access to surrounding areas.",
+  "heroImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Downtown Santa Ana skyline at sunset",
+  "population": "310K+",
+  "avgHomePrice": "$700K",
+  "tags": [
+    "Urban",
+    "Cultural",
+    "Diverse"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Downtown Santa Ana",
+      "type": "district",
+      "slug": "downtown-santa-ana",
+      "description": "Historic core with theaters, galleries, restaurants, and vibrant nightlife.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Downtown Santa Ana at night with lit buildings",
+      "distance": "Central",
+      "avgHomePrice": "$650K",
+      "county": "Orange"
+    },
+    {
+      "name": "North Santa Ana",
+      "type": "residential",
+      "slug": "north-santa-ana",
+      "description": "Predominantly residential area with schools, parks, and family-friendly amenities.",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Residential homes and park in North Santa Ana",
+      "distance": "North",
+      "avgHomePrice": "$720K",
+      "county": "Orange"
+    },
+    {
+      "name": "South Santa Ana",
+      "type": "mixed-use",
+      "slug": "south-santa-ana",
+      "description": "Mix of residential, commercial, and light industrial areas with ongoing development.",
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Mixed urban neighborhood in South Santa Ana",
+      "distance": "South",
+      "avgHomePrice": "$680K",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Bowers Museum",
+      "description": "World-class museum showcasing art and cultural artifacts from around the globe.",
+      "icon": "🏛️",
+      "bgImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Exterior of Bowers Museum in Santa Ana"
+    },
+    {
+      "title": "Santa Ana Zoo",
+      "description": "Popular family attraction featuring animals native to Central and South America.",
+      "icon": "🐒",
+      "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Animals and habitat at Santa Ana Zoo"
+    },
+    {
+      "title": "Artist Village",
+      "description": "Creative district with galleries, murals, studios, and arts events.",
+      "icon": "🎨",
+      "bgImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Colorful murals in Santa Ana’s Artist Village"
+    },
+    {
+      "title": "Discovery Cube Orange County",
+      "description": "Interactive science museum offering hands-on exhibits for children and families.",
+      "icon": "🔬",
+      "bgImage": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Interactive science exhibits at Discovery Cube"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is Santa Ana known for?",
+      "answer": "Santa Ana is known for its vibrant arts scene, historic downtown, diverse culture, and family-friendly attractions.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How are the schools in Santa Ana?",
+      "answer": "The city is served primarily by the Santa Ana Unified School District, offering a range of public and charter schools.",
+      "category": "Education"
+    },
+    {
+      "question": "What outdoor activities are available?",
+      "answer": "Residents can enjoy parks, community events, and visits to the Santa Ana Zoo and local trails.",
+      "category": "Recreation"
+    },
+    {
+      "question": "How is the commute to nearby cities?",
+      "answer": "Santa Ana has excellent freeway access via the I-5, SR-55, and SR-22, with commute times to nearby Orange County cities and Los Angeles varying from 20 to 60 minutes.",
+      "category": "Transportation"
+    },
+    {
+      "question": "What's the average home price in Santa Ana?",
+      "answer": "The average home price in Santa Ana is approximately $750,000, reflecting a competitive market driven by high demand. Reza Barghlameno's expertise in the local market allows him to provide accurate valuations and strategic advice for both buyers and sellers. His deep understanding of market trends ensures clients are well-positioned to make informed decisions.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "How long do homes stay on the market in Santa Ana?",
+      "answer": "Homes in Santa Ana typically stay on the market for around 30 to 45 days. However, with Reza Barghlameno's strategic marketing and negotiation skills, many of his listings sell faster than the average. His proactive approach and extensive network often lead to quicker sales, maximizing value for sellers and reducing waiting times for buyers.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "What are the best neighborhoods in Santa Ana?",
+      "answer": "Santa Ana boasts several desirable neighborhoods, including Floral Park, known for its historic charm, and South Coast Metro, famous for its modern amenities. Reza Barghlameno often recommends Park Santiago for its family-friendly environment and proximity to parks. His local expertise helps clients find the perfect fit for their lifestyle and needs.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "Is Santa Ana a good real estate investment?",
+      "answer": "Santa Ana offers promising real estate investment opportunities, with steady appreciation rates and a robust rental market. Reza Barghlameno's insights into local trends and property values guide investors towards high ROI properties. His comprehensive market analysis helps clients identify lucrative deals and make sound investment decisions.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "What schools serve Santa Ana?",
+      "answer": "Santa Ana is served by the Santa Ana Unified School District, which includes top-rated schools like Santiago Elementary and Godinez Fundamental High School. Families often consider educational quality when choosing a home, and Reza Barghlameno provides valuable insights into school performance and neighborhood suitability for families.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "How is the commute from Santa Ana?",
+      "answer": "Santa Ana offers convenient commuting options, with easy access to major highways like the I-5 and SR-55. The city is well-connected to surrounding areas, making it ideal for professionals working in Orange County or Los Angeles. Reza Barghlameno advises clients on properties with optimal commuting routes and public transportation access.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "What's included in Reza Barghlameno's service in Santa Ana?",
+      "answer": "Reza Barghlameno provides a comprehensive real estate service, including market analysis, property valuation, and personalized home searches. His express options cater to clients needing swift transactions, ensuring a smooth and efficient process. Reza's commitment to client satisfaction is evident in his thorough approach and attention to detail.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "Does Reza offer weekend service in Santa Ana?",
+      "answer": "Yes, Reza Barghlameno offers weekend service to accommodate clients' busy schedules. His 24/7 availability ensures that clients receive timely assistance and can view properties at their convenience. Reza's dedication to providing exceptional service means he is always ready to meet client needs, even outside regular business hours.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "How quickly can Reza find me a home in Santa Ana?",
+      "answer": "Reza Barghlameno's express service is designed to find clients a home within 48 to 72 hours, depending on market conditions and client preferences. His extensive network and proactive approach enable him to identify suitable properties rapidly, ensuring clients can secure their dream home without unnecessary delays.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "What makes Reza Barghlameno the best realtor in Santa Ana?",
+      "answer": "Reza Barghlameno stands out as the best realtor in Santa Ana due to his extensive experience, deep local knowledge, and high success rate. His personalized approach and commitment to client satisfaction have earned him a reputation for excellence. Reza's strategic marketing and negotiation skills consistently deliver outstanding results for buyers and sellers alike.",
+      "category": "Real Estate"
+    }
+  ],
+  "clients": [],
+  "canonicalUrl": "",
+  "hreflang_tags": [],
+  "seo": {
+    "metaTitle": "Santa Ana CA Real Estate & Lifestyle | Arts, Culture & Urban Living",
+    "metaDescription": "Explore Santa Ana’s diverse neighborhoods, cultural attractions, schools, and real estate options in Orange County.",
+    "keywords": "Santa Ana real estate, Santa Ana arts and culture, living in Santa Ana, Orange County homes, homes for sale in Santa Ana, buy house in Santa Ana, sell home in Santa Ana, Prime Local Homes Santa Ana, Reza Barghlameno Santa Ana, best realtor in Santa Ana, luxury homes in Santa Ana, condos for sale in Santa Ana, single family homes in Santa Ana, townhomes in Santa Ana, new listings Santa Ana, property market Santa Ana, real estate trends Santa Ana, fast home buying Santa Ana, urgent house search Santa Ana, express real estate service Santa Ana, same day home finding Santa Ana, quick house purchase Santa Ana, emergency realtor Santa Ana, weekend home buying Santa Ana, family emergency home search Santa Ana, Reza Barghlameno, Reza Barghlameno realtor, Reza Barghlameno real estate agent, Reza Barghlameno Prime Local Homes, top realtor Santa Ana Reza Barghlameno",
+    "ogTitle": "Discover Santa Ana: Urban Culture & Community in Orange County",
+    "ogDescription": "Experience Santa Ana’s vibrant arts scene, historic districts, and family-friendly environment.",
+    "ogImage": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Downtown Santa Ana skyline at sunset",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Santa Ana",
+      "description": "Explore real estate, neighborhoods, and highlights in Santa Ana, California.",
+      "url": "https://example.com/locations/santa-ana",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Downtown Santa Ana skyline at sunset"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Santa Ana",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Santa Ana known for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Santa Ana is known for its vibrant arts scene, historic downtown, diverse culture, and family-friendly attractions."
+          },
+          "category": "Lifestyle"
+        },
+        {
+          "@type": "Question",
+          "name": "How are the schools in Santa Ana?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The city is served primarily by the Santa Ana Unified School District, offering a range of public and charter schools."
+          },
+          "category": "Education"
+        },
+        {
+          "@type": "Question",
+          "name": "What outdoor activities are available?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Residents can enjoy parks, community events, and visits to the Santa Ana Zoo and local trails."
+          },
+          "category": "Recreation"
+        },
+        {
+          "@type": "Question",
+          "name": "How is the commute to nearby cities?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Santa Ana has excellent freeway access via the I-5, SR-55, and SR-22, with commute times to nearby Orange County cities and Los Angeles varying from 20 to 60 minutes."
+          },
+          "category": "Transportation"
+        },
+        {
+          "@type": "Question",
+          "name": "What's the average home price in Santa Ana?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The average home price in Santa Ana is approximately $750,000, reflecting a competitive market driven by high demand. Reza Barghlameno's expertise in the local market allows him to provide accurate valuations and strategic advice for both buyers and sellers. His deep understanding of market trends ensures clients are well-positioned to make informed decisions."
+          },
+          "category": "Real Estate"
+        },
+        {
+          "@type": "Question",
+          "name": "How long do homes stay on the market in Santa Ana?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Homes in Santa Ana typically stay on the market for around 30 to 45 days. However, with Reza Barghlameno's strategic marketing and negotiation skills, many of his listings sell faster than the average. His proactive approach and extensive network often lead to quicker sales, maximizing value for sellers and reducing waiting times for buyers."
+          },
+          "category": "Real Estate"
+        },
+        {
+          "@type": "Question",
+          "name": "What are the best neighborhoods in Santa Ana?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Santa Ana boasts several desirable neighborhoods, including Floral Park, known for its historic charm, and South Coast Metro, famous for its modern amenities. Reza Barghlameno often recommends Park Santiago for its family-friendly environment and proximity to parks. His local expertise helps clients find the perfect fit for their lifestyle and needs."
+          },
+          "category": "Real Estate"
+        },
+        {
+          "@type": "Question",
+          "name": "Is Santa Ana a good real estate investment?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Santa Ana offers promising real estate investment opportunities, with steady appreciation rates and a robust rental market. Reza Barghlameno's insights into local trends and property values guide investors towards high ROI properties. His comprehensive market analysis helps clients identify lucrative deals and make sound investment decisions."
+          },
+          "category": "Real Estate"
+        },
+        {
+          "@type": "Question",
+          "name": "What schools serve Santa Ana?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Santa Ana is served by the Santa Ana Unified School District, which includes top-rated schools like Santiago Elementary and Godinez Fundamental High School. Families often consider educational quality when choosing a home, and Reza Barghlameno provides valuable insights into school performance and neighborhood suitability for families."
+          },
+          "category": "Real Estate"
+        },
+        {
+          "@type": "Question",
+          "name": "How is the commute from Santa Ana?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Santa Ana offers convenient commuting options, with easy access to major highways like the I-5 and SR-55. The city is well-connected to surrounding areas, making it ideal for professionals working in Orange County or Los Angeles. Reza Barghlameno advises clients on properties with optimal commuting routes and public transportation access."
+          },
+          "category": "Real Estate"
+        },
+        {
+          "@type": "Question",
+          "name": "What's included in Reza Barghlameno's service in Santa Ana?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Reza Barghlameno provides a comprehensive real estate service, including market analysis, property valuation, and personalized home searches. His express options cater to clients needing swift transactions, ensuring a smooth and efficient process. Reza's commitment to client satisfaction is evident in his thorough approach and attention to detail."
+          },
+          "category": "Real Estate"
+        },
+        {
+          "@type": "Question",
+          "name": "Does Reza offer weekend service in Santa Ana?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, Reza Barghlameno offers weekend service to accommodate clients' busy schedules. His 24/7 availability ensures that clients receive timely assistance and can view properties at their convenience. Reza's dedication to providing exceptional service means he is always ready to meet client needs, even outside regular business hours."
+          },
+          "category": "Real Estate"
+        },
+        {
+          "@type": "Question",
+          "name": "How quickly can Reza find me a home in Santa Ana?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Reza Barghlameno's express service is designed to find clients a home within 48 to 72 hours, depending on market conditions and client preferences. His extensive network and proactive approach enable him to identify suitable properties rapidly, ensuring clients can secure their dream home without unnecessary delays."
+          },
+          "category": "Real Estate"
+        },
+        {
+          "@type": "Question",
+          "name": "What makes Reza Barghlameno the best realtor in Santa Ana?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Reza Barghlameno stands out as the best realtor in Santa Ana due to his extensive experience, deep local knowledge, and high success rate. His personalized approach and commitment to client satisfaction have earned him a reputation for excellence. Reza's strategic marketing and negotiation skills consistently deliver outstanding results for buyers and sellers alike."
+          },
+          "category": "Real Estate"
+        }
+      ]
+    }
+  ],
+  "internal_links": [],
+  "city": "Santa Ana",
+  "county": "Orange",
+  "url_slug": "/real-estate-santa-ana",
+  "meta_title": "Buy & Sell Homes in Santa Ana | Prime Local Homes - Reza Barghlameno",
+  "meta_description": "Expert Santa Ana real estate service with Reza Barghlameno. Find homes for sale, get market analysis. Express service available for urgent buyers.",
+  "h1_title": "Santa Ana Real Estate Expert - Buy & Sell with Reza Barghlameno",
+  "primary_keywords": [
+    "Santa Ana real estate",
+    "homes for sale in Santa Ana",
+    "buy house in Santa Ana",
+    "sell home in Santa Ana",
+    "Prime Local Homes Santa Ana",
+    "Reza Barghlameno Santa Ana"
+  ],
+  "secondary_keywords": [
+    "best realtor in Santa Ana",
+    "luxury homes in Santa Ana",
+    "condos for sale in Santa Ana",
+    "single family homes in Santa Ana",
+    "townhomes in Santa Ana",
+    "new listings Santa Ana",
+    "property market Santa Ana",
+    "real estate trends Santa Ana"
+  ],
+  "express_keywords": [
+    "fast home buying Santa Ana",
+    "urgent house search Santa Ana",
+    "express real estate service Santa Ana",
+    "same day home finding Santa Ana",
+    "quick house purchase Santa Ana",
+    "emergency realtor Santa Ana",
+    "weekend home buying Santa Ana",
+    "family emergency home search Santa Ana"
+  ],
+  "agent_keywords": [
+    "Reza Barghlameno",
+    "Reza Barghlameno realtor",
+    "Reza Barghlameno Santa Ana",
+    "Reza Barghlameno real estate agent",
+    "Reza Barghlameno Prime Local Homes",
+    "top realtor Santa Ana Reza Barghlameno"
+  ],
+  "landing_page_text": "Welcome to Santa Ana, California - one of Orange County's most sought-after communities for homebuyers and sellers. Reza Barghlameno, your trusted Santa Ana real estate expert with Prime Local Homes, brings over 20 years of experience to guide you through every aspect of your real estate journey. Santa Ana is not just a city; it's a vibrant community that offers a blend of cultural richness, economic opportunity, and a diverse housing market that appeals to a wide range of buyers and investors.\n\nSanta Ana real estate is characterized by its variety and vibrancy. Whether you're looking for luxury homes in Santa Ana, charming single-family homes, or modern condos, the city offers something for everyone. The homes for sale in Santa Ana range from historic properties with unique architectural styles to new developments with state-of-the-art amenities. Reza Barghlameno, with his extensive knowledge of the local market, can help you navigate these options to find the perfect home that meets your needs and lifestyle.\n\nThe market conditions in Santa Ana are dynamic, with a steady demand driven by its strategic location and robust local economy. The city's proximity to major employment hubs and its excellent transportation network make it a preferred choice for professionals and families alike. Reza Barghlameno's expertise in market analysis ensures that you are well-informed about current trends, pricing, and the best time to buy or sell your property.\n\nSanta Ana is home to several top neighborhoods, each with its own unique charm and appeal. Floral Park, known for its historic homes and tree-lined streets, is perfect for those who appreciate classic architecture and a close-knit community feel. For those seeking a more urban lifestyle, the Downtown Santa Ana area offers a vibrant arts scene, eclectic dining options, and a lively nightlife. Families often gravitate towards neighborhoods like South Coast Metro, which provides excellent schools and family-friendly amenities.\n\nEducation is a strong draw for families considering a move to Santa Ana. The city boasts a range of top-rated schools, both public and private, ensuring quality education for children of all ages. Additionally, Santa Ana College offers higher education opportunities, making the city attractive to students and academics.\n\nInvestors looking at Santa Ana real estate will find a market ripe with potential. The city's ongoing development projects and revitalization efforts are enhancing property values and creating new opportunities for investment. Reza Barghlameno's insight into the local market trends can help investors identify lucrative opportunities and make informed decisions.\n\nWhether you're buying or selling, Reza Barghlameno and Prime Local Homes are committed to providing exceptional service tailored to your needs. Our comprehensive approach includes personalized consultations, detailed market analysis, and a strong focus on client satisfaction. Contact Reza Barghlameno today to start your real estate journey in Santa Ana and discover why so many buyers choose this vibrant community as their home.",
+  "express_service": "When life demands immediate housing solutions, Reza Barghlameno's Express Service delivers results with unmatched speed and reliability in Santa Ana. We understand that sometimes circumstances require quick action, and our express real estate service is designed to meet those urgent needs without compromising on quality or service.\n\nOur express service offers a 48-72 hour home finding process, ensuring that you can move forward with your plans swiftly. We work closely with our network of partners to provide same-day mortgage approval, allowing you to secure financing without delay. Our team is available on weekends, recognizing that your schedule may not align with traditional business hours.\n\nFor families facing emergencies, such as job relocations or the need to find a home due to a family expansion, Reza Barghlameno prioritizes your needs. We offer specialized support for pregnant couples and those undergoing significant life changes, ensuring that your housing needs are met with care and urgency.\n\nOur express service also includes access to our partner network, which covers everything from mortgage lenders to renovation experts and moving companies. This comprehensive approach ensures that every aspect of your move is handled efficiently, reducing stress and allowing you to focus on settling into your new home.\n\nReza Barghlameno's personal commitment to each client is evident in our 24/7 availability and our proven track record of success. We have countless success stories of clients who have benefited from our express service, finding their dream homes in Santa Ana quickly and seamlessly. Trust Reza Barghlameno and Prime Local Homes to deliver the results you need when time is of the essence.",
+  "neighborhood_guide": "Santa Ana offers a diverse range of neighborhoods, each with its own unique appeal. Floral Park is renowned for its historic charm, featuring beautiful vintage homes and a strong sense of community. It's an ideal choice for buyers who appreciate classic architecture and a serene environment.\n\nFor those seeking a more urban lifestyle, Downtown Santa Ana is the place to be. This area is vibrant and bustling, with a rich arts scene, trendy restaurants, and lively nightlife. It's perfect for young professionals and those who enjoy being in the heart of the action.\n\nFamilies often choose neighborhoods like South Coast Metro, which offers excellent schools and family-friendly amenities. This area is also known for its shopping and dining options, making it a convenient choice for busy families.\n\nReza Barghlameno's insights into these neighborhoods can help you find the perfect fit for your lifestyle and needs. Whether you're looking for a quiet suburban street or a dynamic urban setting, Santa Ana has a neighborhood for you.",
+  "market_analysis": "The Santa Ana real estate market is currently experiencing a period of steady growth, driven by its strategic location and strong local economy. Home prices have seen a moderate increase, reflecting the demand for housing in this desirable area.\n\nReza Barghlameno's professional forecasts suggest that this trend will continue, with property values expected to rise as more buyers are drawn to Santa Ana's vibrant community and excellent amenities. The market is particularly favorable for sellers, with homes often receiving multiple offers and selling quickly.\n\nFor buyers, this means acting swiftly to secure properties, and Reza Barghlameno's expertise ensures that you are well-positioned to navigate this competitive market. Whether you're buying or selling, understanding the current trends is crucial, and Reza's market analysis provides the insights you need to make informed decisions.",
+  "agent_name": "Reza Barghlameno",
+  "company_name": "socalprimehomes.com",
+  "contact_phone": "+1 858-305-4362",
+  "contact_email": "reza@socalprimehomes.com",
+  "cta_text": "Ready to buy or sell in Santa Ana? Contact Reza Barghlameno today for expert guidance and express service when you need it most."
+}

@@ -1,0 +1,257 @@
+/* ========================================
+   HERO SECTION - HOME PAGE
+   ======================================== */
+
+.hero-section {
+  position: relative;
+  height: 100vh;
+  min-height: 800px;
+  background: linear-gradient(rgba(26, 26, 26, 0.7), rgba(26, 26, 26, 0.7)), 
+              url('/home/hero.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  padding: 120px 40px 40px 40px; /* Increased top padding to avoid navbar overlap */
+  color: var(--white);
+  overflow: hidden; /* Prevent text overflow */
+}
+
+.hero-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  padding-top: 20px; /* Additional top spacing */
+}
+
+.hero-badge {
+  display: inline-block;
+  background: rgba(212, 175, 55, 0.15);
+  border: 1px solid var(--gold);
+  padding: 12px 30px;
+  border-radius: 50px;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--gold);
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.hero-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 72px;
+  font-weight: 500;
+  line-height: 1.1;
+  margin-bottom: 30px;
+  max-width: 700px;
+  word-wrap: break-word; /* Handle long words */
+  hyphens: auto; /* Enable hyphenation for long words */
+}
+
+.hero-subtitle {
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 40px;
+  max-width: 600px;
+  opacity: 0.9;
+  line-height: 1.6;
+  word-wrap: break-word; /* Handle long words */
+  hyphens: auto; /* Enable hyphenation for long words */
+}
+
+/* Responsive text sizing for different languages */
+.hero-title[lang="de"],
+.hero-title[lang="de"] {
+  font-size: 64px; /* Smaller font for German */
+}
+
+.hero-subtitle[lang="de"],
+.hero-subtitle[lang="de"] {
+  font-size: 18px; /* Smaller font for German */
+  max-width: 650px; /* Allow slightly wider text */
+}
+
+.hero-title[lang="ar"],
+.hero-title[lang="ar"] {
+  font-size: 68px; /* Medium font for Arabic */
+}
+
+.hero-subtitle[lang="ar"],
+.hero-subtitle[lang="ar"] {
+  font-size: 19px; /* Medium font for Arabic */
+}
+
+.hero-cta {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap; /* Allow buttons to wrap on smaller screens */
+}
+
+/* ========================================
+   SWIPE DOWN BUTTON
+   ======================================== */
+
+.swipe-down-btn {
+  position: absolute;
+  bottom: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: transparent;
+  border: none;
+  color: var(--white);
+  cursor: pointer;
+  padding: 20px;
+  transition: all 0.3s ease;
+  z-index: 10;
+}
+
+.swipe-down-btn:hover {
+  transform: translateX(-50%) translateY(5px);
+}
+
+.swipe-arrow {
+  width: 2px;
+  height: 30px;
+  background: var(--gold);
+  position: relative;
+  margin: 0 auto 10px;
+  animation: swipeDown 2s ease-in-out infinite;
+}
+
+.swipe-arrow::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 8px solid var(--gold);
+}
+
+.swipe-text {
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  opacity: 0.8;
+  animation: fadeInOut 2s ease-in-out infinite;
+}
+
+/* ========================================
+   BUTTON STYLES
+   ======================================== */
+
+.btn-primary {
+  background: var(--gold);
+  color: var(--charcoal);
+  padding: 18px 40px;
+  border: none;
+  border-radius: 2px;
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.btn-primary:hover {
+  background: #E8C252;
+  transform: translateY(-2px);
+}
+
+.btn-secondary {
+  background: transparent;
+  color: var(--white);
+  padding: 18px 40px;
+  border: 1px solid var(--white);
+  border-radius: 2px;
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: translateY(-2px);
+}
+
+/* ========================================
+   HERO RESPONSIVE DESIGN
+   ======================================== */
+
+@media (max-width: 1024px) {
+  .hero-section {
+    padding: 80px 0;
+  }
+  
+  .hero-content {
+    padding: 0 40px;
+  }
+  
+  .hero-title {
+    font-size: 48px;
+    line-height: 1.2;
+  }
+  
+  .hero-subtitle {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 60px 0;
+  }
+  
+  .hero-content {
+    padding: 0 24px;
+    text-align: center;
+  }
+  
+  .hero-title {
+    font-size: 36px;
+    line-height: 1.2;
+  }
+  
+  .hero-subtitle {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .hero-cta {
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-section {
+    padding: 40px 0;
+  }
+  
+  .hero-content {
+    padding: 0 20px;
+  }
+  
+  .hero-title {
+    font-size: 28px;
+    line-height: 1.3;
+  }
+  
+  .hero-subtitle {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+}

@@ -1,0 +1,152 @@
+/* City Clients Styles - Individual City Pages */
+.city-clients-enhanced {
+  padding: 120px 40px;
+  background: var(--white);
+}
+
+.clients-container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.clients-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+  margin-top: 80px;
+}
+
+.client-card-enhanced {
+  background: linear-gradient(135deg, var(--cream) 0%, rgba(248, 246, 240, 0.8) 100%);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  transition: all 0.4s ease;
+  border: 1px solid rgba(212, 175, 55, 0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+.client-card-enhanced::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(45deg, transparent, rgba(212, 175, 55, 0.03), transparent);
+  transform: rotate(45deg);
+  transition: all 0.6s ease;
+  opacity: 0;
+}
+
+.client-card-enhanced:hover::before {
+  opacity: 1;
+  animation: shimmer 1.5s ease-in-out;
+}
+
+@keyframes shimmer {
+  0% { transform: translateX(-100%) translateY(-100%) rotate(45deg); }
+  100% { transform: translateX(100%) translateY(100%) rotate(45deg); }
+}
+
+.client-card-enhanced:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+  border-color: rgba(212, 175, 55, 0.3);
+}
+
+.client-rating {
+  margin-bottom: 25px;
+}
+
+.star {
+  font-size: 20px;
+  margin-right: 4px;
+  filter: drop-shadow(0 2px 4px rgba(212, 175, 55, 0.3));
+}
+
+.client-review {
+  font-size: 18px;
+  line-height: 1.7;
+  color: var(--charcoal);
+  margin: 0 0 30px 0;
+  font-style: italic;
+  position: relative;
+  padding-left: 30px;
+}
+
+.client-review::before {
+  content: '"';
+  position: absolute;
+  left: 0;
+  top: -10px;
+  font-size: 48px;
+  color: var(--gold);
+  font-family: 'Playfair Display', serif;
+  line-height: 1;
+}
+
+.client-info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.client-avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--gold);
+  box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);
+}
+
+.client-details {
+  flex: 1;
+}
+
+.client-name {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--charcoal);
+  margin: 0 0 5px 0;
+}
+
+.client-title {
+  font-size: 14px;
+  color: rgba(26, 26, 26, 0.7);
+  margin: 0;
+  font-weight: 500;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .city-clients-enhanced {
+    padding: 80px 20px;
+  }
+  
+  .clients-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .city-clients-enhanced {
+    padding: 60px 20px;
+  }
+  
+  .client-card-enhanced {
+    padding: 30px;
+  }
+  
+  .client-review {
+    font-size: 16px;
+    padding-left: 25px;
+  }
+  
+  .client-review::before {
+    font-size: 36px;
+  }
+}

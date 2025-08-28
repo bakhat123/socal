@@ -1,0 +1,342 @@
+/* ========================================
+   STATS SECTION - HOME PAGE (SCOPED TO PREVENT CONFLICTS)
+   ======================================== */
+/* 
+   CSS CONFLICT SOLUTION:
+   
+   PROBLEM: When navigating from city/county pages back to home, CSS classes
+   like .stat-card, .stat-number, .stat-label from City_Stats.css remain
+   applied, causing inconsistent styling on the home page.
+   
+   SOLUTION: 
+   1. Added home-stats- prefix to all home page stats classes
+   2. Removed original classes to prevent conflicts with city/county pages
+   3. This ensures home page stats are completely isolated from city/county stats
+   
+   USAGE:
+   - Home page: Use home-stats-* classes (e.g., home-stat-card)
+   - City/County pages: Use city-stats-* classes (e.g., city-stat-card)
+   - No more CSS conflicts when navigating between pages!
+*/
+
+/* ===== HOME STATS SECTION (SCOPED) ===== */
+.home-stats-section {
+  padding: 120px 40px;
+  background: var(--cream);
+  position: relative;
+  overflow: hidden;
+}
+
+.home-stats-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  background: linear-gradient(to bottom, rgba(26, 26, 26, 0.1), var(--cream));
+  z-index: 1;
+}
+
+.home-stats-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  position: relative;
+  z-index: 2;
+}
+
+.home-stat-card {
+  text-align: center;
+  padding: 20px 30px;
+  background: var(--white);
+  border: 1px solid rgba(212, 175, 55, 0.1);
+  border-radius: 20px;
+  transition: all 0.4s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.home-stat-card::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: var(--gold);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.6s cubic-bezier(0.65, 0, 0, 0.35, 1);
+}
+
+.home-stat-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.home-stat-card:hover::after {
+  transform: scaleX(1);
+}
+
+.home-stat-number {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  font-weight: 600;
+  color: var(--gold);
+  margin-bottom: 10px;
+  line-height: 1;
+}
+
+.home-stat-label {
+  font-size: 14px;
+  color: var(--charcoal);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  opacity: 0.8;
+}
+
+/* ========================================
+   RESPONSIVE DESIGN - HOME STATS (SCOPED)
+   ======================================== */
+
+@media (max-width: 1200px) {
+  .home-stats-section {
+    padding: 100px 32px;
+  }
+  
+  .home-stats-container {
+    max-width: 1000px;
+    gap: 32px;
+  }
+  
+  .home-stat-card {
+    padding: 44px 18px;
+  }
+  
+  .home-stat-number {
+    font-size: 48px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .home-stats-section {
+    padding: 80px 24px;
+  }
+  
+  .home-stats-container {
+    max-width: 900px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 28px;
+  }
+  
+  .home-stat-card {
+    padding: 40px 20px;
+    min-height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .home-stat-number {
+    font-size: 44px;
+    margin-bottom: 12px;
+  }
+  
+  .home-stat-label {
+    font-size: 13px;
+    line-height: 1.3;
+  }
+}
+
+@media (max-width: 768px) {
+  .home-stats-section {
+    padding: 60px 20px;
+    overflow: hidden;
+  }
+  
+  .home-stats-container {
+    max-width: 100%;
+    gap: 20px;
+    padding: 0;
+  }
+  
+  .home-stat-card {
+    padding: 32px 16px;
+    min-height: 140px;
+  }
+  
+  .home-stat-number {
+    font-size: 36px;
+    line-height: 1.1;
+    margin-bottom: 10px;
+  }
+  
+  .home-stat-label {
+    font-size: 12px;
+    line-height: 1.3;
+    letter-spacing: 0.5px;
+  }
+}
+
+@media (max-width: 640px) {
+  .home-stats-section {
+    padding: 50px 16px;
+  }
+  
+  .home-stats-container {
+    gap: 16px;
+  }
+  
+  .home-stat-card {
+    padding: 28px 14px;
+    min-height: 120px;
+  }
+  
+  .home-stat-number {
+    font-size: 32px;
+    margin-bottom: 8px;
+  }
+  
+  .home-stat-label {
+    font-size: 11px;
+    line-height: 1.2;
+  }
+}
+
+@media (max-width: 480px) {
+  .home-stats-section {
+    padding: 40px 12px;
+  }
+  
+  .home-stats-container {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  
+  .home-stat-card {
+    padding: 24px 16px;
+    min-height: 100px;
+  }
+  
+  .home-stat-number {
+    font-size: 28px;
+    margin-bottom: 6px;
+  }
+  
+  .home-stat-label {
+    font-size: 10px;
+    line-height: 1.2;
+    letter-spacing: 0.3px;
+  }
+}
+
+@media (max-width: 360px) {
+  .home-stats-section {
+    padding: 32px 8px;
+  }
+  
+  .home-stats-container {
+    gap: 12px;
+  }
+  
+  .home-stat-card {
+    padding: 20px 12px;
+    min-height: 90px;
+  }
+  
+  .home-stat-number {
+    font-size: 24px;
+    margin-bottom: 4px;
+  }
+  
+  .home-stat-label {
+    font-size: 9px;
+    line-height: 1.1;
+    letter-spacing: 0.2px;
+  }
+}
+
+/* ========================================
+   SPECIAL CASES - HOME STATS ONLY
+   ======================================== */
+
+/* Landscape orientation adjustments for mobile */
+@media (max-height: 500px) and (orientation: landscape) {
+  .home-stats-section {
+    padding: 40px 20px;
+  }
+  
+  .home-stats-container {
+    gap: 16px;
+  }
+  
+  .home-stat-card {
+    padding: 24px 16px;
+    min-height: 80px;
+  }
+  
+  .home-stat-number {
+    font-size: 28px;
+    margin-bottom: 6px;
+  }
+  
+  .home-stat-label {
+    font-size: 10px;
+  }
+}
+
+/* High DPI displays */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .home-stat-card {
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);
+  }
+  
+  .home-stat-card:hover {
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+  }
+}
+
+/* Touch device optimizations */
+@media (hover: none) and (pointer: coarse) {
+  .home-stat-card:hover {
+    transform: none;
+  }
+  
+  .home-stat-card:active {
+    transform: translateY(-5px);
+  }
+}
+
+/* ========================================
+   ADDITIONAL STATS STYLES (FOR COMPATIBILITY)
+   ======================================== */
+
+/* Support for .stats-grid class (alternative to .home-stats-container) */
+.stats-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  position: relative;
+  z-index: 2;
+}
+
+/* Additional responsive adjustments for specific use cases */
+@media (max-width: 768px) {
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .stats-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
+

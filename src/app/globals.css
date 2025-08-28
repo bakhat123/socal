@@ -1,0 +1,605 @@
+@import "tailwindcss";
+
+/* src/app/globals.css */
+@tailwind base;
+@tailwind utilities;
+
+/* Smooth scrolling for the entire application */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom colors - exact match from index2.html */
+:root {
+  --charcoal: #1A1A1A;
+  --white: #FFFFFF;
+  --gold: #D4AF37;
+  --blue: #3A7CA5;
+  --light-gray: #F5F5F5;
+  --dark-gray: #2A2A2A;
+  --cream: #F8F4E9;
+}
+
+/* Base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--white);
+  color: var(--charcoal);
+  line-height: 1.6;
+}
+
+
+
+
+.content-section {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+@media (max-width: 360px) {
+  /* Consultation styles moved to: src/styles/Consultation.css */
+}
+
+
+/* Responsive Language Selector */
+@media (max-width: 768px) {
+  .language-dropdown {
+    position: relative;
+  }
+  
+  .language-dropdown-menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    min-width: 200px;
+    z-index: 1000;
+  }
+}
+
+
+/* Responsive Buttons */
+@media (max-width: 768px) {
+  .btn-primary,
+  .btn-secondary {
+    width: 100%;
+    max-width: 300px;
+    padding: 14px 20px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .btn-primary,
+  .btn-secondary {
+    padding: 12px 18px;
+    font-size: 16px;
+  }
+}
+
+/* Responsive Images */
+@media (max-width: 768px) {
+  .hero-image img,
+  .blog-image img,
+  .city-image img {
+    height: auto;
+    max-height: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-image img,
+  .blog-image img,
+  .city-image img {
+    max-height: 200px;
+  }
+}
+
+/* Responsive Typography */
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 32px;
+    line-height: 1.3;
+  }
+  
+  .section-subtitle {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .card-title {
+    font-size: 20px;
+    line-height: 1.4;
+  }
+  
+  .card-subtitle {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-title {
+    font-size: 28px;
+    line-height: 1.3;
+  }
+  
+  .section-subtitle {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    line-height: 1.4;
+  }
+  
+  .card-subtitle {
+    font-size: 13px;
+    line-height: 1.5;
+  }
+}
+
+/* Responsive Spacing */
+@media (max-width: 768px) {
+  .section {
+    padding: 60px 0;
+  }
+  
+  .container {
+    padding: 0 24px;
+  }
+  
+  .card {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .section {
+    padding: 40px 0;
+  }
+  
+  .container {
+    padding: 0 20px;
+  }
+  
+  .card {
+    padding: 16px;
+  }
+}
+
+/* Responsive Grid Layouts */
+@media (max-width: 1024px) {
+  .grid-3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .grid-4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .grid-3,
+  .grid-4 {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Responsive Tables */
+/* MOVED TO src/styles/Admin/admin_components.css */
+
+/* Responsive Cards */
+/* MOVED TO src/styles/Admin/admin_components.css */
+
+/* Responsive Forms */
+/* MOVED TO src/styles/Admin/admin_components.css */
+
+/* Responsive Modals */
+/* MOVED TO src/styles/Admin/admin_components.css */
+
+@media (max-width: 480px) {
+  .modal {
+    margin: 10px;
+    max-width: calc(100% - 20px);
+  }
+  
+  .modal-content {
+    padding: 16px;
+  }
+  
+  .modal-header {
+    padding: 16px 16px 12px 16px;
+  }
+}
+
+/* Responsive Sidebar */
+/* MOVED TO src/styles/Admin/admin_navbar.css */
+
+/* Responsive Utilities */
+@media (max-width: 768px) {
+  .hidden-mobile {
+    display: none !important;
+  }
+  
+  .visible-mobile {
+    display: block !important;
+  }
+  
+  .text-center-mobile {
+    text-align: center !important;
+  }
+  
+  .text-left-mobile {
+    text-align: left !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .hidden-small {
+    display: none !important;
+  }
+  
+  .visible-small {
+    display: block !important;
+  }
+  
+  .text-center-small {
+    text-align: center !important;
+  }
+  
+  .text-left-small {
+    text-align: left !important;
+  }
+}
+
+/* ===== ADDITIONAL RESPONSIVE FIXES ===== */
+
+/* Responsive Admin Home Section */
+/* MOVED TO src/styles/Admin/admin_page.css */
+
+
+/* Testimonials responsive styles moved to: src/styles/Testimonials.css */
+
+
+/* Responsive Blog Slug Page - MOVED TO src/styles/Blog/Blog_Post.css */
+
+
+
+/* Responsive Admin Dashboard Additional Fixes */
+/* MOVED TO src/styles/Admin/admin_components.css */
+
+/* MOVED TO src/styles/Admin/admin_components.css */
+
+/* Comprehensive Mobile Responsiveness for All Screen Types */
+@media (max-width: 1200px) {
+  .container,
+  .container-fluid {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+  
+  .grid-4 {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+  
+  .grid-3 {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container,
+  .container-fluid {
+    padding: 0 24px;
+  }
+  
+  .grid-4 {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .grid-3 {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .section {
+    padding: 60px 0;
+  }
+  
+  .section-title {
+    font-size: 36px;
+    line-height: 1.2;
+  }
+  
+  .section-subtitle {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+}
+
+@media (max-width: 768px) {
+  .container,
+  .container-fluid {
+    padding: 0 20px;
+  }
+  
+  .grid-4,
+  .grid-3 {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .section {
+    padding: 50px 0;
+  }
+  
+  .section-title {
+    font-size: 32px;
+    line-height: 1.2;
+    text-align: center;
+  }
+  
+  .section-subtitle {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    padding: 0 20px;
+  }
+  
+  .card {
+    padding: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    width: 100%;
+    max-width: 100%;
+    padding: 14px 20px;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .btn-primary,
+  .btn-secondary {
+    width: 100%;
+    max-width: 100%;
+  }
+  
+/* Duplicate hero styles removed - already included in main hero section above */
+}
+
+@media (max-width: 480px) {
+  .container,
+  .container-fluid {
+    padding: 0 16px;
+  }
+  
+  .section {
+    padding: 40px 0;
+  }
+  
+  .section-title {
+    font-size: 28px;
+    line-height: 1.2;
+  }
+  
+  .section-subtitle {
+    font-size: 15px;
+    line-height: 1.4;
+    padding: 0 16px;
+  }
+  
+  .card {
+    padding: 20px;
+    margin-bottom: 16px;
+  }
+  
+  .btn {
+    padding: 12px 18px;
+    font-size: 15px;
+  }
+  
+/* Duplicate hero styles removed - already included in main hero section above */
+}
+
+@media (max-width: 360px) {
+  .container,
+  .container-fluid {
+    padding: 0 12px;
+  }
+  
+  .section {
+    padding: 30px 0;
+  }
+  
+  .section-title {
+    font-size: 24px;
+    line-height: 1.2;
+  }
+  
+  .section-subtitle {
+    font-size: 14px;
+    line-height: 1.3;
+    padding: 0 12px;
+  }
+  
+  .card {
+    padding: 16px;
+    margin-bottom: 12px;
+  }
+  
+  .btn {
+    padding: 10px 16px;
+    font-size: 14px;
+  }
+  
+/* Duplicate hero styles removed - already included in main hero section above */
+}
+
+/* Landscape Mobile Optimization - Duplicate hero styles removed */
+@media (max-height: 500px) and (orientation: landscape) {
+  
+  .section {
+    padding: 40px 0;
+  }
+  
+  .card {
+    padding: 20px;
+  }
+}
+
+/* High DPI Mobile Devices */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .btn,
+  .card,
+  .form-input,
+  .form-textarea {
+    border-width: 0.5px;
+  }
+}
+
+/* MOVED TO src/styles/Contact/Contact.css */
+
+/* MOVED TO src/styles/Contact/Contact.css */
+
+/* MOVED TO src/styles/Contact/ContactInfo.css */
+
+/* MOVED TO src/styles/Contact/ContactForm.css */
+
+/* MOVED TO src/styles/Contact/SalesModal.css */
+
+/* Touch Device Optimization */
+@media (hover: none) and (pointer: coarse) {
+  .btn:hover,
+  .card:hover,
+  .nav-link:hover {
+    transform: none;
+    box-shadow: none;
+  }
+  
+  .btn:active,
+  .card:active,
+  .nav-link:active {
+    transform: scale(0.98);
+  }
+  
+  .nav-link::after {
+    display: none;
+  }
+}
+
+/* Additional Form Elements */
+.form-consent {
+  background: rgba(0, 0, 0, 0.02);
+  border-radius: 12px;
+  padding: 24px;
+  margin: 32px 0;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.consent-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.consent-icon {
+  font-size: 20px;
+}
+
+.consent-header h4 {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--dark-gray);
+  margin: 0;
+}
+
+.consent-text {
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--medium-gray);
+  margin: 0;
+}
+
+.form-footer {
+  margin-top: 32px;
+  text-align: center;
+}
+
+.response-time {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 14px;
+  color: var(--gold);
+  font-weight: 600;
+}
+
+.response-icon {
+  font-size: 16px;
+}
+
+.btn-text {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.btn-icon {
+  display: flex;
+  align-items: center;
+}
+
+.loading-spinner {
+  width: 16px;
+  height: 16px;
+  border: 2px solid transparent;
+  border-top: 2px solid currentColor;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.submit-btn.submitting {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+/* MOVED TO src/styles/County/CountyHero.css */
+
+/* MOVED TO src/styles/County/CountyHighlights.css */
+
+/* MOVED TO src/styles/County/County.css */
+
+/* MOVED TO src/styles/County/County.css */
+
+
+
+
+

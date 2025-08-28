@@ -1,0 +1,265 @@
+{
+  "navigation": {
+    "cities": "Städte",
+    "blogs": "Blogs",
+    "services": "Dienstleistungen",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "badge": "Weltweite Luxusimmobilien",
+    "title": "Exklusive Immobilien für anspruchsvolle Kunden",
+    "subtitle": "Mit über 20 Jahren Erfahrung verbinden wir internationale Käufer mit den besten Immobilien an den begehrtesten Standorten der Welt.",
+    "viewProperties": "Immobilien anzeigen",
+    "contactUs": "Kontaktieren Sie uns",
+    "scrollDown": "Nach unten scrollen"
+  },
+  "stats": {
+    "yearsExperience": "Jahre Erfahrung",
+    "billionInSales": "Milliarden Umsatz",
+    "countriesServed": "Bediente Länder",
+    "clientSatisfaction": "Kundenzufriedenheit"
+  },
+  "cities": {
+    "title": "Entdecken Sie kalifornische Städte",
+    "subtitle": "Entdecken Sie die begehrtesten Standorte im Golden State, jeder bietet einzigartige Lebensstil-Möglichkeiten und Investitionspotenzial.",
+    "population": "Bevölkerung",
+    "avgHomePrice": "Durchschnittlicher Hauspreis",
+    "neighborhoods": "Viertel",
+    "pageHeader": {
+      "eyebrow": "Alle Städte",
+      "title": "Entdecken Sie Kaliforniens beste Städte",
+      "subtitle": "Erkunden Sie unsere kuratierte Auswahl an Premium-Destinationen im Golden State"
+    },
+    "search": {
+      "title": "Finden Sie Ihre perfekte Stadt",
+      "subtitle": "Suchen Sie nach Stadtname, Bundesstaat oder Eigenschaften"
+    },
+    "noResults": {
+      "title": "Keine Städte gefunden",
+      "text": "Versuchen Sie, Ihre Suchbegriffe anzupassen oder durchsuchen Sie alle Städte unten",
+      "button": "Suche löschen"
+    },
+    "hero": {
+      "title": "Willkommen in {cityName}",
+      "subtitle": "Entdecken Sie den einzigartigen Charme und die Möglichkeiten dieser lebendigen kalifornischen Stadt",
+      "exploreProperties": "Immobilien erkunden",
+      "contactAgent": "Mitarbeiter kontaktieren"
+    },
+    "highlights": {
+      "title": "Stadt-Highlights",
+      "subtitle": "Was macht {cityName} besonders"
+    },
+    "faqs": {
+      "title": "Häufig gestellte Fragen",
+      "subtitle": "Alles, was Sie über {cityName} wissen müssen"
+    },
+    "clients": {
+      "title": "Unsere Kunden in {cityName}",
+      "subtitle": "Die vielfältige Gemeinschaft von Fachleuten und Familien, die wir betreuen"
+    },
+    "cityPage": {
+      "residents": "Einwohner",
+      "avgPrice": "Durchschnittspreis",
+      "premiumDestination": "Premium-Ziel",
+      "discoverMagicOf": "Entdecke die Magie von",
+      "exploreProperties": "Immobilien erkunden",
+      "contactAgent": "Agent kontaktieren",
+      "population": "Bevölkerung",
+      "avgHomePrice": "Durchschnittlicher Hauspreis",
+      "neighborhoods": "Nachbarschaften",
+      "highlights": "Highlights",
+      "about": "Über",
+      "whatMakesSpecial": "Was macht {cityName} besonders",
+      "noHighlightsAvailable": "Keine Highlights für {cityName} verfügbar",
+      "nearbyCities": "Nahegelegene Städte",
+      "exploreSurroundingAreas": "Umgebende Gebiete erkunden",
+      "discoverDiverseNeighborhoods": "Entdecke die vielfältigen Nachbarschaften und Städte um {cityName}",
+      "county": "Bezirk",
+      "faq": "FAQ",
+      "everythingYouNeedToKnow": "Alles was Sie wissen müssen",
+      "allQuestions": "Alle Fragen",
+      "exploreAllCities": "Alle Städte erkunden",
+      "readyToFindDreamProperty": "Bereit, Ihre Traumimmobilie zu finden?",
+      "contactExpertTeam": "Kontaktieren Sie noch heute unser Expertenteam für eine persönliche Beratung und beginnen Sie Ihre Reise, um das perfekte Zuhause oder die perfekte Investitionsimmobilie zu finden.",
+      "scheduleConsultation": "Beratung vereinbaren",
+      "readyToBuyOrSell": "Bereit, in {cityName} zu kaufen oder zu verkaufen? Kontaktieren Sie noch heute Reza Barghlameno für fachkundige Beratung und Express-Service, wenn Sie ihn am meisten brauchen.",
+      "rezaBarghlameno": "Reza Barghlameno",
+      "primeLocalHomes": "Prime Local Homes",
+      "name": "Name",
+      "enterYourName": "Geben Sie Ihren Namen ein",
+      "phone": "Telefon",
+      "enterYourPhone": "Geben Sie Ihre Telefonnummer ein",
+      "email": "E-Mail",
+      "enterYourEmail": "Geben Sie Ihre E-Mail ein",
+      "message": "Nachricht",
+      "enterYourMessage": "Geben Sie Ihre Nachricht ein",
+      "sendMessage": "Nachricht senden",
+      "sending": "Wird gesendet...",
+      "backToHome": "Zurück zur Startseite",
+      "title": "Titel"
+    },
+    "countyPage": {
+      "cities": "Städte",
+      "avgPrice": "Durchschnittspreis",
+      "premiumDestination": "Premium-Ziel",
+      "discoverMagicOf": "Entdecke die Magie von",
+      "exploreProperties": "Immobilien erkunden",
+      "contactAgent": "Agent kontaktieren",
+      "about": "Über",
+      "welcomeTo": "Willkommen in",
+      "yourRealEstateJourney": "Ihre Immobilienreise beginnt hier",
+      "expressService": "Express-Service",
+      "whenTimeIsEssence": "Wenn Zeit von Essenz ist",
+      "whatMakesSpecial": "Was macht {countyName} besonders",
+      "marketAnalysis": "Marktanalyse",
+      "currentRealEstateTrends": "Aktuelle Immobilientrends in {countyName}",
+      "countyGuide": "Bezirksführer",
+      "discoverBestAreas": "Entdecke die besten Gebiete in {countyName}",
+      "citiesInCounty": "Städte in {countyName}",
+      "exploreCitiesInCounty": "Städte in {countyName} erkunden",
+      "discoverDiverseCities": "Entdecke die vielfältigen Städte und Gemeinschaften in {countyName}",
+      "searchCities": "Städte suchen...",
+      "citiesFound": "Städte gefunden",
+      "noCitiesFound": "Keine Städte in {countyName} gefunden",
+      "citiesInfoUpdating": "Stadtinformationen werden derzeit aktualisiert. Bitte schauen Sie später wieder vorbei.",
+      "citiesInfoEnglishOnly": "Stadtinformationen sind derzeit nur auf Englisch verfügbar. Wir arbeiten an Übersetzungen.",
+      "viewInEnglish": "Auf Englisch anzeigen",
+      "previous": "Zurück",
+      "next": "Weiter",
+      "backToHome": "Zurück zur Startseite",
+      "highlights": "Highlights",
+      "faqs": "FAQ",
+      "population": "Bevölkerung",
+      "readyToFindDreamProperty": "Bereit, Ihre Traumimmobilie zu finden?",
+      "contactExpertTeam": "Kontaktieren Sie noch heute unser Expertenteam für eine persönliche Beratung und beginnen Sie Ihre Reise, um das perfekte Zuhause oder die perfekte Investitionsimmobilie zu finden.",
+      "scheduleConsultation": "Beratung vereinbaren",
+      "readyToBuyOrSell": "Bereit, in {countyName} zu kaufen oder zu verkaufen? Kontaktieren Sie noch heute Reza Barghlameno für fachkundige Beratung und Express-Service, wenn Sie ihn am meisten brauchen.",
+      "rezaBarghlameno": "Reza Barghlameno",
+      "primeLocalHomes": "Prime Local Homes",
+      "name": "Name",
+      "enterYourName": "Geben Sie Ihren Namen ein",
+      "phone": "Telefon",
+      "enterYourPhone": "Geben Sie Ihre Telefonnummer ein",
+      "email": "E-Mail",
+      "enterYourEmail": "Geben Sie Ihre E-Mail ein",
+      "message": "Nachricht",
+      "enterYourMessage": "Geben Sie Ihre Nachricht ein",
+      "sendMessage": "Nachricht senden",
+      "sending": "Wird gesendet...",
+      "title": "Titel"
+    },
+    "countyCards": {
+      "destinations": "Wo unsere Dienstleistungen verfügbar sind",
+      "loadingCounties": "Bezirke werden geladen...",
+      "noCountiesAvailable": "Derzeit sind keine Bezirke verfügbar.",
+      "seeAllCities": "Alle Städte anzeigen",
+      "cities": "Städte",
+      "orangeCounty": {
+        "name": "Orange County",
+        "description": "Eine Küstenregion, bekannt für ihre atemberaubenden Strände, gehobenen Viertel und familienfreundlichen Gemeinschaften mit erstklassigen Restaurants und Einkaufsmöglichkeiten.",
+        "tags": {
+          "coastalLiving": "Küstenleben",
+          "familyFriendly": "Familienfreundlich"
+        }
+      },
+      "losAngelesCounty": {
+        "name": "Los Angeles County",
+        "description": "Ein vielfältiges Kulturzentrum, das alles von Unterhaltung und Kunst bis hin zu geschäftigen Geschäftsvierteln und malerischen Küstenfluchten bietet.",
+        "tags": {
+          "culturalDiversity": "Kulturelle Vielfalt",
+          "entertainment": "Unterhaltung"
+        }
+      },
+      "sanDiegoCounty": {
+        "name": "San Diego County",
+        "description": "Ein entspanntes Paradies mit wunderschönen Stränden, einer florierenden Tech- und Biotech-Szene und ganzjährig perfektem Wetter.",
+        "tags": {
+          "beaches": "Strände",
+          "outdoorLiving": "Leben im Freien"
+        }
+      }
+    }
+  },
+  "blog": {
+    "title": "Neueste Einblicke",
+    "subtitle": "Entdecken Sie unsere Expertenperspektiven auf Luxusimmobilienmärkte weltweit.",
+    "date": "15. Juni 2023",
+    "articleTitle": "Die Zukunft des Luxus: Aufstrebende Märkte, die 2024 beobachtet werden sollten",
+    "excerpt": "Mit sich verändernden globalen Wohlstandsmustern analysieren wir die aufstrebenden Sterne im Luxusimmobilienbereich, die kluge Investoren im kommenden Jahr auf dem Radar haben sollten.",
+    "readArticle": "Artikel lesen",
+    "exploreMore": "Weitere Einblicke erkunden",
+    "meta": {
+      "title": "Luxusimmobilien Einblicke & Nachrichten | SoCal Prime Homes",
+      "description": "Bleiben Sie auf dem Laufenden mit Expertenanalyse, Markttrends und exklusiven Einblicken aus der Welt der Luxusimmobilieninvestitionen."
+    },
+    "featured": "Empfohlen",
+    "by": "Von",
+    "sectionHeader": {
+      "title": "Neueste Markteinblicke",
+      "subtitle": "Bleiben Sie auf dem Laufenden mit unserer Expertenanalyse und den Trendthemen in Luxusimmobilienmärkten weltweit."
+    },
+    "pagination": {
+      "previous": "Zurück",
+      "next": "Weiter"
+    }
+  },
+  "services": {
+    "title": "Unsere Dienstleistungen",
+    "subtitle": "Umfassende Immobiliendlösungen, die speziell auf Ihre einzigartigen Bedürfnisse zugeschnitten sind.",
+    "propertyAcquisition": {
+      "title": "Immobilienerwerb",
+      "description": "Unser globales Netzwerk und unsere Marktexpertise stellen sicher, dass Sie die perfekte Immobilie finden, die alle Ihre Anforderungen erfüllt."
+    },
+    "investmentAdvisory": {
+      "title": "Investmentberatung",
+      "description": "Strategische Anleitung zur Maximierung der Renditen Ihrer Immobilieninvestitionen mit unserem datengestützten Ansatz."
+    },
+    "relocationServices": {
+      "title": "Umzugsservices",
+      "description": "Umfassende Unterstützung für internationale Kunden, die in neue Länder ziehen, einschließlich rechtlicher und logistischer Hilfe."
+    }
+  },
+  "cta": {
+    "title": "Bereit, Ihre Traumimmobilie zu finden?",
+    "text": "Kontaktieren Sie unser Expertenteam noch heute für eine persönliche Beratung und beginnen Sie Ihre Reise, um das perfekte Zuhause oder die perfekte Investitionsimmobilie zu finden.",
+    "button": "Beratung planen",
+    "rezaBarghlameno": "Reza Barghlameno",
+    "primeLocalHomes": "Prime Local Homes",
+    "readyToBuyOrSell": "Bereit, in Südkalifornien zu kaufen oder zu verkaufen? Kontaktieren Sie noch heute Reza Barghlameno für fachkundige Beratung und Express-Service, wenn Sie ihn am meisten brauchen.",
+    "salutationLabel": "Titel",
+    "name": "Name",
+    "enterYourName": "Geben Sie Ihren Namen ein",
+    "phone": "Telefon",
+    "enterYourPhone": "Geben Sie Ihre Telefonnummer ein",
+    "email": "E-Mail",
+    "enterYourEmail": "Geben Sie Ihre E-Mail ein",
+    "message": "Nachricht",
+    "enterYourMessage": "Geben Sie Ihre Nachricht ein",
+    "sendMessage": "Nachricht senden",
+    "sending": "Wird gesendet...",
+    "back": "Zurück"
+  },
+  "footer": {
+    "about": "Mit über zwei Jahrzehnten Erfahrung ist SoCal Prime Homes ein führendes globales Immobilienberatungsunternehmen, das sich auf Luxusimmobilien und maßgeschneiderte Umzugsservices spezialisiert hat.",
+    "quickLinks": "Schnelllinks",
+    "locations": "Standorte",
+    "contact": "Kontakt",
+    "services": "Dienstleistungen",
+    "insights": "Einblicke",
+    "northAmerica": "Nordamerika",
+    "europe": "Europa",
+    "asia": "Asien",
+    "middleEast": "Naher Osten",
+    "phone": "+1 (800) 555-1234",
+    "email": "info@prestigeestates.com",
+    "address": "123 Luxury Avenue<br />Beverly Hills, CA 90210",
+    "copyright": "© 2025, mit Liebe in Kalifornien gemacht",
+    "citiesDescription": "Städte - Entdecken Sie unsere ausgewählten Städte und finden Sie Premium-Immobilienmöglichkeiten in erstklassigen Lagen",
+    "blogsDescription": "Blogs - Bleiben Sie auf dem Laufenden mit den neuesten Immobilien-Einblicken, Markttrends und Investment-Tipps",
+    "contactDescription": "Kontakt - Treten Sie in Kontakt mit unserem Expertenteam für personalisierte Immobilienberatung und Unterstützung",
+    "partnersTitle": "Unsere Partner",
+    "partnersDescription": "Vertraut von führenden Immobilienfachleuten und -organisationen weltweit. Ihre Premium-Partner für Luxusimmobilien an der Küste Kaliforniens.",
+    "privacyPolicy": "Datenschutzrichtlinie",
+    "termsOfService": "Nutzungsbedingungen"
+  }
+}

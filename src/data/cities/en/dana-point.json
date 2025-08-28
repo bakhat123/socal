@@ -1,0 +1,288 @@
+{
+  "slug": "dana-point",
+  "name": "Dana Point",
+  "state": "California",
+  "language": "en",
+  "shortDescription": "A picturesque coastal city known for its harbor, beaches, and outdoor water activities.",
+  "fullDescription": "Dana Point offers stunning ocean views, a vibrant harbor area, and a rich maritime history. Located on the southern coast of Orange County, it’s a popular destination for boating, surfing, and whale watching. The city features charming neighborhoods, excellent dining, and a laid-back coastal lifestyle that attracts families, retirees, and outdoor enthusiasts alike.",
+  "heroImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80",
+  "heroImageAlt": "Scenic coastal view of Dana Point harbor and beach",
+  "population": "34K+",
+  "avgHomePrice": "$1.4M",
+  "tags": [
+    "Coastal",
+    "Outdoor Activities",
+    "Family-friendly"
+  ],
+  "neighborhoods": [
+    {
+      "name": "Laguna Niguel",
+      "type": "city",
+      "slug": "laguna-niguel",
+      "description": "Upscale community with parks, golf courses, and scenic trails.",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Scenic park in Laguna Niguel",
+      "distance": "5 miles north",
+      "avgHomePrice": "$1.2M",
+      "county": "Orange"
+    },
+    {
+      "name": "San Clemente",
+      "type": "city",
+      "slug": "san-clemente",
+      "description": "Coastal city with Spanish-style architecture, beaches, and pier.",
+      "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Beach and pier in San Clemente",
+      "distance": "7 miles south",
+      "avgHomePrice": "$1.1M",
+      "county": "Orange"
+    },
+    {
+      "name": "Mission Viejo",
+      "type": "city",
+      "slug": "mission-viejo",
+      "description": "Master-planned community with parks, lakes, and family amenities.",
+      "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Lakeside park in Mission Viejo",
+      "distance": "8 miles northeast",
+      "avgHomePrice": "$900K",
+      "county": "Orange"
+    },
+    {
+      "name": "San Juan Capistrano",
+      "type": "city",
+      "slug": "san-juan-capistrano",
+      "description": "Historic city known for the Mission and charming downtown.",
+      "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=800&q=80",
+      "imageAlt": "Mission San Juan Capistrano",
+      "distance": "6 miles east",
+      "avgHomePrice": "$850K",
+      "county": "Orange"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Dana Point Harbor",
+      "description": "Popular marina offering boating, fishing, waterfront dining, and shops.",
+      "icon": "⚓",
+      "bgImage": "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Boats docked at Dana Point Harbor"
+    },
+    {
+      "title": "Doheny State Beach",
+      "description": "Scenic beach with camping, surfing, and picnic facilities.",
+      "icon": "🏖️",
+      "bgImage": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Sunset at Doheny State Beach"
+    },
+    {
+      "title": "Whale Watching",
+      "description": "Seasonal tours departing from Dana Point to view migrating whales.",
+      "icon": "🐋",
+      "bgImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Whale breaching near Dana Point"
+    },
+    {
+      "title": "Ocean Institute",
+      "description": "Educational center focused on marine science and ocean conservation.",
+      "icon": "🔬",
+      "bgImage": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80",
+      "bgImageAlt": "Ocean Institute building"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is Dana Point famous for?",
+      "answer": "Dana Point is famous for its harbor, whale watching, beaches, and coastal lifestyle.",
+      "category": "Lifestyle"
+    },
+    {
+      "question": "How are the schools in Dana Point?",
+      "answer": "Dana Point is served by the Capistrano Unified School District, known for strong academics.",
+      "category": "Education"
+    },
+    {
+      "question": "What outdoor activities are popular?",
+      "answer": "Popular activities include boating, surfing, hiking coastal trails, and whale watching.",
+      "category": "Recreation"
+    },
+    {
+      "question": "How is the commute to nearby cities?",
+      "answer": "Dana Point offers convenient freeway access to Laguna Beach, Irvine, and other Orange County cities.",
+      "category": "Transportation"
+    },
+    {
+      "question": "What's the average home price in Dana Point?",
+      "answer": "The average home price in Dana Point varies by neighborhood and property type. Reza Barghlameno provides current market analysis and helps buyers find homes within their budget. Contact Reza for the latest pricing data and market insights specific to your needs.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "How quickly can Reza help me buy a home in Dana Point?",
+      "answer": "Reza Barghlameno's Express Service can find homes in Dana Point within 48-72 hours for urgent buyers. With same-day mortgage pre-approval and weekend service availability, Reza accelerates the entire buying process while maintaining quality service.",
+      "category": "Real Estate"
+    },
+    {
+      "question": "What makes Reza the best realtor in Dana Point?",
+      "answer": "Reza Barghlameno brings 20+ years of Dana Point real estate expertise, local market knowledge, and a proven track record. His express service, partner network, and 24/7 availability set him apart from other agents in Orange County.",
+      "category": "Real Estate"
+    }
+  ],
+  "clients": [],
+  "canonicalUrl": "",
+  "hreflang_tags": [],
+  "seo": {
+    "metaTitle": "Dana Point CA Real Estate & Coastal Living | Harbor & Beaches",
+    "metaDescription": "Explore Dana Point's neighborhoods, outdoor activities, schools, and real estate in Orange County.",
+    "keywords": "Dana Point real estate, coastal living, Dana Point harbor, Orange County homes, homes for sale in Dana Point, buy house in Dana Point, sell home in Dana Point, Prime Local Homes Dana Point, Reza Barghlameno Dana Point, best realtor in Dana Point, luxury homes in Dana Point, condos for sale in Dana Point, single family homes in Dana Point, townhomes in Dana Point, new listings Dana Point, property market Dana Point, real estate trends Dana Point, fast home buying Dana Point, urgent house search Dana Point, express real estate service Dana Point, same day home finding Dana Point, quick house purchase Dana Point, emergency realtor Dana Point, weekend home buying Dana Point, family emergency home search Dana Point, Reza Barghlameno, Reza Barghlameno realtor, Reza Barghlameno real estate agent, Reza Barghlameno Prime Local Homes, top realtor Dana Point Reza Barghlameno",
+    "ogTitle": "Discover Dana Point: Coastal City with Harbor and Beaches",
+    "ogDescription": "Experience Dana Point’s marina, beaches, whale watching, and family-friendly community.",
+    "ogImage": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "ogImageAlt": "Dana Point coastal harbor view",
+    "twitterCard": "summary_large_image"
+  },
+  "schema_markup": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Dana Point",
+      "description": "Explore real estate, neighborhoods, and highlights in Dana Point, California.",
+      "url": "https://example.com/locations/dana-point",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+        "caption": "Scenic coastal view of Dana Point harbor and beach"
+      },
+      "inLanguage": "en",
+      "mainEntity": {
+        "@type": "City",
+        "name": "Dana Point",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "CA",
+          "addressCountry": "USA"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Dana Point famous for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dana Point is famous for its harbor, whale watching, beaches, and coastal lifestyle."
+          },
+          "category": "Lifestyle"
+        },
+        {
+          "@type": "Question",
+          "name": "How are the schools in Dana Point?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dana Point is served by the Capistrano Unified School District, known for strong academics."
+          },
+          "category": "Education"
+        },
+        {
+          "@type": "Question",
+          "name": "What outdoor activities are popular?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Popular activities include boating, surfing, hiking coastal trails, and whale watching."
+          },
+          "category": "Recreation"
+        },
+        {
+          "@type": "Question",
+          "name": "How is the commute to nearby cities?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dana Point offers convenient freeway access to Laguna Beach, Irvine, and other Orange County cities."
+          },
+          "category": "Transportation"
+        },
+        {
+          "@type": "Question",
+          "name": "What's the average home price in Dana Point?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The average home price in Dana Point varies by neighborhood and property type. Reza Barghlameno provides current market analysis and helps buyers find homes within their budget. Contact Reza for the latest pricing data and market insights specific to your needs."
+          },
+          "category": "Real Estate"
+        },
+        {
+          "@type": "Question",
+          "name": "How quickly can Reza help me buy a home in Dana Point?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Reza Barghlameno's Express Service can find homes in Dana Point within 48-72 hours for urgent buyers. With same-day mortgage pre-approval and weekend service availability, Reza accelerates the entire buying process while maintaining quality service."
+          },
+          "category": "Real Estate"
+        },
+        {
+          "@type": "Question",
+          "name": "What makes Reza the best realtor in Dana Point?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Reza Barghlameno brings 20+ years of Dana Point real estate expertise, local market knowledge, and a proven track record. His express service, partner network, and 24/7 availability set him apart from other agents in Orange County."
+          },
+          "category": "Real Estate"
+        }
+      ]
+    }
+  ],
+  "internal_links": [],
+  "city": "Dana Point",
+  "county": "Orange",
+  "url_slug": "/real-estate-dana-point",
+  "meta_title": "Buy & Sell Homes in Dana Point | Prime Local Homes - Reza Barghlameno",
+  "meta_description": "Expert Dana Point real estate service with Reza Barghlameno. Find homes for sale, get market analysis. Express service available for urgent buyers.",
+  "h1_title": "Dana Point Real Estate Expert - Buy & Sell with Reza Barghlameno",
+  "primary_keywords": [
+    "Dana Point real estate",
+    "homes for sale in Dana Point",
+    "buy house in Dana Point",
+    "sell home in Dana Point",
+    "Prime Local Homes Dana Point",
+    "Reza Barghlameno Dana Point"
+  ],
+  "secondary_keywords": [
+    "best realtor in Dana Point",
+    "luxury homes in Dana Point",
+    "condos for sale in Dana Point",
+    "single family homes in Dana Point",
+    "townhomes in Dana Point",
+    "new listings Dana Point",
+    "property market Dana Point",
+    "real estate trends Dana Point"
+  ],
+  "express_keywords": [
+    "fast home buying Dana Point",
+    "urgent house search Dana Point",
+    "express real estate service Dana Point",
+    "same day home finding Dana Point",
+    "quick house purchase Dana Point",
+    "emergency realtor Dana Point",
+    "weekend home buying Dana Point",
+    "family emergency home search Dana Point"
+  ],
+  "agent_keywords": [
+    "Reza Barghlameno",
+    "Reza Barghlameno realtor",
+    "Reza Barghlameno Dana Point",
+    "Reza Barghlameno real estate agent",
+    "Reza Barghlameno Prime Local Homes",
+    "top realtor Dana Point Reza Barghlameno"
+  ],
+  "landing_page_text": "Welcome to Dana Point, California - one of Orange County's most sought-after communities for homebuyers and sellers. Reza Barghlameno, your trusted Dana Point real estate expert with Prime Local Homes, brings over 20 years of experience to guide you through every aspect of your real estate journey. Dana Point, known for its stunning coastal views and vibrant community, offers a unique blend of luxury and laid-back living. Whether you're looking to buy a house in Dana Point or sell your home, Reza Barghlameno ensures a seamless process tailored to your needs.\n\nThe Dana Point real estate market is thriving with diverse options ranging from luxury oceanfront estates to charming single-family homes and modern condos. As of the latest market analysis, the median home price in Dana Point is approximately $1.2 million, reflecting the area's premium status. Despite its high-end appeal, Dana Point offers properties for various budgets, making it a versatile choice for buyers.\n\nTop neighborhoods like Monarch Beach and Capistrano Beach are particularly popular among those seeking luxury homes in Dana Point, while Lantern Village offers a more eclectic and vibrant atmosphere with its mix of condos and townhomes. Families are drawn to the excellent schools and community amenities, including parks, beaches, and the renowned Dana Point Harbor.\n\nInvesting in Dana Point real estate is not just about buying a home; it's about embracing a lifestyle. The city hosts numerous events such as the Festival of Whales and Doheny Blues Festival, enhancing its community spirit. Reza Barghlameno, with his deep knowledge of the Dana Point property market, provides invaluable insights and personalized service, ensuring you find the perfect home or achieve the best price for your property.\n\nReza's expertise extends beyond just finding homes for sale in Dana Point. His comprehensive market analysis and strategic marketing plans help sellers maximize their property's potential. For buyers, his negotiation skills and local connections make the buying process efficient and rewarding.\n\nReady to make Dana Point your home? Contact Reza Barghlameno today at Prime Local Homes for expert guidance and express service when you need it most. Experience the difference with a realtor who truly understands Dana Point real estate.",
+  "express_service": "When life demands immediate housing solutions, Reza Barghlameno's Express Service delivers results with unmatched speed and reliability in Dana Point. Whether you're relocating for a job, dealing with a family emergency, or simply need to find a home quickly, Reza's Express Service is designed to meet your urgent needs.\n\nWith a commitment to finding your dream home within 48-72 hours, Reza leverages his extensive network and local market knowledge to provide same-day mortgage approvals and weekend service. This is particularly beneficial for pregnant couples or families facing sudden changes, ensuring they have a comfortable new home without delay.\n\nReza's Express Service also includes specialized support for job relocations, offering a seamless transition with partner networks that cover mortgage, renovation, and moving services. Available 24/7, Reza's dedication to his clients is evident in his personalized approach and proven track record of success stories.\n\nFrom quick house purchases to emergency realtor services, Reza Barghlameno's Express Service in Dana Point is your go-to solution for fast, reliable, and effective real estate transactions. Trust in Reza's expertise to navigate the Dana Point market swiftly and confidently.",
+  "neighborhood_guide": "Dana Point is home to several distinct neighborhoods, each offering unique lifestyles and amenities. Monarch Beach is renowned for its luxury homes and proximity to world-class golf courses and beaches, making it ideal for those seeking upscale living. Capistrano Beach, with its relaxed vibe and oceanfront properties, appeals to buyers looking for a coastal retreat.\n\nLantern Village is perfect for those who enjoy a vibrant, walkable community with a mix of condos and townhomes. This area is known for its eclectic charm and proximity to Dana Point Harbor, offering easy access to dining and entertainment.\n\nFor families, the Dana Hills area provides excellent schools and family-friendly amenities, including parks and recreational facilities. Reza Barghlameno recommends this neighborhood for its community spirit and quality of life.\n\nWhether you're seeking luxury, community, or coastal charm, Dana Point has a neighborhood to suit every buyer's needs. Reza Barghlameno's insights and recommendations ensure you find the perfect fit for your lifestyle.",
+  "market_analysis": "The current Dana Point real estate market is characterized by strong demand and limited inventory, driving home prices upward. With a median home price of around $1.2 million, the market remains competitive, particularly for luxury and oceanfront properties.\n\nReza Barghlameno forecasts continued growth in the Dana Point market, driven by its desirable location, community amenities, and lifestyle appeal. Buyers are advised to act quickly to secure properties, while sellers can benefit from the high demand and favorable market conditions.\n\nReza's professional insights and strategic approach ensure clients are well-positioned to navigate the Dana Point real estate landscape effectively, whether buying or selling.",
+  "agent_name": "Reza Barghlameno",
+  "company_name": "socalprimehomes.com",
+  "contact_phone": "+1 858-305-4362",
+  "contact_email": "reza@socalprimehomes.com",
+  "cta_text": "Ready to buy or sell in Dana Point? Contact Reza Barghlameno today for expert guidance and express service when you need it most."
+}
