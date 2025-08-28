@@ -1,6 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { connectToDatabase } from '@/lib/mongodb'
-import { writeCityFile, deleteCityFileBySlugLanguage, updateIndividualCityFiles } from '@/lib/json-updater'
 import { ObjectId } from "mongodb";
 
 export async function GET(request: NextRequest) {
@@ -196,11 +195,6 @@ export async function PUT(request: NextRequest) {
       _id: ObjectId.isValid(_id) ? new ObjectId(_id) : _id 
     })
 
-    if (updated) {
-      await writeCityFile(updated as any)
-    }
-    await updateIndividualCityFiles()
-
     return NextResponse.json({ message: 'City updated successfully' })
   } catch (error) {
     console.error('Error updating city:', error)
@@ -241,11 +235,7 @@ export async function DELETE(request: NextRequest) {
       return NextResponse.json({ error: 'City not found' }, { status: 404 })
     }
 
-    // Delete per-language file and update individual city files
-    if (existing) {
-      await deleteCityFileBySlugLanguage(existing.slug, (existing as any).language)
-    }
-    await updateIndividualCityFiles()
+
 
     return NextResponse.json({ message: 'City deleted successfully' })
   } catch (error) {
