@@ -13,7 +13,7 @@ export async function GET(
     console.log('API Counties - Current working directory:', process.cwd())
 
     // Construct the file path
-    const filePath = path.join(process.cwd(), 'src', 'data', 'counties', locale, `${slug}.json`)
+    const filePath = path.join(process.cwd(), 'src', 'temp', 'data', 'counties', locale, `${slug}.json`)
     console.log('API Counties - Looking for file at:', filePath)
 
     // Check if file exists

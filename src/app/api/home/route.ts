@@ -24,15 +24,15 @@ export async function GET(request: NextRequest) {
       console.log('⚠️ Database not available for home data, falling back to JSON file:', dbError)
     }
 
-    // Try to return localized JSON from src/data/home/<locale>/home.json
-    const localizedPath = path.join(process.cwd(), 'src', 'data', 'home', locale, 'home.json')
+    // Try to return localized JSON from src/temp/data/home/<locale>/home.json
+    const localizedPath = path.join(process.cwd(), 'src', 'temp', 'data', 'home', locale, 'home.json')
     if (fs.existsSync(localizedPath)) {
       const json = fs.readFileSync(localizedPath, 'utf8')
       return NextResponse.json(JSON.parse(json))
     }
 
     // Fallback to English JSON
-    const enPath = path.join(process.cwd(), 'src', 'data', 'home', 'en', 'home.json')
+    const enPath = path.join(process.cwd(), 'src', 'temp', 'data', 'home', 'en', 'home.json')
     if (fs.existsSync(enPath)) {
       const json = fs.readFileSync(enPath, 'utf8')
       return NextResponse.json(JSON.parse(json))
@@ -128,7 +128,7 @@ export async function PUT(request: NextRequest) {
     }
 
     // Update the JSON file for the specific locale
-    const jsonPath = path.join(process.cwd(), 'src', 'data', 'home', locale, 'home.json')
+    const jsonPath = path.join(process.cwd(), 'src', 'temp', 'data', 'home', locale, 'home.json')
     const { _id, ...homeDataForJson } = homeData // Remove _id field if present
     
     // Ensure directory exists
