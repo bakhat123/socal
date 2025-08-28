@@ -8,8 +8,8 @@ export async function GET(
 ) {
   try {
     const { locale } = params
-    const localePath = path.join(process.cwd(), 'src', 'data', 'blogs', locale, 'blogs.json')
-    const fallbackPath = path.join(process.cwd(), 'src', 'data', 'blogs', 'en', 'blogs.json')
+    const localePath = path.join(process.cwd(), 'src', 'temp', 'data', 'blogs', locale, 'blogs.json')
+    const fallbackPath = path.join(process.cwd(), 'src', 'temp', 'data', 'blogs', 'en', 'blogs.json')
 
     let filePathToUse = localePath
     if (!fs.existsSync(filePathToUse)) {

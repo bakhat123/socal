@@ -34,7 +34,7 @@ export async function POST(req: NextRequest) {
 
   // Fallback to JSON file authentication
   try {
-    const usersPath = path.join(process.cwd(), 'src', 'data', 'users.json');
+            const usersPath = path.join(process.cwd(), 'src', 'temp', 'data', 'users.json');
     const usersData = fs.readFileSync(usersPath, 'utf8');
     const users = JSON.parse(usersData);
     

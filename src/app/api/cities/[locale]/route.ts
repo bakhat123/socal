@@ -10,12 +10,12 @@ export async function GET(
     const { locale } = params
     
     // Construct the directory path for the locale
-    let localeDir = path.join(process.cwd(), 'src', 'data', 'cities', locale)
+    let localeDir = path.join(process.cwd(), 'src', 'temp', 'data', 'cities', locale)
     
     // If the requested locale doesn't exist, fall back to English
     if (!fs.existsSync(localeDir)) {
       console.log(`Cities locale ${locale} not found, falling back to English`)
-      localeDir = path.join(process.cwd(), 'src', 'data', 'cities', 'en')
+      localeDir = path.join(process.cwd(), 'src', 'temp', 'data', 'cities', 'en')
       
       // If English also doesn't exist, return empty array
       if (!fs.existsSync(localeDir)) {

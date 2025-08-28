@@ -3,7 +3,7 @@ import fs from 'fs'
 import path from 'path'
 
 function readBlogs(locale: string) {
-  const filePath = path.join(process.cwd(), 'src', 'data', 'blogs', locale, 'blogs.json')
+  const filePath = path.join(process.cwd(), 'src', 'temp', 'data', 'blogs', locale, 'blogs.json')
   if (!fs.existsSync(filePath)) return null
   try {
     const raw = fs.readFileSync(filePath, 'utf8')
