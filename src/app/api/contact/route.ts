@@ -29,7 +29,7 @@ export async function GET(request: NextRequest) {
     }
 
     // Fallback to JSON file based on locale
-    const jsonPath = path.join(process.cwd(), 'src', 'temp', 'data', 'contact', locale, 'contact.json')
+    const jsonPath = path.join(process.cwd(), 'src', 'tmp', 'data', 'contact', locale, 'contact.json')
     if (fs.existsSync(jsonPath)) {
       console.log('✅ Returning data from JSON file for locale:', locale)
       const jsonData = fs.readFileSync(jsonPath, 'utf8')
@@ -38,7 +38,7 @@ export async function GET(request: NextRequest) {
 
     // Fallback to English if requested locale doesn't exist
     if (locale !== 'en') {
-      const englishPath = path.join(process.cwd(), 'src', 'temp', 'data', 'contact', 'en', 'contact.json')
+      const englishPath = path.join(process.cwd(), 'src', 'tmp', 'data', 'contact', 'en', 'contact.json')
       if (fs.existsSync(englishPath)) {
         console.log('⚠️ Locale not found, falling back to English')
         const jsonData = fs.readFileSync(englishPath, 'utf8')
@@ -182,7 +182,7 @@ export async function PUT(request: NextRequest) {
     }
 
     // Update the JSON file for the specific locale
-    const jsonPath = path.join(process.cwd(), 'src', 'temp', 'data', 'contact', locale, 'contact.json')
+    const jsonPath = path.join(process.cwd(), 'src', 'tmp', 'data', 'contact', locale, 'contact.json')
     const { _id, ...contactDataForJson } = contactData // Remove _id field
     
     // Ensure directory exists

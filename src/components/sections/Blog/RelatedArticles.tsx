@@ -37,13 +37,13 @@ const RelatedArticles = ({ currentBlogId }: RelatedArticlesProps) => {
       try {
         setLoading(true)
         // Dynamically import the language-specific blogs.json file
-        const blogsModule = await import(`@/temp/data/blogs/${locale}/blogs.json`)
+        const blogsModule = await import(`@/tmp/data/blogs/${locale}/blogs.json`)
         setBlogsData(blogsModule.default || blogsModule)
       } catch (error) {
         console.error(`Failed to load blogs for locale ${locale}:`, error)
         // Fallback to English if the locale-specific file doesn't exist
         try {
-          const fallbackModule = await import('@/temp/data/blogs/en/blogs.json')
+          const fallbackModule = await import('@/tmp/data/blogs/en/blogs.json')
           setBlogsData(fallbackModule.default || fallbackModule)
         } catch (fallbackError) {
           console.error('Failed to load fallback blogs:', fallbackError)

@@ -3,7 +3,7 @@ import path from 'path'
 import CityPage from './page'
 
 async function readCity(locale: string, slug: string) {
-  const filePath = path.join(process.cwd(), 'src', 'temp', 'data', 'cities', locale, `${slug}.json`)
+  const filePath = path.join(process.cwd(), 'src', 'tmp', 'data', 'cities', locale, `${slug}.json`)
   if (!fs.existsSync(filePath)) return null
   const raw = fs.readFileSync(filePath, 'utf8')
   return JSON.parse(raw)
