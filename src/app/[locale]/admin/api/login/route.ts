@@ -28,33 +28,10 @@ export async function POST(req: NextRequest) {
         return NextResponse.json({ success: true, email, role: user.role });
       }
     }
-  } catch {
-    console.log("MongoDB authentication failed, trying JSON fallback...");
-  }
-
-  // Fallback to JSON file authentication
-  try {
-            const usersPath = path.join(process.cwd(), 'src', 'tmp', 'data', 'users.json');
-    const usersData = fs.readFileSync(usersPath, 'utf8');
-    const users = JSON.parse(usersData);
-    
-    const user = users.find((u: any) => u.email === email);
-    if (!user) {
-      return NextResponse.json({ error: "User not found" }, { status: 404 });
-    }
-    
-    if (!user.password) {
-      return NextResponse.json({ error: "User account not properly configured" }, { status: 401 });
-    }
-    
-    const match = await bcrypt.compare(password, user.password);
-    if (!match) {
-      return NextResponse.json({ error: "Invalid password" }, { status: 401 });
-    }
-    
-    return NextResponse.json({ success: true, email, role: user.role });
-  } catch (error) {
-    console.error("JSON authentication error:", error);
-    return NextResponse.json({ error: "Authentication failed" }, { status: 500 });
+  } catch (dbError) {
+    console.error("❌ MongoDB authentication failed:", dbError);
+    return NextResponse.json({ 
+      error: "Authentication service unavailable - database connection failed" 
+    }, { status: 500 });
   }
 }

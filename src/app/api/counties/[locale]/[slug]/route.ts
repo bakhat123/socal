@@ -1,6 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
-import fs from 'fs'
-import path from 'path'
+import { connectToDatabase } from '@/lib/mongodb'
 
 export async function GET(
   request: NextRequest,
@@ -10,30 +9,52 @@ export async function GET(
     const { locale, slug } = params
     
     console.log('API Counties - Received params:', { locale, slug })
-    console.log('API Counties - Current working directory:', process.cwd())
-
-    // Construct the file path
-    const filePath = path.join(process.cwd(), 'src', 'tmp', 'data', 'counties', locale, `${slug}.json`)
-    console.log('API Counties - Looking for file at:', filePath)
-
-    // Check if file exists
-    if (!fs.existsSync(filePath)) {
-      console.log('API Counties - File not found at:', filePath)
+    
+    // Get county directly from MongoDB (primary source)
+    try {
+      const { db } = await connectToDatabase()
+      console.log('✅ Database connected for county data')
+      
+      // First try the requested locale
+      let countyData = await db.collection('counties').findOne({ 
+        slug: slug,
+        language: locale 
+      })
+      
+      if (countyData) {
+        console.log(`✅ County found in database for locale: ${locale}`)
+        const { _id, ...cleanCountyData } = countyData // Remove _id field
+        return NextResponse.json(cleanCountyData)
+      }
+      
+      // If not found, try English fallback
+      if (locale !== 'en') {
+        console.log(`⚠️ County not found for locale ${locale}, trying English fallback`)
+        countyData = await db.collection('counties').findOne({ 
+          slug: slug,
+          language: 'en' 
+        })
+        
+        if (countyData) {
+          console.log('✅ County found in English fallback')
+          const { _id, ...cleanCountyData } = countyData // Remove _id field
+          return NextResponse.json(cleanCountyData)
+        }
+      }
+      
+      console.log(`❌ County not found: ${slug} for any locale`)
       return NextResponse.json(
         { error: 'County not found' },
         { status: 404 }
       )
+      
+    } catch (dbError) {
+      console.error('❌ Database connection failed:', dbError)
+      return NextResponse.json(
+        { error: 'Database connection failed', details: 'Cannot fetch county data without database connection' },
+        { status: 500 }
+      )
     }
-
-    console.log('API Counties - File found, reading data...')
-
-    // Read the county data
-    const countyData = fs.readFileSync(filePath, 'utf8')
-    const county = JSON.parse(countyData)
-    
-    console.log('API Counties - Successfully loaded county:', county.name)
-
-    return NextResponse.json(county)
   } catch (error) {
     console.error('API Counties - Error fetching county data:', error)
     return NextResponse.json(

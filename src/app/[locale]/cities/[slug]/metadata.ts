@@ -1,12 +1,29 @@
 import type { Metadata } from 'next'
-import fs from 'fs'
-import path from 'path'
+import { connectToDatabase } from '@/lib/mongodb'
 
 async function readCity(locale: string, slug: string) {
-  const filePath = path.join(process.cwd(), 'src', 'tmp', 'data', 'cities', locale, `${slug}.json`)
-  if (!fs.existsSync(filePath)) return null
-  const raw = fs.readFileSync(filePath, 'utf8')
-  return JSON.parse(raw)
+  try {
+    const { db } = await connectToDatabase()
+    const city = await db.collection('cities').findOne({ 
+      slug: slug,
+      language: locale 
+    })
+    
+    if (!city) {
+      // Try English fallback
+      if (locale !== 'en') {
+        return await db.collection('cities').findOne({ 
+          slug: slug,
+          language: 'en' 
+        })
+      }
+    }
+    
+    return city
+  } catch (error) {
+    console.error('Error reading city from database:', error)
+    return null
+  }
 }
 
 export async function generateMetadata({ params }: { params: { locale: string; slug: string } }): Promise<Metadata> {

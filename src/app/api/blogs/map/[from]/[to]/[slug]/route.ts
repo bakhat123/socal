@@ -1,15 +1,50 @@
 import { NextRequest, NextResponse } from 'next/server'
-import fs from 'fs'
-import path from 'path'
+import { connectToDatabase } from '@/lib/mongodb'
 
-  function readBlogs(locale: string) {
-    const filePath = path.join(process.cwd(), 'src', 'tmp', 'data', 'blogs', locale, 'blogs.json')
-  if (!fs.existsSync(filePath)) return []
+async function readBlogs(locale: string) {
   try {
-    const raw = fs.readFileSync(filePath, 'utf8')
-    const blogs = JSON.parse(raw)
-    return Array.isArray(blogs) ? blogs : []
-  } catch {
+    const { db } = await connectToDatabase()
+    const blogs = await db.collection('blogs')
+      .find({ 
+        language: locale,
+        status: 'Published'
+      })
+      .project({
+        id: { $toString: '$_id' },
+        slug: 1,
+        title: 1,
+        subtitle: 1,
+        category: 1,
+        author: 1,
+        date: 1,
+        readTime: 1,
+        featured: 1,
+        heroImage: 1,
+        heroImageAlt: 1,
+        canonicalUrl: 1,
+        language: 1,
+        city: 1,
+        topic: 1,
+        keyword: 1,
+        group_id: 1,
+        seo: 1,
+        hreflang_tags: 1,
+        internal_links: 1,
+        schema_markup: 1,
+        images: 1,
+        word_count: 1,
+        ctaSection: 1,
+        content: 1,
+        views: 1,
+        likes: 1,
+        createdAt: 1,
+        updatedAt: 1
+      })
+      .toArray()
+    
+    return blogs || []
+  } catch (error) {
+    console.error('Error reading blogs from database:', error)
     return []
   }
 }
@@ -22,8 +57,8 @@ export async function GET(
 ) {
   try {
     const { from, to, slug } = params
-    const fromBlogs = readBlogs(from)
-    const toBlogs = readBlogs(to)
+    const fromBlogs = await readBlogs(from)
+    const toBlogs = await readBlogs(to)
 
     const fromBlog = fromBlogs.find((b: any) => b.slug === slug)
     if (!fromBlog) {
