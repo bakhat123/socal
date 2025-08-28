@@ -1,6 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { connectToDatabase } from '@/lib/mongodb'
-import { updateBlogsJsonFile, updateBlogsJsonFileByLanguage } from '@/lib/json-updater'
 import { ObjectId } from 'mongodb'
 
 export async function GET() {
