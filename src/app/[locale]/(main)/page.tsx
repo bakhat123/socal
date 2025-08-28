@@ -24,7 +24,7 @@ const Home = () => {
     try {
       console.log('🌍 Fetching home data for locale:', locale)
       
-      // Use the API route which can access src/tmp/data files and prioritizes JSON over MongoDB
+      // Use the API route which fetches data directly from MongoDB
       const response = await fetch(`/api/home?locale=${locale}`, {
         cache: 'no-store'
       })

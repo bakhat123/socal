@@ -81,38 +81,14 @@ export async function POST(request: NextRequest) {
     
     console.log('📝 Inserting blog into collection...')
     const result = await db.collection('blogs').insertOne(blogData)
-    
-    console.log('✅ Blog created with _id:', result.insertedId)
-    console.log('✅ Inserted ID type:', typeof result.insertedId)
-    console.log('✅ Inserted ID value:', result.insertedId.toString())
-
-    // Verify the blog was actually created
-    console.log('📝 Verifying blog creation...')
-    const createdBlog = await db.collection('blogs').findOne({ _id: result.insertedId })
-    console.log('✅ Retrieved created blog:', JSON.stringify(createdBlog, null, 2))
-
-    if (!createdBlog) {
-      throw new Error('Blog was not created properly in database')
-    }
-
-    // Add a small delay to ensure database write is complete
-    await new Promise(resolve => setTimeout(resolve, 100))
-
-    // Update the JSON file after successful database insertion
-    console.log('📝 Updating JSON file...')
-    await updateBlogsJsonFileByLanguage(blogData.language || 'en')
 
     return NextResponse.json({ 
       message: 'Blog created successfully', 
       _id: result.insertedId 
     })
   } catch (error) {
-    console.error('❌ Error creating blog:', error)
-    console.error('❌ Error details:', error instanceof Error ? error.message : 'Unknown error')
-    console.error('❌ Error stack:', error instanceof Error ? error.stack : 'No stack trace')
     return NextResponse.json({ 
-      error: 'Failed to create blog',
-      details: error instanceof Error ? error.message : 'Unknown error'
+      error: 'Failed to create blog'
     }, { status: 500 })
   }
 }
@@ -137,18 +113,8 @@ export async function PUT(request: NextRequest) {
       return NextResponse.json({ error: 'Blog not found' }, { status: 404 })
     }
 
-    // Get the blog to determine its language for targeted JSON update
-    const updatedBlog = await db.collection('blogs').findOne({ _id: new ObjectId(_id) })
-    if (!updatedBlog) {
-      return NextResponse.json({ error: 'Blog not found after update' }, { status: 404 })
-    }
-
-    // Update the JSON file after successful database update
-    await updateBlogsJsonFileByLanguage(updatedBlog.language || 'en')
-
     return NextResponse.json({ message: 'Blog updated successfully' })
   } catch (error) {
-    console.error('Error updating blog:', error)
     return NextResponse.json({ error: 'Failed to update blog' }, { status: 500 })
   }
 }
@@ -159,24 +125,14 @@ export async function DELETE(request: NextRequest) {
     const { _id } = body
     const { db } = await connectToDatabase()
     
-    // Get the blog to determine its language before deletion
-    const blogToDelete = await db.collection('blogs').findOne({ _id: new ObjectId(String(_id)) })
-    if (!blogToDelete) {
-      return NextResponse.json({ error: 'Blog not found' }, { status: 404 })
-    }
-
     const result = await db.collection('blogs').deleteOne({ _id: new ObjectId(String(_id)) })
 
     if (result.deletedCount === 0) {
       return NextResponse.json({ error: 'Blog not found' }, { status: 404 })
     }
 
-    // Update the JSON file after successful database deletion
-    await updateBlogsJsonFileByLanguage(blogToDelete.language || 'en')
-
     return NextResponse.json({ message: 'Blog deleted successfully' })
   } catch (error) {
-    console.error('Error deleting blog:', error)
     return NextResponse.json({ error: 'Failed to delete blog' }, { status: 500 })
   }
 }

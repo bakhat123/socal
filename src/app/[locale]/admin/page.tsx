@@ -613,7 +613,6 @@ export default function AdminDashboard() {
         addToast('error', 'Failed to update home data')
       }
     } catch (error) {
-      console.error('❌ Error updating home data:', error)
       addToast('error', 'Error updating home data')
     }
   }
@@ -644,7 +643,6 @@ export default function AdminDashboard() {
         addToast('error', 'Failed to update contact data')
       }
     } catch (error) {
-      console.error('Error updating contact data:', error)
       addToast('error', 'Failed to update contact data')
     }
   }
@@ -653,28 +651,22 @@ export default function AdminDashboard() {
     try {
       // Remove _id for new user creation to let MongoDB generate it
       const { _id, ...userDataWithoutId } = userData
-      console.log('Creating user with data:', userDataWithoutId)
       const response = await fetch('/admin/api/users', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(userDataWithoutId)
       })
       if (response.ok) {
-        const result = await response.json()
-        console.log('User creation result:', result)
         await fetchUsers()
         setShowUserModal(false)
         setEditingUser(null)
         setUserForm({ _id: '', email: '', password: '', role: '', status: '' })
-        console.log('🔒 Form reset after user creation')
         addToast('success', 'User created successfully!')
       } else {
         const error = await response.json()
-        console.error('Server error:', error)
         addToast('error', error.error || 'Failed to create user')
       }
     } catch (error) {
-      console.error('Error creating user:', error)
       addToast('error', 'Failed to create user')
     }
   }
@@ -704,7 +696,6 @@ export default function AdminDashboard() {
         addToast('error', error.error || 'Failed to create blog')
       }
     } catch (error) {
-      console.error('Error creating blog:', error)
       addToast('error', 'Failed to create blog')
     }
   }
@@ -772,7 +763,7 @@ export default function AdminDashboard() {
         cta_text: cityData.cta_text
       }
 
-      console.log('Sending city data:', cityPayload)
+
 
       const response = await fetch('/admin/api/cities', {
         method: 'POST',
@@ -781,8 +772,6 @@ export default function AdminDashboard() {
       })
       
       if (response.ok) {
-        const result = await response.json()
-        console.log('City created successfully:', result)
         await fetchCities()
         setShowCityModal(false)
         setCityForm({
@@ -839,19 +828,17 @@ export default function AdminDashboard() {
         addToast('success', 'City created successfully!')
       } else {
         const error = await response.json()
-        console.error('Server error:', error)
         addToast('error', error.error || 'Failed to create city')
       }
     } catch (error) {
-      console.error('Error creating city:', error)
-      addToast('error', 'Failed to create city: ' + (error instanceof Error ? error.message : 'Unknown error'))
+      addToast('error', 'Failed to create city')
     }
   }
 
   const deleteUser = async (id: string) => {
     if (confirm('Are you sure you want to delete this user?')) {
       try {
-        console.log('Deleting user with ID:', id)
+
         const response = await fetch('/admin/api/users', {
           method: 'DELETE',
           headers: { 'Content-Type': 'application/json' },
@@ -862,11 +849,9 @@ export default function AdminDashboard() {
           addToast('success', 'User deleted successfully!')
         } else {
           const error = await response.json()
-          console.error('Server error:', error)
           addToast('error', error.error || 'Failed to delete user')
         }
       } catch (error) {
-        console.error('Error deleting user:', error)
         addToast('error', 'Failed to delete user')
       }
     }
@@ -897,7 +882,7 @@ export default function AdminDashboard() {
   const deleteCity = async (id: string) => {
     if (confirm('Are you sure you want to delete this city?')) {
       try {
-        console.log('Deleting city with ID:', id)
+
         
         if (!id || id.trim() === '') {
           alert('Cannot delete city: Invalid ID')
@@ -915,19 +900,17 @@ export default function AdminDashboard() {
           addToast('success', 'City deleted successfully!')
         } else {
           const error = await response.json()
-          console.error('Server error:', error)
           addToast('error', error.error || 'Failed to delete city')
         }
       } catch (error) {
-        console.error('Error deleting city:', error)
-        addToast('error', 'Failed to delete city: ' + (error instanceof Error ? error.message : 'Unknown error'))
+        addToast('error', 'Failed to delete city')
       }
     }
   }
 
   const updateUser = async (userData: User) => {
     try {
-      console.log('Updating user with data:', userData)
+
       const response = await fetch('/admin/api/users', {
         method: 'PUT',
         headers: { 'Content-Type': 'application/json' },
@@ -941,11 +924,9 @@ export default function AdminDashboard() {
         addToast('success', 'User updated successfully!')
       } else {
         const error = await response.json()
-        console.error('Server error:', error)
         addToast('error', error.error || 'Failed to update user')
       }
     } catch (error) {
-      console.error('Error updating user:', error)
       addToast('error', 'Failed to update user')
     }
   }
@@ -972,7 +953,6 @@ export default function AdminDashboard() {
         addToast('error', error.error || 'Failed to update blog')
       }
     } catch (error) {
-      console.error('Error updating blog:', error)
       addToast('error', 'Failed to update blog')
     }
   }
@@ -1041,7 +1021,7 @@ export default function AdminDashboard() {
         cta_text: cityData.cta_text
       }
 
-      console.log('Updating city data:', cityPayload)
+
 
       const response = await fetch('/admin/api/cities', {
         method: 'PUT',
@@ -1050,8 +1030,6 @@ export default function AdminDashboard() {
       })
       
       if (response.ok) {
-        const result = await response.json()
-        console.log('City updated successfully:', result)
         await fetchCities()
         setShowCityModal(false)
         setEditingCity(null)
@@ -1108,12 +1086,10 @@ export default function AdminDashboard() {
         addToast('success', 'City updated successfully!')
       } else {
         const error = await response.json()
-        console.error('Server error:', error)
         addToast('error', error.error || 'Failed to update city')
       }
     } catch (error) {
-      console.error('Error updating city:', error)
-      addToast('error', 'Failed to update city: ' + (error instanceof Error ? error.message : 'Unknown error'))
+      addToast('error', 'Failed to update city')
     }
   }
 

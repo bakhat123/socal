@@ -6,9 +6,7 @@ export async function GET(request: NextRequest) {
   try {
     const { searchParams } = new URL(request.url)
     const language = searchParams.get('language') || undefined
-    console.log('Connecting to database...')
     const { db } = await connectToDatabase()
-    console.log('Connected to database successfully')
     
     let query: any = {}
     if (language) {
@@ -20,18 +18,14 @@ export async function GET(request: NextRequest) {
       }
     }
     const cities = await db.collection('cities').find(query).toArray()
-    console.log('Cities from database:', cities)
-    console.log('Number of cities in database:', cities.length)
     
     // If database is empty, return empty array
     if (cities.length === 0) {
-      console.log('Database is empty, returning empty array')
       return NextResponse.json([])
     }
     
     return NextResponse.json(cities)
   } catch (error) {
-    console.error('Error fetching cities:', error)
     return NextResponse.json({ error: 'Failed to fetch cities' }, { status: 500 })
   }
 }
@@ -39,7 +33,7 @@ export async function GET(request: NextRequest) {
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json()
-    console.log('Received city data:', body)
+
     
     // Validate required fields according to new comprehensive schema
     const requiredFields = [
@@ -128,9 +122,7 @@ export async function POST(request: NextRequest) {
     const result = await db.collection('cities').insertOne(cityData)
     console.log('City inserted with ID:', result.insertedId)
 
-    // Write per-language per-slug JSON file and update individual city files
-    await writeCityFile(cityData)
-    await updateIndividualCityFiles()
+
 
     return NextResponse.json({ 
       message: 'City created successfully', 

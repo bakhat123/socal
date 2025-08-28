@@ -1,14 +1,18 @@
 import type { Metadata } from 'next'
 import { connectToDatabase } from '@/lib/mongodb'
 
-function readBlogs(locale: string) {
-  const filePath = path.join(process.cwd(), 'src', 'tmp', 'data', 'blogs', locale, 'blogs.json')
-  if (!fs.existsSync(filePath)) return []
+async function readBlogs(locale: string) {
   try {
-    const raw = fs.readFileSync(filePath, 'utf8')
-    const blogs = JSON.parse(raw)
-    return Array.isArray(blogs) ? blogs : []
-  } catch {
+    const { db } = await connectToDatabase()
+    const blogs = await db.collection('blogs')
+      .find({ 
+        language: locale,
+        status: 'Published'
+      })
+      .toArray()
+    
+    return blogs || []
+  } catch (error) {
     return []
   }
 }
