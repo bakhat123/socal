@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
-import fs from 'fs'
-import path from 'path'
+import { connectToDatabase } from '@/lib/mongodb'
 
 function readBlogs(locale: string) {
   const filePath = path.join(process.cwd(), 'src', 'tmp', 'data', 'blogs', locale, 'blogs.json')
@@ -17,7 +16,7 @@ function readBlogs(locale: string) {
 export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://example.com'
   const { locale } = params
-  const blogs = readBlogs(locale)
+  const blogs = await readBlogs(locale)
   const featured = blogs.find((b: any) => b.featured) || blogs[0]
 
   const baseTitle = 'Insights & Market Guides'

@@ -1,6 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
-import fs from 'fs'
-import path from 'path'
+import { connectToDatabase } from '@/lib/mongodb'
 
 export async function GET(
   request: NextRequest,
@@ -9,56 +8,67 @@ export async function GET(
   try {
     const { locale } = params
     
-    // Construct the directory path for the locale
-    let localeDir = path.join(process.cwd(), 'src', 'tmp', 'data', 'cities', locale)
-    
-    // If the requested locale doesn't exist, fall back to English
-    if (!fs.existsSync(localeDir)) {
-      console.log(`Cities locale ${locale} not found, falling back to English`)
-      localeDir = path.join(process.cwd(), 'src', 'tmp', 'data', 'cities', 'en')
+    // Get cities directly from MongoDB (primary source)
+    try {
+      const { db } = await connectToDatabase()
+      console.log('✅ Database connected for cities')
       
-      // If English also doesn't exist, return empty array
-      if (!fs.existsSync(localeDir)) {
-        console.log('English cities directory not found, returning empty array')
-        return NextResponse.json([])
+      const cities = await db.collection('cities')
+        .find({ language: locale })
+        .project({
+          slug: 1,
+          name: 1,
+          state: 1,
+          shortDescription: 1,
+          heroImage: 1,
+          population: 1,
+          avgHomePrice: 1,
+          tags: 1,
+          neighborhoods: 1,
+          county: 1
+        })
+        .toArray()
+      
+      if (cities && cities.length > 0) {
+        console.log(`✅ Returning ${cities.length} cities from database for locale: ${locale}`)
+        return NextResponse.json(cities)
       }
-    }
-    
-    // Read all JSON files in the directory
-    const files = fs.readdirSync(localeDir)
-    const cityFiles = files.filter(file => file.endsWith('.json'))
-    
-    const cities = []
-    
-    for (const file of cityFiles) {
-      try {
-        const filePath = path.join(localeDir, file)
-        const fileContent = fs.readFileSync(filePath, 'utf8')
-        const cityData = JSON.parse(fileContent)
+      
+      // If no cities found for this locale, try English as fallback
+      if (locale !== 'en') {
+        console.log(`⚠️ No cities found for locale ${locale}, falling back to English`)
+        const englishCities = await db.collection('cities')
+          .find({ language: 'en' })
+          .project({
+            slug: 1,
+            name: 1,
+            state: 1,
+            shortDescription: 1,
+            heroImage: 1,
+            population: 1,
+            avgHomePrice: 1,
+            tags: 1,
+            neighborhoods: 1,
+            county: 1
+          })
+          .toArray()
         
-        // Extract only the fields needed for the listing
-        const cityListing = {
-          slug: cityData.slug,
-          name: cityData.name,
-          state: cityData.state,
-          shortDescription: cityData.shortDescription,
-          heroImage: cityData.heroImage,
-          population: cityData.population,
-          avgHomePrice: cityData.avgHomePrice,
-          tags: cityData.tags || [],
-          neighborhoods: cityData.neighborhoods || [],
-          county: cityData.county || null
+        if (englishCities && englishCities.length > 0) {
+          console.log(`✅ Returning ${englishCities.length} English cities as fallback`)
+          return NextResponse.json(englishCities)
         }
-        
-        cities.push(cityListing)
-      } catch (error) {
-        console.error(`Error reading city file ${file}:`, error)
-        // Continue with other files
       }
+      
+      console.log('⚠️ No cities found in database, returning empty array')
+      return NextResponse.json([])
+      
+    } catch (dbError) {
+      console.error('❌ Database connection failed:', dbError)
+      return NextResponse.json(
+        { error: 'Database connection failed', details: 'Cannot fetch cities without database connection' },
+        { status: 500 }
+      )
     }
-    
-    console.log(`Returning ${cities.length} cities for locale ${locale} (from ${localeDir})`)
-    return NextResponse.json(cities)
   } catch (error) {
     console.error('Error reading cities:', error)
     return NextResponse.json(

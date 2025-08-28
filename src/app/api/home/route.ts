@@ -8,7 +8,7 @@ export async function GET(request: NextRequest) {
     const { searchParams } = new URL(request.url)
     const locale = searchParams.get('locale') || 'en'
 
-    // First try to get data from MongoDB
+    // Get data directly from MongoDB (primary source)
     try {
       const { db } = await connectToDatabase()
       console.log('✅ Database connected for home data')
@@ -21,22 +21,15 @@ export async function GET(request: NextRequest) {
         return NextResponse.json(cleanHomeData)
       }
     } catch (dbError) {
-      console.log('⚠️ Database not available for home data, falling back to JSON file:', dbError)
+      console.error('❌ Database connection failed:', dbError)
+      return NextResponse.json({ 
+        error: 'Database connection failed',
+        details: 'Cannot fetch home data without database connection'
+      }, { status: 500 })
     }
 
-    // Try to return localized JSON from src/tmp/data/home/<locale>/home.json
-    const localizedPath = path.join(process.cwd(), 'src', 'tmp', 'data', 'home', locale, 'home.json')
-    if (fs.existsSync(localizedPath)) {
-      const json = fs.readFileSync(localizedPath, 'utf8')
-      return NextResponse.json(JSON.parse(json))
-    }
-
-    // Fallback to English JSON
-    const enPath = path.join(process.cwd(), 'src', 'tmp', 'data', 'home', 'en', 'home.json')
-    if (fs.existsSync(enPath)) {
-      const json = fs.readFileSync(enPath, 'utf8')
-      return NextResponse.json(JSON.parse(json))
-    }
+    // If no data found in MongoDB, return default structure
+    console.log('⚠️ No home data found in database for locale:', locale)
 
     // Final fallback: default structure (English)
     return NextResponse.json({
@@ -111,7 +104,7 @@ export async function PUT(request: NextRequest) {
     const locale = searchParams.get('locale') || 'en'
     console.log('🌍 Updating home data for locale:', locale)
 
-    // Try to update MongoDB if available
+    // Update MongoDB (single source of truth)
     try {
       const { db } = await connectToDatabase()
       console.log('✅ Database connected for home data')
@@ -119,31 +112,24 @@ export async function PUT(request: NextRequest) {
       // Update the home data for specific locale
       const result = await db.collection('home').updateOne(
         { locale }, // filter by locale
-        { $set: { ...homeData, locale } },
+        { $set: { ...homeData, locale, updatedAt: new Date() } },
         { upsert: true }
       )
       console.log('✅ Database update result:', result)
+      
     } catch (dbError) {
-      console.log('⚠️ Database not available for home data, skipping database update:', dbError)
+      console.error('❌ Database connection failed:', dbError)
+      return NextResponse.json({ 
+        error: 'Database connection failed',
+        details: 'Cannot update home data without database connection'
+      }, { status: 500 })
     }
-
-    // Update the JSON file for the specific locale
-    const jsonPath = path.join(process.cwd(), 'src', 'tmp', 'data', 'home', locale, 'home.json')
-    const { _id, ...homeDataForJson } = homeData // Remove _id field if present
-    
-    // Ensure directory exists
-    const dir = path.dirname(jsonPath)
-    if (!fs.existsSync(dir)) {
-      fs.mkdirSync(dir, { recursive: true })
-    }
-    
-    fs.writeFileSync(jsonPath, JSON.stringify(homeDataForJson, null, 2))
-    console.log('✅ JSON file updated at:', jsonPath)
 
     return NextResponse.json({ 
-      message: 'Home data updated successfully',
+      message: 'Home data updated successfully in database',
       locale: locale,
-      timestamp: Date.now() // Add timestamp to force cache invalidation
+      timestamp: Date.now(),
+      source: 'mongodb'
     })
   } catch (error) {
     console.error('❌ Error updating home data:', error)

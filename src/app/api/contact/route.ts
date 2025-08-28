@@ -12,7 +12,7 @@ export async function GET(request: NextRequest) {
     const locale = searchParams.get('locale') || 'en'
     console.log('🌍 Requested locale:', locale)
     
-    // First try to get data from MongoDB (restore original working flow)
+    // Get data directly from MongoDB (primary source)
     try {
       const { db } = await connectToDatabase()
       console.log('✅ Database connected')
@@ -25,26 +25,15 @@ export async function GET(request: NextRequest) {
         return NextResponse.json(cleanContactData)
       }
     } catch (dbError) {
-      console.log('⚠️ Database not available, falling back to JSON file:', dbError)
+      console.error('❌ Database connection failed:', dbError)
+      return NextResponse.json({ 
+        error: 'Database connection failed',
+        details: 'Cannot fetch contact data without database connection'
+      }, { status: 500 })
     }
 
-    // Fallback to JSON file based on locale
-    const jsonPath = path.join(process.cwd(), 'src', 'tmp', 'data', 'contact', locale, 'contact.json')
-    if (fs.existsSync(jsonPath)) {
-      console.log('✅ Returning data from JSON file for locale:', locale)
-      const jsonData = fs.readFileSync(jsonPath, 'utf8')
-      return NextResponse.json(JSON.parse(jsonData))
-    }
-
-    // Fallback to English if requested locale doesn't exist
-    if (locale !== 'en') {
-      const englishPath = path.join(process.cwd(), 'src', 'tmp', 'data', 'contact', 'en', 'contact.json')
-      if (fs.existsSync(englishPath)) {
-        console.log('⚠️ Locale not found, falling back to English')
-        const jsonData = fs.readFileSync(englishPath, 'utf8')
-        return NextResponse.json(JSON.parse(jsonData))
-      }
-    }
+    // If no data found in MongoDB, return default structure
+    console.log('⚠️ No contact data found in database for locale:', locale)
 
 
 
@@ -165,7 +154,7 @@ export async function PUT(request: NextRequest) {
     const locale = searchParams.get('locale') || 'en'
     console.log('🌍 Updating data for locale:', locale)
 
-    // Try to update MongoDB if available
+    // Update MongoDB (single source of truth)
     try {
       const { db } = await connectToDatabase()
       console.log('✅ Database connected')
@@ -173,34 +162,27 @@ export async function PUT(request: NextRequest) {
       // Update the contact data for specific locale
       const result = await db.collection('contact').updateOne(
         { locale }, // filter by locale
-        { $set: { ...contactData, locale } },
+        { $set: { ...contactData, locale, updatedAt: new Date() } },
         { upsert: true }
       )
       console.log('✅ Database update result:', result)
+      
     } catch (dbError) {
-      console.log('⚠️ Database not available, skipping database update:', dbError)
+      console.error('❌ Database connection failed:', dbError)
+      return NextResponse.json({ 
+        error: 'Database connection failed',
+        details: 'Cannot update contact data without database connection'
+      }, { status: 500 })
     }
-
-    // Update the JSON file for the specific locale
-    const jsonPath = path.join(process.cwd(), 'src', 'tmp', 'data', 'contact', locale, 'contact.json')
-    const { _id, ...contactDataForJson } = contactData // Remove _id field
-    
-    // Ensure directory exists
-    const dir = path.dirname(jsonPath)
-    if (!fs.existsSync(dir)) {
-      fs.mkdirSync(dir, { recursive: true })
-    }
-    
-    fs.writeFileSync(jsonPath, JSON.stringify(contactDataForJson, null, 2))
-    console.log('✅ JSON file updated at:', jsonPath)
 
     // Set a flag to notify the contact page to refresh
     // Note: This won't work in server-side code, but we'll handle it in the admin panel
 
     return NextResponse.json({ 
-      message: 'Contact data updated successfully',
+      message: 'Contact data updated successfully in database',
       locale: locale,
-      timestamp: Date.now() // Add timestamp to force cache invalidation
+      timestamp: Date.now(),
+      source: 'mongodb'
     })
   } catch (error) {
     console.error('❌ Error updating contact data:', error)
