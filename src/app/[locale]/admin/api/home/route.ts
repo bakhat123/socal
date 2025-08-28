@@ -53,7 +53,6 @@ export async function GET() {
 
     return NextResponse.json(homeData)
   } catch (error) {
-    console.error('Error fetching home data:', error)
     return NextResponse.json({ error: 'Failed to fetch home data' }, { status: 500 })
   }
 }
@@ -75,7 +74,6 @@ export async function POST(request: NextRequest) {
       _id: result.upsertedId || 'updated'
     })
   } catch (error) {
-    console.error('Error updating home data:', error)
     return NextResponse.json({ error: 'Failed to update home data' }, { status: 500 })
   }
 }
@@ -97,7 +95,6 @@ export async function PUT(request: NextRequest) {
 
     return NextResponse.json({ message: 'Home data updated successfully' })
   } catch (error) {
-    console.error('Error updating home data:', error)
     return NextResponse.json({ error: 'Failed to update home data' }, { status: 500 })
   }
 }

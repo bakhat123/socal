@@ -34,18 +34,28 @@ const RelatedArticles = ({ currentBlogId }: RelatedArticlesProps) => {
 
   useEffect(() => {
     const loadBlogsData = async () => {
-      try {
-        setLoading(true)
-        // Dynamically import the language-specific blogs.json file
-        const blogsModule = await import(`@/tmp/data/blogs/${locale}/blogs.json`)
-        setBlogsData(blogsModule.default || blogsModule)
-      } catch (error) {
-        console.error(`Failed to load blogs for locale ${locale}:`, error)
-        // Fallback to English if the locale-specific file doesn't exist
-        try {
-          const fallbackModule = await import('@/tmp/data/blogs/en/blogs.json')
-          setBlogsData(fallbackModule.default || fallbackModule)
-        } catch (fallbackError) {
+              try {
+          setLoading(true)
+          // Fetch blogs from MongoDB API
+          const response = await fetch(`/api/blogs/${locale}`)
+          if (response.ok) {
+            const blogs = await response.json()
+            setBlogsData(blogs)
+          } else {
+            throw new Error('Failed to fetch blogs')
+          }
+        } catch (error) {
+          console.error(`Failed to load blogs for locale ${locale}:`, error)
+          // Fallback to English if the locale-specific fetch fails
+          try {
+            const fallbackResponse = await fetch('/api/blogs/en')
+            if (fallbackResponse.ok) {
+              const fallbackBlogs = await fallbackResponse.json()
+              setBlogsData(fallbackBlogs)
+            } else {
+              setBlogsData([])
+            }
+          } catch (fallbackError) {
           console.error('Failed to load fallback blogs:', fallbackError)
           setBlogsData([])
         }

@@ -1,29 +1,53 @@
 import type { Metadata } from 'next'
-import fs from 'fs'
-import path from 'path'
+import { connectToDatabase } from '@/lib/mongodb'
 
-function readBlogs(locale: string) {
-  const filePath = path.join(process.cwd(), 'src', 'tmp', 'data', 'blogs', locale, 'blogs.json')
-  if (!fs.existsSync(filePath)) return null
+async function readBlogs(locale: string) {
   try {
-    const raw = fs.readFileSync(filePath, 'utf8')
-    return JSON.parse(raw)
-  } catch {
-    return null
+    const { db } = await connectToDatabase()
+    const blogs = await db.collection('blogs')
+      .find({ 
+        language: locale,
+        status: 'Published'
+      })
+      .toArray()
+    
+    return blogs || []
+  } catch (error) {
+    return []
   }
 }
 
-function readBlogBySlug(locale: string, slug: string) {
-  const blogs = readBlogs(locale)
-  if (!Array.isArray(blogs)) return null
-  return blogs.find((b: any) => b.slug === slug) || null
+async function readBlogBySlug(locale: string, slug: string) {
+  try {
+    const { db } = await connectToDatabase()
+    const blog = await db.collection('blogs').findOne({ 
+      slug: slug,
+      language: locale,
+      status: 'Published'
+    })
+    
+    if (!blog) {
+      // Try English fallback
+      if (locale !== 'en') {
+        return await db.collection('blogs').findOne({ 
+          slug: slug,
+          language: 'en',
+          status: 'Published'
+        })
+      }
+    }
+    
+    return blog
+  } catch (error) {
+    return null
+  }
 }
 
 export async function generateMetadata({ params }: { params: { locale: string; slug: string } }): Promise<Metadata> {
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://example.com'
   const { locale, slug } = params
 
-  const blog = readBlogBySlug(locale, slug) || readBlogBySlug('en', slug)
+  const blog = await readBlogBySlug(locale, slug) || await readBlogBySlug('en', slug)
   if (!blog) return {}
 
   const title = blog.seo?.metaTitle || blog.title
