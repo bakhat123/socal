@@ -3,10 +3,11 @@ import React, { useState, useEffect } from 'react';
 import { Link } from '@/i18n/navigation';
 import { useTranslations } from 'next-intl';
 import { useParams, useRouter } from 'next/navigation';
-import { Menu, X } from 'lucide-react';
+import { Home, Menu, X } from 'lucide-react';
 import LanguageSelector from '../common/LanguageSelector';
 import Image from 'next/image';
 import '@/styles/Navigation.css';
+import { Main } from 'next/document';
 
 const Navigation = () => {
   const t = useTranslations('navigation');

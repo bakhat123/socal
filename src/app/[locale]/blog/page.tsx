@@ -103,7 +103,9 @@ const BlogPage = () => {
       <section className="blog-grid-section">
         <div className="blog-grid-container">
           <div className="section-header">
-            <h2 className="section-title">{t('sectionHeader.title')}</h2>
+            {/* changed this */}
+            {/* <h2 className="section-title">{t('sectionHeader.title')}</h2> */}
+            <h1 className="section-title">{t('sectionHeader.title')}</h1>
             <p className="section-subtitle">{t('sectionHeader.subtitle')}</p>
           </div>
 

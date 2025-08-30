@@ -44,7 +44,8 @@ async function readBlogBySlug(locale: string, slug: string) {
 }
 
 export async function generateMetadata({ params }: { params: { locale: string; slug: string } }): Promise<Metadata> {
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://example.com'
+  // const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://example.com' changed this one
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://socalprimehomes.com'
   const { locale, slug } = params
 
   const blog = await readBlogBySlug(locale, slug) || await readBlogBySlug('en', slug)
