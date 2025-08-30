@@ -10,6 +10,7 @@ import Services from '@/components/sections/Services/Services'
 import Testimonials from '@/components/sections/Testimonials/Testimonials'
 import CTA from '@/components/sections/CTA/CTA'
 import PrestigeLoading from '@/components/common/PrestigeLoading'
+import SEOH1 from './SEOH1'
 
 // City CSS imports
 import '@/styles/City.css'
@@ -94,7 +95,8 @@ const Home = () => {
   return (
     <main>
       {/* have added this */}
-      <h1 className="sr-only">SoCal Prime Homes – Luxury Homes Across Southern California</h1> 
+      {/* <h1 className="sr-only">SoCal Prime Homes – Luxury Homes Across Southern California</h1>  */}
+      <SEOH1 />
       <Hero heroData={homeData.hero} />
       <Stats statsData={homeData.stats} />
       <Counties countiesData={homeData.cities} locale={locale} />
