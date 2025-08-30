@@ -18,7 +18,8 @@ async function readBlogs(locale: string) {
 }
 
 export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://example.com'
+  // const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://example.com'  changed this line
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://socalprimehomes.com'  
   const { locale } = params
   const blogs = await readBlogs(locale)
   const featured = blogs.find((b: any) => b.featured) || blogs[0]

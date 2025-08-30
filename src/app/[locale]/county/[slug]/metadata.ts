@@ -12,7 +12,8 @@ export async function generateMetadata({ params }: CountyMetadataProps): Promise
   
   try {
     // Fetch county data to get SEO information
-    const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'}/api/counties/${locale}/${slug}`)
+    // const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'}/api/counties/${locale}/${slug}`)
+    const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL || 'https://www.socalprimehomes.com/en'}/api/counties/${locale}/${slug}`)
     
     if (!response.ok) {
       return {
