@@ -29,7 +29,7 @@ export function generateStaticParams() {
 }
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://socalprimehomes.com'),
+  metadataBase: new URL('https://socal-steel.vercel.app/en'),
   title: {
     default: 'SoCal Prime Homes',
     template: '%s | SoCal Prime Homes',
