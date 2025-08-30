@@ -93,7 +93,8 @@ const Home = () => {
 
   return (
     <main>
-      <h1 className="sr-only">SoCal Prime Homes – Luxury Homes Across Southern California</h1>
+      {/* have added this */}
+      <h1 className="sr-only">SoCal Prime Homes – Luxury Homes Across Southern California</h1> 
       <Hero heroData={homeData.hero} />
       <Stats statsData={homeData.stats} />
       <Counties countiesData={homeData.cities} locale={locale} />
