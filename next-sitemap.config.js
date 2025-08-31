@@ -14,7 +14,7 @@ module.exports = {
       },
     ],
     additionalSitemaps: [
-      'https://socalprimehomes.com/sitemap.xml',
+      'https://socal-steel.vercel.app/sitemap.xml',
     ],
   },
   sitemapSize: 7000,
