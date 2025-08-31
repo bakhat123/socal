@@ -1,51 +1,11 @@
-# robots.txt for SoCal Prime Homes on Vercel
-
-# Allow all search engines
+# *
 User-agent: *
 Allow: /
+Disallow: /admin/*
+Disallow: /api/*
 
-# Disallow sensitive areas
-Disallow: /admin/
-Disallow: /api/
-Disallow: /_next/
-Disallow: /node_modules/
-Disallow: /*.json$
-Disallow: /*.tmp$
-Disallow: /*.cache$
-Disallow: /*.log$
-
-# Allow important content
-Allow: /en/
-Allow: /de/
-Allow: /fr/
-Allow: /zh/
-Allow: /ar/
-Allow: /es/
-Allow: /blog/
-Allow: /cities/
-Allow: /counties/
-Allow: /contact/
-Allow: /services/
-
-# Host directive (optional, ignored by Google, used by Yandex)
+# Host
 Host: https://socal-steel.vercel.app
 
-# Sitemap location
+# Sitemaps
 Sitemap: https://socal-steel.vercel.app/sitemap.xml
-
-# Block specific bots if needed
-User-agent: AhrefsBot
-Crawl-delay: 10
-
-User-agent: SemrushBot
-Crawl-delay: 10
-
-User-agent: MJ12bot
-Disallow: /
-
-# Allow Google and Bing bots
-User-agent: Googlebot
-Allow: /
-
-User-agent: Bingbot
-Allow: /
