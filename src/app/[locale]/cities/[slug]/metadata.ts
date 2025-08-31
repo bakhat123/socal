@@ -28,7 +28,7 @@ async function readCity(locale: string, slug: string) {
 
 export async function generateMetadata({ params }: { params: { locale: string; slug: string } }): Promise<Metadata> {
   // const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://example.com' changed this line
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://socalprimehomes.com'
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://socal-steel.vercel.app/en'
   const city = (await readCity(params.locale, params.slug)) || (await readCity('en', params.slug))
 
   if (!city) return {}
