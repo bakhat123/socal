@@ -1,7 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
   siteUrl: process.env.SITE_URL || 'https://socal-steel.vercel.app',
-//   HAVE TO ADD DOMAIN HERE
   generateRobotsTxt: true,
   generateIndexSitemap: false,
   exclude: ['/admin/*', '/api/*'],
@@ -14,10 +13,12 @@ module.exports = {
       },
     ],
     additionalSitemaps: [
-      'https://socalprimehomes.com/sitemap.xml',
+      'https://socal-steel.vercel.app/sitemap.xml',
     ],
   },
   sitemapSize: 7000,
   changefreq: 'weekly',
   priority: 0.7,
+  // Disable static sitemap generation since we're using dynamic route
+  generateSitemap: false,
 }
